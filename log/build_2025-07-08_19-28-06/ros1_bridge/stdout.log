@@ -1,0 +1,318 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'roscpp'
+--   Found roscpp, version 1.16.0
+-- Checking for module 'std_msgs'
+--   Found std_msgs, version 0.5.13
+-- Checking for module 'actionlib'
+--   Found actionlib, version 1.14.0
+-- Checking for module 'actionlib_msgs'
+--   Found actionlib_msgs, version 1.13.1
+-- Checking for module 'actionlib_tutorials'
+--   Found actionlib_tutorials, version 0.2.0
+-- Checking for module 'apriltag_ros'
+--   Found apriltag_ros, version 3.2.1
+-- Checking for module 'aruco_msgs'
+--   Found aruco_msgs, version 3.1.3
+-- Checking for module 'base_local_planner'
+--   Found base_local_planner, version 1.17.3
+-- Checking for module 'bond'
+--   Found bond, version 1.8.6
+-- Checking for module 'control_msgs'
+--   Found control_msgs, version 1.5.2
+-- Checking for module 'controller_manager_msgs'
+--   Found controller_manager_msgs, version 0.20.0
+-- Checking for module 'costmap_2d'
+--   Found costmap_2d, version 1.17.3
+-- Checking for module 'costmap_converter'
+--   Found costmap_converter, version 0.0.13
+-- Checking for module 'diagnostic_msgs'
+--   Found diagnostic_msgs, version 1.13.1
+-- Checking for module 'dynamic_reconfigure'
+--   Found dynamic_reconfigure, version 1.7.3
+-- Checking for module 'find_object_2d'
+--   Found find_object_2d, version 0.7.0
+-- Checking for module 'gazebo_msgs'
+--   Found gazebo_msgs, version 2.9.2
+-- Checking for module 'geographic_msgs'
+--   Found geographic_msgs, version 0.5.6
+-- Checking for module 'geometry_msgs'
+--   Found geometry_msgs, version 1.13.1
+-- Checking for module 'graph_msgs'
+--   Found graph_msgs, version 0.1.0
+-- Checking for module 'hector_mapping'
+--   Found hector_mapping, version 0.5.2
+-- Checking for module 'map_msgs'
+--   Found map_msgs, version 1.14.1
+-- Checking for module 'mbf_msgs'
+--   Found mbf_msgs, version 0.4.0
+-- Checking for module 'move_base_msgs'
+--   Found move_base_msgs, version 1.14.1
+-- Checking for module 'moveit_msgs'
+--   Found moveit_msgs, version 0.11.4
+-- Checking for module 'moveit_task_constructor_msgs'
+--   Found moveit_task_constructor_msgs, version 0.1.3
+-- Checking for module 'nav_msgs'
+--   Found nav_msgs, version 1.13.1
+-- Checking for module 'object_recognition_msgs'
+--   Found object_recognition_msgs, version 0.4.2
+-- Checking for module 'octomap_msgs'
+--   Found octomap_msgs, version 0.3.5
+-- Checking for module 'pcl_msgs'
+--   Found pcl_msgs, version 0.3.0
+-- Checking for module 'rosgraph_msgs'
+--   Found rosgraph_msgs, version 1.11.3
+-- Checking for module 'rospy_tutorials'
+--   Found rospy_tutorials, version 0.10.2
+-- Checking for module 'rosserial_msgs'
+--   Found rosserial_msgs, version 0.9.2
+-- Checking for module 'rtabmap_msgs'
+--   Found rtabmap_msgs, version 0.21.1
+-- Checking for module 'sensor_msgs'
+--   Found sensor_msgs, version 1.13.1
+-- Checking for module 'shape_msgs'
+--   Found shape_msgs, version 1.13.1
+-- Checking for module 'smach_msgs'
+--   Found smach_msgs, version 2.5.2
+-- Checking for module 'stereo_msgs'
+--   Found stereo_msgs, version 1.13.1
+-- Checking for module 'teb_local_planner'
+--   Found teb_local_planner, version 0.9.1
+-- Checking for module 'teleop_tools_msgs'
+--   Found teleop_tools_msgs, version 0.5.0
+-- Checking for module 'tf'
+--   Found tf, version 1.13.2
+-- Checking for module 'tf2_msgs'
+--   Found tf2_msgs, version 0.7.7
+-- Checking for module 'theora_image_transport'
+--   Found theora_image_transport, version 1.14.0
+-- Checking for module 'trajectory_msgs'
+--   Found trajectory_msgs, version 1.13.1
+-- Checking for module 'turtle_actionlib'
+--   Found turtle_actionlib, version 0.2.0
+-- Checking for module 'turtlebot3_msgs'
+--   Found turtlebot3_msgs, version 1.0.1
+-- Checking for module 'turtlesim'
+--   Found turtlesim, version 0.10.2
+-- Checking for module 'uuid_msgs'
+--   Found uuid_msgs, version 1.0.6
+-- Checking for module 'vision_msgs'
+--   Found vision_msgs, version 0.0.2
+-- Checking for module 'visualization_msgs'
+--   Found visualization_msgs, version 1.13.1
+-- Checking for module 'control_toolbox'
+--   Found control_toolbox, version 1.19.0
+-- Checking for module 'laser_assembler'
+--   Found laser_assembler, version 1.7.8
+-- Checking for module 'navfn'
+--   Found navfn, version 1.17.3
+-- Checking for module 'polled_camera'
+--   Found polled_camera, version 1.12.0
+-- Checking for module 'robot_localization'
+--   Found robot_localization, version 2.7.4
+-- Checking for module 'robot_pose_ekf'
+--   Found robot_pose_ekf, version 1.15.0
+-- Checking for module 'roscpp_tutorials'
+--   Found roscpp_tutorials, version 0.10.2
+-- Checking for module 'rviz'
+--   Found rviz, version 1.14.20
+-- Checking for module 'std_srvs'
+--   Found std_srvs, version 1.11.3
+-- Checking for module 'topic_tools'
+--   Found topic_tools, version 1.16.0
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+-- Checking for module 'roslaunch'
+--   Found roslaunch, version 1.16.0
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Found teb_msgs: 0.0.1 (/home/agilex/limo_ros2_ws/install/teb_msgs/share/teb_msgs/cmake)
+-- Found orbbec_camera_msgs: 1.2.2 (/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)
+-- Found dwb_msgs: 0.4.7 (/opt/ros/foxy/share/dwb_msgs/cmake)
+-- Found nav_2d_msgs: 0.4.7 (/opt/ros/foxy/share/nav_2d_msgs/cmake)
+-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+-- Found mypalletizer_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake)
+-- Found mycobot_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake)
+-- Found mecharm_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mecharm_interfaces/share/mecharm_interfaces/cmake)
+-- Found limo_msgs: 0.0.0 (/home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake)
+-- Found costmap_converter_msgs: 0.1.2 (/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+-- Found action_tutorials_interfaces: 0.9.4 (/opt/ros/foxy/share/action_tutorials_interfaces/cmake)
+-- Found actionlib_msgs: 2.0.5 (/opt/ros/foxy/share/actionlib_msgs/cmake)
+-- Found aruco_opencv_msgs: 1.1.1 (/opt/ros/foxy/share/aruco_opencv_msgs/cmake)
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Found cartographer_ros_msgs: 1.0.9003 (/opt/ros/foxy/share/cartographer_ros_msgs/cmake)
+-- Found composition_interfaces: 1.0.0 (/opt/ros/foxy/share/composition_interfaces/cmake)
+-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found libstatistics_collector: 1.0.2 (/opt/ros/foxy/share/libstatistics_collector/cmake)
+-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+-- Found logging_demo: 0.9.4 (/opt/ros/foxy/share/logging_demo/cmake)
+-- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+-- Found pendulum_msgs: 0.9.4 (/opt/ros/foxy/share/pendulum_msgs/cmake)
+-- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)
+-- Found realsense2_camera_msgs: 4.51.1 (/opt/ros/foxy/share/realsense2_camera_msgs/cmake)
+-- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+-- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)
+-- Found rtabmap_msgs: 0.21.1 (/opt/ros/foxy/share/rtabmap_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- library: libassimp.so.5
+-- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)
+-- Found statistics_msgs: 1.0.0 (/opt/ros/foxy/share/statistics_msgs/cmake)
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+-- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+-- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+-- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found unique_identifier_msgs: 2.1.3 (/opt/ros/foxy/share/unique_identifier_msgs/cmake)
+-- Found velodyne_msgs: 2.1.1 (/opt/ros/foxy/share/velodyne_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/krish_ws/build/ros1_bridge
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target test_ros1_client[0m
+[35m[1mScanning dependencies of target test_ros1_server[0m
+[35m[1mScanning dependencies of target simple_bridge_1_to_2[0m
+[  0%] [34m[1mGenerating factories for interface types[0m
+[  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  0%] [32mBuilding CXX object CMakeFiles/test_ros1_client.dir/test/test_ros1_client.cpp.o[0m
+[  0%] [32mBuilding CXX object CMakeFiles/test_ros1_server.dir/test/test_ros1_server.cpp.o[0m
+[  0%] [32mBuilding CXX object CMakeFiles/simple_bridge_1_to_2.dir/src/simple_bridge_1_to_2.cpp.o[0m
+[  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  1%] Built target gtest_main
+[35m[1mScanning dependencies of target simple_bridge_2_to_1[0m
+[  1%] [32mBuilding CXX object CMakeFiles/simple_bridge_2_to_1.dir/src/simple_bridge_2_to_1.cpp.o[0m
+[  1%] [32m[1mLinking CXX executable test_ros1_client[0m
+[  1%] Built target test_ros1_client
+[35m[1mScanning dependencies of target test_ros2_server_cpp[0m
+[  1%] [32mBuilding CXX object CMakeFiles/test_ros2_server_cpp.dir/test/test_ros2_server.cpp.o[0m
+[  1%] [32m[1mLinking CXX executable test_ros1_server[0m
+[  1%] Built target test_ros1_server
+[35m[1mScanning dependencies of target simple_bridge[0m
+[  1%] [32mBuilding CXX object CMakeFiles/simple_bridge.dir/src/simple_bridge.cpp.o[0m
+[  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[  1%] Built target gtest
+[35m[1mScanning dependencies of target test_ros2_client_cpp[0m
+[  2%] [32mBuilding CXX object CMakeFiles/test_ros2_client_cpp.dir/test/test_ros2_client.cpp.o[0m
+[  2%] [32m[1mLinking CXX executable test_ros2_server_cpp[0m
+[  2%] Built target test_ros2_server_cpp
+[  3%] [32m[1mLinking CXX executable simple_bridge_1_to_2[0m
+[  3%] Built target simple_bridge_1_to_2
+[  3%] [32m[1mLinking CXX executable test_ros2_client_cpp[0m
+[  3%] Built target test_ros2_client_cpp
+[  3%] [32m[1mLinking CXX executable simple_bridge_2_to_1[0m
+[  3%] Built target simple_bridge_2_to_1
+[  3%] [32m[1mLinking CXX executable simple_bridge[0m
+[  3%] Built target simple_bridge
+[35m[1mScanning dependencies of target ros1_bridge[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/convert_builtin_interfaces.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/bridge.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_mappings.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs_factories.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__FeedbackMsg__factories.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp.o[0m

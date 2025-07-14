@@ -1,0 +1,55 @@
+[5.635s] Invoking command in '/home/agilex/krish_ws/src/detection_handler': PYTHONPATH=/home/agilex/krish_ws/build/detection_handler/prefix_override:/home/agilex/krish_ws/install/detection_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/detection_handler build --build-base /home/agilex/krish_ws/build/detection_handler/build install --record /home/agilex/krish_ws/build/detection_handler/install.log --install-scripts $base/lib/detection_handler --single-version-externally-managed
+[6.050s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[6.050s] !!
+[6.050s] 
+[6.050s]         ********************************************************************************
+[6.050s]         Usage of dash-separated 'script-dir' will not be supported in future
+[6.051s]         versions. Please use the underscore name 'script_dir' instead.
+[6.051s] 
+[6.051s]         This deprecation is overdue, please update your project and remove deprecated
+[6.051s]         calls to avoid build errors in the future.
+[6.051s] 
+[6.051s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[6.051s]         ********************************************************************************
+[6.051s] 
+[6.052s] !!
+[6.052s]   opt = self.warn_dash_deprecation(opt, section)
+[6.340s] running egg_info
+[6.387s] writing ../../build/detection_handler/detection_handler.egg-info/PKG-INFO
+[6.390s] writing dependency_links to ../../build/detection_handler/detection_handler.egg-info/dependency_links.txt
+[6.391s] writing entry points to ../../build/detection_handler/detection_handler.egg-info/entry_points.txt
+[6.391s] writing requirements to ../../build/detection_handler/detection_handler.egg-info/requires.txt
+[6.391s] writing top-level names to ../../build/detection_handler/detection_handler.egg-info/top_level.txt
+[6.765s] reading manifest file '../../build/detection_handler/detection_handler.egg-info/SOURCES.txt'
+[6.767s] writing manifest file '../../build/detection_handler/detection_handler.egg-info/SOURCES.txt'
+[6.767s] running build
+[6.767s] running build_py
+[6.768s] copying detection_handler/__init__.py -> /home/agilex/krish_ws/build/detection_handler/build/lib/detection_handler
+[6.768s] copying detection_handler/detection_handler.py -> /home/agilex/krish_ws/build/detection_handler/build/lib/detection_handler
+[6.769s] running install
+[6.770s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.770s] !!
+[6.770s] 
+[6.770s]         ********************************************************************************
+[6.770s]         Please avoid running ``setup.py`` directly.
+[6.770s]         Instead, use pypa/build, pypa/installer or other
+[6.771s]         standards-based tools.
+[6.771s] 
+[6.771s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.771s]         ********************************************************************************
+[6.771s] 
+[6.771s] !!
+[6.771s]   self.initialize_options()
+[6.783s] running install_lib
+[6.829s] copying /home/agilex/krish_ws/build/detection_handler/build/lib/detection_handler/detection_handler.py -> /home/agilex/krish_ws/install/detection_handler/lib/python3.8/site-packages/detection_handler
+[6.831s] byte-compiling /home/agilex/krish_ws/install/detection_handler/lib/python3.8/site-packages/detection_handler/detection_handler.py to detection_handler.cpython-38.pyc
+[6.833s] running install_data
+[6.880s] copying resource/detection_handler -> /home/agilex/krish_ws/install/detection_handler/share/ament_index/resource_index/packages
+[6.880s] copying package.xml -> /home/agilex/krish_ws/install/detection_handler/share/detection_handler
+[6.880s] running install_egg_info
+[6.929s] removing '/home/agilex/krish_ws/install/detection_handler/lib/python3.8/site-packages/detection_handler-0.0.0-py3.8.egg-info' (and everything under it)
+[6.929s] Copying ../../build/detection_handler/detection_handler.egg-info to /home/agilex/krish_ws/install/detection_handler/lib/python3.8/site-packages/detection_handler-0.0.0-py3.8.egg-info
+[6.931s] running install_scripts
+[7.044s] Installing detection_handler script to /home/agilex/krish_ws/install/detection_handler/lib/detection_handler
+[7.045s] writing list of installed files to '/home/agilex/krish_ws/build/detection_handler/install.log'
+[7.139s] Invoked command in '/home/agilex/krish_ws/src/detection_handler' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/detection_handler/prefix_override:/home/agilex/krish_ws/install/detection_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/detection_handler build --build-base /home/agilex/krish_ws/build/detection_handler/build install --record /home/agilex/krish_ws/build/detection_handler/install.log --install-scripts $base/lib/detection_handler --single-version-externally-managed

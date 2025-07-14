@@ -1,0 +1,198 @@
+[14.334s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'yolo_ros']
+[14.334s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82cda4c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['yolo_ros'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82cda4c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff82cda940>)
+[14.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[14.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[14.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[14.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[14.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[14.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[14.930s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/krish_ws'
+[14.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[14.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[14.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[14.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[14.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[14.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[14.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[14.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[14.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[14.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[14.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[14.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[14.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[14.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[14.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[14.961s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[14.961s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[14.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[14.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[14.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[14.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[14.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore'
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore_ament_install'
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_pkg']
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_pkg'
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_meta']
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_meta'
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ros']
+[14.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ros'
+[14.970s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection' with type 'ros.ament_python' and name 'object_detection'
+[14.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore'
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore_ament_install'
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_pkg']
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_pkg'
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_meta']
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_meta'
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ros']
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ros'
+[14.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['cmake', 'python']
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'cmake'
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python'
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['python_setup_py']
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python_setup_py'
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore'
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[14.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ros']
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ros'
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'cmake'
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python'
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[14.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore_ament_install'
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_pkg']
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_pkg'
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_meta']
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_meta'
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ros']
+[14.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ros'
+[14.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_bringup' with type 'ros.ament_cmake' and name 'yolo_bringup'
+[14.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[14.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[14.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[14.978s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'
+[14.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[14.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[14.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore_ament_install'
+[14.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_pkg']
+[14.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_pkg'
+[14.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_meta']
+[14.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_meta'
+[14.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ros']
+[14.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ros'
+[14.980s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_ros' with type 'ros.ament_python' and name 'yolo_ros'
+[14.980s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[14.980s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[14.980s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[14.980s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[14.980s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[15.773s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'object_detection' in 'src/object_detection'
+[15.773s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_msgs' in 'src/yolo_ros/yolo_msgs'
+[15.773s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_bringup' in 'src/yolo_ros/yolo_bringup'
+[16.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[16.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[16.770s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/agilex/krish_ws/install
+[17.019s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /home/agilex/limo_ros2_ws/install
+[17.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/foxy
+[17.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[17.654s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'yolo_ros' is in: /home/agilex/krish_ws/install/yolo_ros
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding yolo_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[17.903s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_args' from command line to 'None'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target' from command line to 'None'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[17.904s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[17.904s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/yolo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/yolo_ros', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/yolo_ros/yolo_ros', 'symlink_install': False, 'test_result_base': None}
+[18.149s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[18.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[18.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/krish_ws/src/yolo_ros/yolo_ros' with build type 'ament_python'
+[18.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'ament_prefix_path')
+[18.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[18.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.ps1'
+[18.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.dsv'
+[18.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.sh'
+[18.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.521s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/krish_ws/src/yolo_ros/yolo_ros'
+[20.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/src/yolo_ros/yolo_ros': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/yolo_msgs:/home/agilex/krish_ws/install/yolo_bringup:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs PYTHONPATH=/home/agilex/krish_ws/build/yolo_ros/prefix_override:/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages:/home/agilex/krish_ws/install/yolo_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detection/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/agilex/krish_ws/build/yolo_ros/build install --record /home/agilex/krish_ws/build/yolo_ros/install.log --single-version-externally-managed
+[24.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/src/yolo_ros/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/yolo_msgs:/home/agilex/krish_ws/install/yolo_bringup:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs PYTHONPATH=/home/agilex/krish_ws/build/yolo_ros/prefix_override:/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages:/home/agilex/krish_ws/install/yolo_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detection/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/agilex/krish_ws/build/yolo_ros/build install --record /home/agilex/krish_ws/build/yolo_ros/install.log --single-version-externally-managed
+[25.112s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros' for CMake module files
+[25.113s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros' for CMake config files
+[25.115s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros/lib'
+[25.115s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros/bin'
+[25.115s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros/lib/pkgconfig/yolo_ros.pc'
+[25.116s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages'
+[25.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'pythonpath')
+[25.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/hook/pythonpath.ps1'
+[25.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/hook/pythonpath.dsv'
+[25.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/hook/pythonpath.sh'
+[25.373s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/yolo_ros/bin'
+[25.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_ros)
+[25.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/package.ps1'
+[25.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/package.dsv'
+[25.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/package.sh'
+[25.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/package.bash'
+[25.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/yolo_ros/share/yolo_ros/package.zsh'
+[25.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/yolo_ros/share/colcon-core/packages/yolo_ros)
+[25.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.637s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.920s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.960s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.ps1'
+[26.221s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/install/_local_setup_util_ps1.py'
+[26.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.ps1'
+[26.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.sh'
+[26.483s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/install/_local_setup_util_sh.py'
+[26.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.sh'
+[26.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.bash'
+[26.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.bash'
+[27.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.zsh'
+[27.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.zsh'

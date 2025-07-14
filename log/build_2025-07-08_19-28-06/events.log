@@ -1,0 +1,1873 @@
+[0.000000] (-) TimerEvent: {}
+[0.000536] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.000963] (ros1_bridge) JobQueued: {'identifier': 'ros1_bridge', 'dependencies': OrderedDict()}
+[0.001606] (ros1_bridge) JobStarted: {'identifier': 'ros1_bridge'}
+[0.099208] (-) TimerEvent: {}
+[0.204009] (-) TimerEvent: {}
+[0.304894] (-) TimerEvent: {}
+[0.405542] (-) TimerEvent: {}
+[0.506517] (-) TimerEvent: {}
+[0.607978] (-) TimerEvent: {}
+[0.709244] (-) TimerEvent: {}
+[0.810769] (-) TimerEvent: {}
+[0.912913] (-) TimerEvent: {}
+[1.014189] (-) TimerEvent: {}
+[1.117650] (-) TimerEvent: {}
+[1.221216] (-) TimerEvent: {}
+[1.322311] (-) TimerEvent: {}
+[1.424071] (-) TimerEvent: {}
+[1.525020] (-) TimerEvent: {}
+[1.625960] (-) TimerEvent: {}
+[1.728543] (-) TimerEvent: {}
+[1.795988] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'cmake'}
+[1.796657] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/krish_ws/src/ros1_bridge', '-DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/ros1_bridge'], 'cwd': '/home/agilex/krish_ws/build/ros1_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'agilex'), ('SSH_AGENT_PID', '1843'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/noetic/lib/aarch64-linux-gnu:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/agilex'), ('CYCLONEDDS_URI', 'file:///var/lib/theconstruct.rrl/cyclonedds.xml'), ('OLDPWD', '/home/agilex/krish_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('MANAGERPID', '1396'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agilex/krish_ws/install:/home/agilex/limo_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'agilex'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1423824356192'), ('JOURNAL_STREAM', '8:56594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/aarch64-linux-gnu/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agilex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/usr/local/cuda-11.4/bin:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin:/home/agilex/limo_ros2_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/master:@/tmp/.ICE-unix/1979,unix/master:/tmp/.ICE-unix/1979'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/lib/theconstruct.rrl/fastdds_husarnet.xml'), ('INVOCATION_ID', '52726f2660f849928145ef6648d93a49'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df7177c2_03b1_42b5_8ec7_b4dc89058cbb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://master:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agilex/krish_ws/build/ros1_bridge'), ('ROS_IPV6', 'on'), ('CUDA_HOME', '/usr/local/cuda-11.4'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'master'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy:/opt/ros/noetic:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[1.828707] (-) TimerEvent: {}
+[1.929458] (-) TimerEvent: {}
+[1.953096] (ros1_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.029636] (-) TimerEvent: {}
+[2.085023] (ros1_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.099823] (ros1_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.129811] (-) TimerEvent: {}
+[2.230493] (-) TimerEvent: {}
+[2.291759] (ros1_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.294851] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.330663] (-) TimerEvent: {}
+[2.431365] (-) TimerEvent: {}
+[2.494157] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.526449] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.527029] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.531406] (-) TimerEvent: {}
+[2.532090] (ros1_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.631627] (-) TimerEvent: {}
+[2.732338] (-) TimerEvent: {}
+[2.737894] (ros1_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.741707] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.832529] (-) TimerEvent: {}
+[2.933333] (-) TimerEvent: {}
+[2.959510] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.984893] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.985854] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.994231] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)\n'}
+[3.033513] (-) TimerEvent: {}
+[3.079965] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.080652] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.133701] (-) TimerEvent: {}
+[3.234438] (-) TimerEvent: {}
+[3.335190] (-) TimerEvent: {}
+[3.435964] (-) TimerEvent: {}
+[3.536731] (-) TimerEvent: {}
+[3.637577] (-) TimerEvent: {}
+[3.738385] (-) TimerEvent: {}
+[3.824506] (ros1_bridge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.838538] (-) TimerEvent: {}
+[3.920192] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.938727] (-) TimerEvent: {}
+[3.946429] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.038921] (-) TimerEvent: {}
+[4.139739] (-) TimerEvent: {}
+[4.240464] (-) TimerEvent: {}
+[4.294116] (ros1_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.340647] (-) TimerEvent: {}
+[4.381436] (ros1_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.440828] (-) TimerEvent: {}
+[4.541575] (-) TimerEvent: {}
+[4.584259] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.641753] (-) TimerEvent: {}
+[4.716790] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.726406] (ros1_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.728262] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.741914] (-) TimerEvent: {}
+[4.842576] (-) TimerEvent: {}
+[4.936392] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.936977] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.942679] (-) TimerEvent: {}
+[5.043235] (-) TimerEvent: {}
+[5.140925] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.141748] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.143292] (-) TimerEvent: {}
+[5.243772] (-) TimerEvent: {}
+[5.315273] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.315959] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.343948] (-) TimerEvent: {}
+[5.444637] (-) TimerEvent: {}
+[5.513597] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.515667] (ros1_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.544827] (-) TimerEvent: {}
+[5.645669] (-) TimerEvent: {}
+[5.746289] (-) TimerEvent: {}
+[5.846909] (-) TimerEvent: {}
+[5.857660] (ros1_bridge) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[5.873985] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roscpp'\n"}
+[5.947086] (-) TimerEvent: {}
+[5.953200] (ros1_bridge) StdoutLine: {'line': b'--   Found roscpp, version 1.16.0\n'}
+[6.047242] (-) TimerEvent: {}
+[6.147985] (-) TimerEvent: {}
+[6.152573] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'std_msgs'\n"}
+[6.228571] (ros1_bridge) StdoutLine: {'line': b'--   Found std_msgs, version 0.5.13\n'}
+[6.248108] (-) TimerEvent: {}
+[6.348893] (-) TimerEvent: {}
+[6.449730] (-) TimerEvent: {}
+[6.550509] (-) TimerEvent: {}
+[6.651116] (-) TimerEvent: {}
+[6.751707] (-) TimerEvent: {}
+[6.852304] (-) TimerEvent: {}
+[6.952975] (-) TimerEvent: {}
+[7.053685] (-) TimerEvent: {}
+[7.154350] (-) TimerEvent: {}
+[7.254963] (-) TimerEvent: {}
+[7.355584] (-) TimerEvent: {}
+[7.456218] (-) TimerEvent: {}
+[7.556897] (-) TimerEvent: {}
+[7.657569] (-) TimerEvent: {}
+[7.708870] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'actionlib'\n"}
+[7.757754] (-) TimerEvent: {}
+[7.786264] (ros1_bridge) StdoutLine: {'line': b'--   Found actionlib, version 1.14.0\n'}
+[7.857927] (-) TimerEvent: {}
+[7.958722] (-) TimerEvent: {}
+[7.987903] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'actionlib_msgs'\n"}
+[8.058876] (-) TimerEvent: {}
+[8.063703] (ros1_bridge) StdoutLine: {'line': b'--   Found actionlib_msgs, version 1.13.1\n'}
+[8.159066] (-) TimerEvent: {}
+[8.252632] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'actionlib_tutorials'\n"}
+[8.259175] (-) TimerEvent: {}
+[8.332848] (ros1_bridge) StdoutLine: {'line': b'--   Found actionlib_tutorials, version 0.2.0\n'}
+[8.359393] (-) TimerEvent: {}
+[8.460225] (-) TimerEvent: {}
+[8.546612] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'apriltag_ros'\n"}
+[8.560330] (-) TimerEvent: {}
+[8.629841] (ros1_bridge) StdoutLine: {'line': b'--   Found apriltag_ros, version 3.2.1\n'}
+[8.660544] (-) TimerEvent: {}
+[8.761316] (-) TimerEvent: {}
+[8.862115] (-) TimerEvent: {}
+[8.901238] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'aruco_msgs'\n"}
+[8.962321] (-) TimerEvent: {}
+[8.975286] (ros1_bridge) StdoutLine: {'line': b'--   Found aruco_msgs, version 3.1.3\n'}
+[9.062542] (-) TimerEvent: {}
+[9.163376] (-) TimerEvent: {}
+[9.167068] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'base_local_planner'\n"}
+[9.257319] (ros1_bridge) StdoutLine: {'line': b'--   Found base_local_planner, version 1.17.3\n'}
+[9.263485] (-) TimerEvent: {}
+[9.364048] (-) TimerEvent: {}
+[9.464687] (-) TimerEvent: {}
+[9.533098] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'bond'\n"}
+[9.564846] (-) TimerEvent: {}
+[9.605033] (ros1_bridge) StdoutLine: {'line': b'--   Found bond, version 1.8.6\n'}
+[9.665045] (-) TimerEvent: {}
+[9.765892] (-) TimerEvent: {}
+[9.795978] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'control_msgs'\n"}
+[9.866125] (-) TimerEvent: {}
+[9.878425] (ros1_bridge) StdoutLine: {'line': b'--   Found control_msgs, version 1.5.2\n'}
+[9.966316] (-) TimerEvent: {}
+[10.067331] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'controller_manager_msgs'\n"}
+[10.068033] (-) TimerEvent: {}
+[10.153450] (ros1_bridge) StdoutLine: {'line': b'--   Found controller_manager_msgs, version 0.20.0\n'}
+[10.168279] (-) TimerEvent: {}
+[10.269097] (-) TimerEvent: {}
+[10.345568] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'costmap_2d'\n"}
+[10.369297] (-) TimerEvent: {}
+[10.434191] (ros1_bridge) StdoutLine: {'line': b'--   Found costmap_2d, version 1.17.3\n'}
+[10.469486] (-) TimerEvent: {}
+[10.570490] (-) TimerEvent: {}
+[10.671178] (-) TimerEvent: {}
+[10.682144] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'costmap_converter'\n"}
+[10.759872] (ros1_bridge) StdoutLine: {'line': b'--   Found costmap_converter, version 0.0.13\n'}
+[10.771346] (-) TimerEvent: {}
+[10.872033] (-) TimerEvent: {}
+[10.972771] (-) TimerEvent: {}
+[11.015786] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'diagnostic_msgs'\n"}
+[11.072958] (-) TimerEvent: {}
+[11.091718] (ros1_bridge) StdoutLine: {'line': b'--   Found diagnostic_msgs, version 1.13.1\n'}
+[11.173163] (-) TimerEvent: {}
+[11.273859] (-) TimerEvent: {}
+[11.289740] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'dynamic_reconfigure'\n"}
+[11.374040] (-) TimerEvent: {}
+[11.381536] (ros1_bridge) StdoutLine: {'line': b'--   Found dynamic_reconfigure, version 1.7.3\n'}
+[11.474201] (-) TimerEvent: {}
+[11.574936] (-) TimerEvent: {}
+[11.581202] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'find_object_2d'\n"}
+[11.662872] (ros1_bridge) StdoutLine: {'line': b'--   Found find_object_2d, version 0.7.0\n'}
+[11.675126] (-) TimerEvent: {}
+[11.776029] (-) TimerEvent: {}
+[11.876701] (-) TimerEvent: {}
+[11.921381] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'gazebo_msgs'\n"}
+[11.976883] (-) TimerEvent: {}
+[11.998188] (ros1_bridge) StdoutLine: {'line': b'--   Found gazebo_msgs, version 2.9.2\n'}
+[12.077050] (-) TimerEvent: {}
+[12.177800] (-) TimerEvent: {}
+[12.188904] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'geographic_msgs'\n"}
+[12.270240] (ros1_bridge) StdoutLine: {'line': b'--   Found geographic_msgs, version 0.5.6\n'}
+[12.278122] (-) TimerEvent: {}
+[12.378957] (-) TimerEvent: {}
+[12.469655] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'geometry_msgs'\n"}
+[12.479116] (-) TimerEvent: {}
+[12.556458] (ros1_bridge) StdoutLine: {'line': b'--   Found geometry_msgs, version 1.13.1\n'}
+[12.579307] (-) TimerEvent: {}
+[12.680171] (-) TimerEvent: {}
+[12.745383] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'graph_msgs'\n"}
+[12.780360] (-) TimerEvent: {}
+[12.824748] (ros1_bridge) StdoutLine: {'line': b'--   Found graph_msgs, version 0.1.0\n'}
+[12.880574] (-) TimerEvent: {}
+[12.981462] (-) TimerEvent: {}
+[13.018676] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'hector_mapping'\n"}
+[13.081634] (-) TimerEvent: {}
+[13.102431] (ros1_bridge) StdoutLine: {'line': b'--   Found hector_mapping, version 0.5.2\n'}
+[13.181839] (-) TimerEvent: {}
+[13.282536] (-) TimerEvent: {}
+[13.336216] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'map_msgs'\n"}
+[13.382715] (-) TimerEvent: {}
+[13.413802] (ros1_bridge) StdoutLine: {'line': b'--   Found map_msgs, version 1.14.1\n'}
+[13.482884] (-) TimerEvent: {}
+[13.583817] (-) TimerEvent: {}
+[13.608833] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'mbf_msgs'\n"}
+[13.683997] (-) TimerEvent: {}
+[13.695252] (ros1_bridge) StdoutLine: {'line': b'--   Found mbf_msgs, version 0.4.0\n'}
+[13.784358] (-) TimerEvent: {}
+[13.885207] (-) TimerEvent: {}
+[13.886462] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'move_base_msgs'\n"}
+[13.967753] (ros1_bridge) StdoutLine: {'line': b'--   Found move_base_msgs, version 1.14.1\n'}
+[13.985385] (-) TimerEvent: {}
+[14.086273] (-) TimerEvent: {}
+[14.163634] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'moveit_msgs'\n"}
+[14.186440] (-) TimerEvent: {}
+[14.249720] (ros1_bridge) StdoutLine: {'line': b'--   Found moveit_msgs, version 0.11.4\n'}
+[14.286583] (-) TimerEvent: {}
+[14.387517] (-) TimerEvent: {}
+[14.449262] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'moveit_task_constructor_msgs'\n"}
+[14.487718] (-) TimerEvent: {}
+[14.540397] (ros1_bridge) StdoutLine: {'line': b'--   Found moveit_task_constructor_msgs, version 0.1.3\n'}
+[14.588167] (-) TimerEvent: {}
+[14.688959] (-) TimerEvent: {}
+[14.740561] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'nav_msgs'\n"}
+[14.789163] (-) TimerEvent: {}
+[14.819626] (ros1_bridge) StdoutLine: {'line': b'--   Found nav_msgs, version 1.13.1\n'}
+[14.889331] (-) TimerEvent: {}
+[14.990041] (-) TimerEvent: {}
+[15.011668] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'object_recognition_msgs'\n"}
+[15.090216] (-) TimerEvent: {}
+[15.093998] (ros1_bridge) StdoutLine: {'line': b'--   Found object_recognition_msgs, version 0.4.2\n'}
+[15.190427] (-) TimerEvent: {}
+[15.290393] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'octomap_msgs'\n"}
+[15.291067] (-) TimerEvent: {}
+[15.374111] (ros1_bridge) StdoutLine: {'line': b'--   Found octomap_msgs, version 0.3.5\n'}
+[15.391320] (-) TimerEvent: {}
+[15.492178] (-) TimerEvent: {}
+[15.565711] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'pcl_msgs'\n"}
+[15.592426] (-) TimerEvent: {}
+[15.648103] (ros1_bridge) StdoutLine: {'line': b'--   Found pcl_msgs, version 0.3.0\n'}
+[15.692638] (-) TimerEvent: {}
+[15.793489] (-) TimerEvent: {}
+[15.859431] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rosgraph_msgs'\n"}
+[15.893666] (-) TimerEvent: {}
+[15.941175] (ros1_bridge) StdoutLine: {'line': b'--   Found rosgraph_msgs, version 1.11.3\n'}
+[15.993858] (-) TimerEvent: {}
+[16.094677] (-) TimerEvent: {}
+[16.135377] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rospy_tutorials'\n"}
+[16.194851] (-) TimerEvent: {}
+[16.222664] (ros1_bridge) StdoutLine: {'line': b'--   Found rospy_tutorials, version 0.10.2\n'}
+[16.295138] (-) TimerEvent: {}
+[16.395995] (-) TimerEvent: {}
+[16.421233] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rosserial_msgs'\n"}
+[16.496195] (-) TimerEvent: {}
+[16.503911] (ros1_bridge) StdoutLine: {'line': b'--   Found rosserial_msgs, version 0.9.2\n'}
+[16.596331] (-) TimerEvent: {}
+[16.697032] (-) TimerEvent: {}
+[16.712389] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rtabmap_msgs'\n"}
+[16.797310] (ros1_bridge) StdoutLine: {'line': b'--   Found rtabmap_msgs, version 0.21.1\n'}
+[16.798018] (-) TimerEvent: {}
+[16.898624] (-) TimerEvent: {}
+[16.993526] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'sensor_msgs'\n"}
+[16.998747] (-) TimerEvent: {}
+[17.075713] (ros1_bridge) StdoutLine: {'line': b'--   Found sensor_msgs, version 1.13.1\n'}
+[17.099126] (-) TimerEvent: {}
+[17.200752] (-) TimerEvent: {}
+[17.270611] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'shape_msgs'\n"}
+[17.300980] (-) TimerEvent: {}
+[17.355002] (ros1_bridge) StdoutLine: {'line': b'--   Found shape_msgs, version 1.13.1\n'}
+[17.401396] (-) TimerEvent: {}
+[17.502203] (-) TimerEvent: {}
+[17.547018] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'smach_msgs'\n"}
+[17.602401] (-) TimerEvent: {}
+[17.632349] (ros1_bridge) StdoutLine: {'line': b'--   Found smach_msgs, version 2.5.2\n'}
+[17.702635] (-) TimerEvent: {}
+[17.803677] (-) TimerEvent: {}
+[17.850006] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'stereo_msgs'\n"}
+[17.903872] (-) TimerEvent: {}
+[17.933547] (ros1_bridge) StdoutLine: {'line': b'--   Found stereo_msgs, version 1.13.1\n'}
+[18.004066] (-) TimerEvent: {}
+[18.104864] (-) TimerEvent: {}
+[18.130904] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'teb_local_planner'\n"}
+[18.205062] (-) TimerEvent: {}
+[18.221521] (ros1_bridge) StdoutLine: {'line': b'--   Found teb_local_planner, version 0.9.1\n'}
+[18.305236] (-) TimerEvent: {}
+[18.405928] (-) TimerEvent: {}
+[18.506660] (-) TimerEvent: {}
+[18.607479] (-) TimerEvent: {}
+[18.609317] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'teleop_tools_msgs'\n"}
+[18.683334] (ros1_bridge) StdoutLine: {'line': b'--   Found teleop_tools_msgs, version 0.5.0\n'}
+[18.707647] (-) TimerEvent: {}
+[18.808445] (-) TimerEvent: {}
+[18.876437] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'tf'\n"}
+[18.908672] (-) TimerEvent: {}
+[18.960485] (ros1_bridge) StdoutLine: {'line': b'--   Found tf, version 1.13.2\n'}
+[19.008931] (-) TimerEvent: {}
+[19.109649] (-) TimerEvent: {}
+[19.181477] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'tf2_msgs'\n"}
+[19.209809] (-) TimerEvent: {}
+[19.258746] (ros1_bridge) StdoutLine: {'line': b'--   Found tf2_msgs, version 0.7.7\n'}
+[19.310002] (-) TimerEvent: {}
+[19.410725] (-) TimerEvent: {}
+[19.452277] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'theora_image_transport'\n"}
+[19.511039] (-) TimerEvent: {}
+[19.540037] (ros1_bridge) StdoutLine: {'line': b'--   Found theora_image_transport, version 1.14.0\n'}
+[19.611159] (-) TimerEvent: {}
+[19.711940] (-) TimerEvent: {}
+[19.737190] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'trajectory_msgs'\n"}
+[19.812144] (-) TimerEvent: {}
+[19.826227] (ros1_bridge) StdoutLine: {'line': b'--   Found trajectory_msgs, version 1.13.1\n'}
+[19.912328] (-) TimerEvent: {}
+[20.013017] (-) TimerEvent: {}
+[20.025119] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'turtle_actionlib'\n"}
+[20.105566] (ros1_bridge) StdoutLine: {'line': b'--   Found turtle_actionlib, version 0.2.0\n'}
+[20.113166] (-) TimerEvent: {}
+[20.213888] (-) TimerEvent: {}
+[20.295250] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'turtlebot3_msgs'\n"}
+[20.314076] (-) TimerEvent: {}
+[20.383336] (ros1_bridge) StdoutLine: {'line': b'--   Found turtlebot3_msgs, version 1.0.1\n'}
+[20.414250] (-) TimerEvent: {}
+[20.514944] (-) TimerEvent: {}
+[20.582072] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'turtlesim'\n"}
+[20.615148] (-) TimerEvent: {}
+[20.667111] (ros1_bridge) StdoutLine: {'line': b'--   Found turtlesim, version 0.10.2\n'}
+[20.715436] (-) TimerEvent: {}
+[20.816213] (-) TimerEvent: {}
+[20.867544] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'uuid_msgs'\n"}
+[20.916431] (-) TimerEvent: {}
+[20.954459] (ros1_bridge) StdoutLine: {'line': b'--   Found uuid_msgs, version 1.0.6\n'}
+[21.016641] (-) TimerEvent: {}
+[21.117529] (-) TimerEvent: {}
+[21.148016] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'vision_msgs'\n"}
+[21.217806] (-) TimerEvent: {}
+[21.233368] (ros1_bridge) StdoutLine: {'line': b'--   Found vision_msgs, version 0.0.2\n'}
+[21.317929] (-) TimerEvent: {}
+[21.418640] (-) TimerEvent: {}
+[21.434103] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'visualization_msgs'\n"}
+[21.514696] (ros1_bridge) StdoutLine: {'line': b'--   Found visualization_msgs, version 1.13.1\n'}
+[21.518758] (-) TimerEvent: {}
+[21.619457] (-) TimerEvent: {}
+[21.711487] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'control_toolbox'\n"}
+[21.719596] (-) TimerEvent: {}
+[21.800450] (ros1_bridge) StdoutLine: {'line': b'--   Found control_toolbox, version 1.19.0\n'}
+[21.819782] (-) TimerEvent: {}
+[21.920581] (-) TimerEvent: {}
+[22.021432] (-) TimerEvent: {}
+[22.026511] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'laser_assembler'\n"}
+[22.116041] (ros1_bridge) StdoutLine: {'line': b'--   Found laser_assembler, version 1.7.8\n'}
+[22.121613] (-) TimerEvent: {}
+[22.222453] (-) TimerEvent: {}
+[22.323283] (-) TimerEvent: {}
+[22.363378] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'navfn'\n"}
+[22.423453] (-) TimerEvent: {}
+[22.441417] (ros1_bridge) StdoutLine: {'line': b'--   Found navfn, version 1.17.3\n'}
+[22.523665] (-) TimerEvent: {}
+[22.624488] (-) TimerEvent: {}
+[22.698507] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'polled_camera'\n"}
+[22.724691] (-) TimerEvent: {}
+[22.775504] (ros1_bridge) StdoutLine: {'line': b'--   Found polled_camera, version 1.12.0\n'}
+[22.824890] (-) TimerEvent: {}
+[22.925727] (-) TimerEvent: {}
+[23.008871] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'robot_localization'\n"}
+[23.025901] (-) TimerEvent: {}
+[23.092936] (ros1_bridge) StdoutLine: {'line': b'--   Found robot_localization, version 2.7.4\n'}
+[23.126074] (-) TimerEvent: {}
+[23.226850] (-) TimerEvent: {}
+[23.327685] (-) TimerEvent: {}
+[23.352826] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'robot_pose_ekf'\n"}
+[23.427868] (-) TimerEvent: {}
+[23.430270] (ros1_bridge) StdoutLine: {'line': b'--   Found robot_pose_ekf, version 1.15.0\n'}
+[23.528109] (-) TimerEvent: {}
+[23.628946] (-) TimerEvent: {}
+[23.655259] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roscpp_tutorials'\n"}
+[23.729193] (-) TimerEvent: {}
+[23.742593] (ros1_bridge) StdoutLine: {'line': b'--   Found roscpp_tutorials, version 0.10.2\n'}
+[23.829567] (-) TimerEvent: {}
+[23.930445] (-) TimerEvent: {}
+[23.938360] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rviz'\n"}
+[24.030532] (ros1_bridge) StdoutLine: {'line': b'--   Found rviz, version 1.14.20\n'}
+[24.031269] (-) TimerEvent: {}
+[24.131931] (-) TimerEvent: {}
+[24.232745] (-) TimerEvent: {}
+[24.299375] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'std_srvs'\n"}
+[24.332918] (-) TimerEvent: {}
+[24.377393] (ros1_bridge) StdoutLine: {'line': b'--   Found std_srvs, version 1.11.3\n'}
+[24.433085] (-) TimerEvent: {}
+[24.533783] (-) TimerEvent: {}
+[24.583667] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'topic_tools'\n"}
+[24.633967] (-) TimerEvent: {}
+[24.678039] (ros1_bridge) StdoutLine: {'line': b'--   Found topic_tools, version 1.16.0\n'}
+[24.734210] (-) TimerEvent: {}
+[24.835052] (-) TimerEvent: {}
+[24.900868] (ros1_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[24.912214] (ros1_bridge) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[24.935463] (-) TimerEvent: {}
+[25.010073] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roslaunch'\n"}
+[25.035684] (-) TimerEvent: {}
+[25.085605] (ros1_bridge) StdoutLine: {'line': b'--   Found roslaunch, version 1.16.0\n'}
+[25.135889] (-) TimerEvent: {}
+[25.237012] (-) TimerEvent: {}
+[25.338001] (-) TimerEvent: {}
+[25.438858] (-) TimerEvent: {}
+[25.539688] (-) TimerEvent: {}
+[25.640380] (-) TimerEvent: {}
+[25.693078] (ros1_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[25.740551] (-) TimerEvent: {}
+[25.763675] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[25.787039] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[25.787681] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.787895] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[25.788045] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[25.840709] (-) TimerEvent: {}
+[25.858751] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[25.940903] (-) TimerEvent: {}
+[26.041653] (-) TimerEvent: {}
+[26.126820] (ros1_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[26.135636] (ros1_bridge) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[26.141804] (-) TimerEvent: {}
+[26.242441] (-) TimerEvent: {}
+[26.343117] (-) TimerEvent: {}
+[26.343923] (ros1_bridge) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[26.443252] (-) TimerEvent: {}
+[26.543877] (-) TimerEvent: {}
+[26.644481] (-) TimerEvent: {}
+[26.745118] (-) TimerEvent: {}
+[26.774705] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[26.788617] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[26.789259] (ros1_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[26.789704] (ros1_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[26.801274] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[26.801934] (ros1_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[26.804671] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[26.808397] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[26.811297] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[26.820083] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[26.820438] (ros1_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[26.822970] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[26.845318] (-) TimerEvent: {}
+[26.946117] (-) TimerEvent: {}
+[27.046926] (-) TimerEvent: {}
+[27.147613] (-) TimerEvent: {}
+[27.243689] (ros1_bridge) StdoutLine: {'line': b'-- Found teb_msgs: 0.0.1 (/home/agilex/limo_ros2_ws/install/teb_msgs/share/teb_msgs/cmake)\n'}
+[27.247683] (-) TimerEvent: {}
+[27.348305] (-) TimerEvent: {}
+[27.449056] (-) TimerEvent: {}
+[27.463518] (ros1_bridge) StdoutLine: {'line': b'-- Found orbbec_camera_msgs: 1.2.2 (/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)\n'}
+[27.549241] (-) TimerEvent: {}
+[27.649903] (-) TimerEvent: {}
+[27.750577] (-) TimerEvent: {}
+[27.851382] (-) TimerEvent: {}
+[27.952087] (-) TimerEvent: {}
+[28.052774] (-) TimerEvent: {}
+[28.115493] (ros1_bridge) StdoutLine: {'line': b'-- Found dwb_msgs: 0.4.7 (/opt/ros/foxy/share/dwb_msgs/cmake)\n'}
+[28.116166] (ros1_bridge) StdoutLine: {'line': b'-- Found nav_2d_msgs: 0.4.7 (/opt/ros/foxy/share/nav_2d_msgs/cmake)\n'}
+[28.152930] (-) TimerEvent: {}
+[28.253668] (-) TimerEvent: {}
+[28.354349] (-) TimerEvent: {}
+[28.455239] (-) TimerEvent: {}
+[28.555932] (-) TimerEvent: {}
+[28.644456] (ros1_bridge) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[28.656048] (-) TimerEvent: {}
+[28.726290] (ros1_bridge) StdoutLine: {'line': b'-- Found mypalletizer_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake)\n'}
+[28.756270] (-) TimerEvent: {}
+[28.806000] (ros1_bridge) StdoutLine: {'line': b'-- Found mycobot_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake)\n'}
+[28.856475] (-) TimerEvent: {}
+[28.886180] (ros1_bridge) StdoutLine: {'line': b'-- Found mecharm_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mecharm_interfaces/share/mecharm_interfaces/cmake)\n'}
+[28.956676] (-) TimerEvent: {}
+[28.971540] (ros1_bridge) StdoutLine: {'line': b'-- Found limo_msgs: 0.0.0 (/home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake)\n'}
+[28.972366] (ros1_bridge) StdoutLine: {'line': b'-- Found costmap_converter_msgs: 0.1.2 (/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)\n'}
+[28.972861] (ros1_bridge) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[29.056875] (-) TimerEvent: {}
+[29.081575] (ros1_bridge) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.9.4 (/opt/ros/foxy/share/action_tutorials_interfaces/cmake)\n'}
+[29.155892] (ros1_bridge) StdoutLine: {'line': b'-- Found actionlib_msgs: 2.0.5 (/opt/ros/foxy/share/actionlib_msgs/cmake)\n'}
+[29.156928] (-) TimerEvent: {}
+[29.257546] (-) TimerEvent: {}
+[29.290635] (ros1_bridge) StdoutLine: {'line': b'-- Found aruco_opencv_msgs: 1.1.1 (/opt/ros/foxy/share/aruco_opencv_msgs/cmake)\n'}
+[29.291222] (ros1_bridge) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[29.357714] (-) TimerEvent: {}
+[29.426927] (ros1_bridge) StdoutLine: {'line': b'-- Found cartographer_ros_msgs: 1.0.9003 (/opt/ros/foxy/share/cartographer_ros_msgs/cmake)\n'}
+[29.457954] (-) TimerEvent: {}
+[29.500376] (ros1_bridge) StdoutLine: {'line': b'-- Found composition_interfaces: 1.0.0 (/opt/ros/foxy/share/composition_interfaces/cmake)\n'}
+[29.558121] (-) TimerEvent: {}
+[29.658777] (-) TimerEvent: {}
+[29.759460] (-) TimerEvent: {}
+[29.860122] (-) TimerEvent: {}
+[29.960812] (-) TimerEvent: {}
+[30.061520] (-) TimerEvent: {}
+[30.073753] (ros1_bridge) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[30.074586] (ros1_bridge) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[30.161819] (-) TimerEvent: {}
+[30.190170] (ros1_bridge) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[30.262196] (-) TimerEvent: {}
+[30.362964] (-) TimerEvent: {}
+[30.428566] (ros1_bridge) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)\n'}
+[30.430674] (ros1_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[30.432367] (ros1_bridge) StdoutLine: {'line': b'-- Found libstatistics_collector: 1.0.2 (/opt/ros/foxy/share/libstatistics_collector/cmake)\n'}
+[30.462016] (ros1_bridge) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[30.463023] (-) TimerEvent: {}
+[30.485102] (ros1_bridge) StdoutLine: {'line': b'-- Found logging_demo: 0.9.4 (/opt/ros/foxy/share/logging_demo/cmake)\n'}
+[30.563267] (-) TimerEvent: {}
+[30.664077] (-) TimerEvent: {}
+[30.764766] (-) TimerEvent: {}
+[30.797692] (ros1_bridge) StdoutLine: {'line': b'-- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)\n'}
+[30.798511] (ros1_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[30.864961] (-) TimerEvent: {}
+[30.930465] (ros1_bridge) StdoutLine: {'line': b'-- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)\n'}
+[30.965230] (-) TimerEvent: {}
+[31.066057] (-) TimerEvent: {}
+[31.146913] (ros1_bridge) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[31.166239] (-) TimerEvent: {}
+[31.183110] (ros1_bridge) StdoutLine: {'line': b'-- Found pendulum_msgs: 0.9.4 (/opt/ros/foxy/share/pendulum_msgs/cmake)\n'}
+[31.183830] (ros1_bridge) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)\n'}
+[31.260856] (ros1_bridge) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.51.1 (/opt/ros/foxy/share/realsense2_camera_msgs/cmake)\n'}
+[31.266331] (-) TimerEvent: {}
+[31.292293] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)\n'}
+[31.293173] (ros1_bridge) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)\n'}
+[31.366529] (-) TimerEvent: {}
+[31.467198] (-) TimerEvent: {}
+[31.567866] (-) TimerEvent: {}
+[31.603105] (ros1_bridge) StdoutLine: {'line': b'-- Found rtabmap_msgs: 0.21.1 (/opt/ros/foxy/share/rtabmap_msgs/cmake)\n'}
+[31.605327] (ros1_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[31.668036] (-) TimerEvent: {}
+[31.732851] (ros1_bridge) StdoutLine: {'line': b'-- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)\n'}
+[31.768206] (-) TimerEvent: {}
+[31.868872] (-) TimerEvent: {}
+[31.969557] (-) TimerEvent: {}
+[32.070236] (-) TimerEvent: {}
+[32.170906] (-) TimerEvent: {}
+[32.271594] (-) TimerEvent: {}
+[32.372287] (-) TimerEvent: {}
+[32.472962] (-) TimerEvent: {}
+[32.573645] (-) TimerEvent: {}
+[32.674315] (-) TimerEvent: {}
+[32.774982] (-) TimerEvent: {}
+[32.875647] (-) TimerEvent: {}
+[32.976352] (-) TimerEvent: {}
+[32.998304] (ros1_bridge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[33.018583] (ros1_bridge) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[33.076566] (-) TimerEvent: {}
+[33.177418] (-) TimerEvent: {}
+[33.229330] (ros1_bridge) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[33.234679] (ros1_bridge) StdoutLine: {'line': b'-- Found OGRE\n'}
+[33.235246] (ros1_bridge) StdoutLine: {'line': b'--   static     : OFF\n'}
+[33.235706] (ros1_bridge) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[33.236094] (ros1_bridge) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[33.236491] (ros1_bridge) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[33.236771] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[33.237041] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[33.237328] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[33.237581] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[33.237887] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[33.238129] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[33.238362] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[33.238590] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[33.277605] (-) TimerEvent: {}
+[33.316609] (ros1_bridge) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[33.342966] (ros1_bridge) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[33.377811] (-) TimerEvent: {}
+[33.478655] (-) TimerEvent: {}
+[33.579460] (-) TimerEvent: {}
+[33.680141] (-) TimerEvent: {}
+[33.779311] (ros1_bridge) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[33.780204] (-) TimerEvent: {}
+[33.780731] (ros1_bridge) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[33.880420] (-) TimerEvent: {}
+[33.981167] (-) TimerEvent: {}
+[33.986735] (ros1_bridge) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[33.987550] (ros1_bridge) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[34.081311] (-) TimerEvent: {}
+[34.181982] (-) TimerEvent: {}
+[34.191670] (ros1_bridge) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[34.192441] (ros1_bridge) StdoutLine: {'line': b'-- Looking for connect\n'}
+[34.282161] (-) TimerEvent: {}
+[34.382837] (-) TimerEvent: {}
+[34.395147] (ros1_bridge) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[34.396035] (ros1_bridge) StdoutLine: {'line': b'-- Looking for remove\n'}
+[34.483014] (-) TimerEvent: {}
+[34.583726] (-) TimerEvent: {}
+[34.597789] (ros1_bridge) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[34.598646] (ros1_bridge) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[34.683941] (-) TimerEvent: {}
+[34.784777] (-) TimerEvent: {}
+[34.798391] (ros1_bridge) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[34.799195] (ros1_bridge) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[34.884970] (-) TimerEvent: {}
+[34.985666] (-) TimerEvent: {}
+[35.001033] (ros1_bridge) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[35.015458] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[35.015951] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[35.051358] (ros1_bridge) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[35.085872] (-) TimerEvent: {}
+[35.186707] (-) TimerEvent: {}
+[35.287513] (-) TimerEvent: {}
+[35.388363] (-) TimerEvent: {}
+[35.428320] (ros1_bridge) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[35.488530] (-) TimerEvent: {}
+[35.589281] (-) TimerEvent: {}
+[35.627271] (ros1_bridge) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[35.689499] (-) TimerEvent: {}
+[35.790328] (-) TimerEvent: {}
+[35.890985] (-) TimerEvent: {}
+[35.991669] (-) TimerEvent: {}
+[35.995078] (ros1_bridge) StdoutLine: {'line': b'-- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)\n'}
+[35.996203] (ros1_bridge) StdoutLine: {'line': b'-- Found statistics_msgs: 1.0.0 (/opt/ros/foxy/share/statistics_msgs/cmake)\n'}
+[35.996949] (ros1_bridge) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[35.999224] (ros1_bridge) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[36.091862] (-) TimerEvent: {}
+[36.192679] (-) TimerEvent: {}
+[36.228397] (ros1_bridge) StdoutLine: {'line': b'-- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)\n'}
+[36.292886] (-) TimerEvent: {}
+[36.353327] (ros1_bridge) StdoutLine: {'line': b'-- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)\n'}
+[36.354671] (ros1_bridge) StdoutLine: {'line': b'-- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)\n'}
+[36.355503] (ros1_bridge) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[36.393056] (-) TimerEvent: {}
+[36.493914] (-) TimerEvent: {}
+[36.538088] (ros1_bridge) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)\n'}
+[36.594116] (-) TimerEvent: {}
+[36.647079] (ros1_bridge) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[36.647969] (ros1_bridge) StdoutLine: {'line': b'-- Found unique_identifier_msgs: 2.1.3 (/opt/ros/foxy/share/unique_identifier_msgs/cmake)\n'}
+[36.694309] (-) TimerEvent: {}
+[36.719440] (ros1_bridge) StdoutLine: {'line': b'-- Found velodyne_msgs: 2.1.1 (/opt/ros/foxy/share/velodyne_msgs/cmake)\n'}
+[36.720064] (ros1_bridge) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[36.794473] (-) TimerEvent: {}
+[36.895167] (-) TimerEvent: {}
+[36.995890] (-) TimerEvent: {}
+[37.096736] (-) TimerEvent: {}
+[37.180017] (ros1_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter \n'}
+[37.196951] (-) TimerEvent: {}
+[37.297797] (-) TimerEvent: {}
+[37.398468] (-) TimerEvent: {}
+[37.499132] (-) TimerEvent: {}
+[37.599782] (-) TimerEvent: {}
+[37.700418] (-) TimerEvent: {}
+[37.801090] (-) TimerEvent: {}
+[37.901762] (-) TimerEvent: {}
+[38.002429] (-) TimerEvent: {}
+[38.103107] (-) TimerEvent: {}
+[38.204030] (-) TimerEvent: {}
+[38.304852] (-) TimerEvent: {}
+[38.405760] (-) TimerEvent: {}
+[38.506561] (-) TimerEvent: {}
+[38.607235] (-) TimerEvent: {}
+[38.707908] (-) TimerEvent: {}
+[38.731612] (ros1_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[38.808060] (-) TimerEvent: {}
+[38.908708] (-) TimerEvent: {}
+[39.009403] (-) TimerEvent: {}
+[39.052416] (ros1_bridge) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[39.053466] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target test_convert_generic\n'}
+[39.053645] (ros1_bridge) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[39.053788] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[39.053919] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.054046] (ros1_bridge) StderrLine: {'line': b'    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.054176] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/opt/yaml_cpp_vendor/lib\n'}
+[39.054298] (ros1_bridge) StderrLine: {'line': b'    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:\n'}
+[39.054416] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[39.054532] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.054650] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.054763] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.054877] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.054990] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.055104] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.055217] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.055331] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.055443] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.055554] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.055665] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[39.055776] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[39.055888] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[39.056025] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:92 (ament_add_gtest)\n'}
+[39.056156] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.056272] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.056386] (ros1_bridge) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[39.056501] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target test_convert_generic\n'}
+[39.056628] (ros1_bridge) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[39.056740] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.056852] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[39.056962] (ros1_bridge) StderrLine: {'line': b'      dir 4 must precede it due to runtime library [liburdf.so]\n'}
+[39.057073] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]\n'}
+[39.057219] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]\n'}
+[39.057343] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]\n'}
+[39.057463] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/lib]\n'}
+[39.057580] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [libcv_bridge.so]\n'}
+[39.057695] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]\n'}
+[39.057812] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]\n'}
+[39.057923] (ros1_bridge) StderrLine: {'line': b'    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]\n'}
+[39.058036] (ros1_bridge) StderrLine: {'line': b'    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]\n'}
+[39.058148] (ros1_bridge) StderrLine: {'line': b'    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]\n'}
+[39.058265] (ros1_bridge) StderrLine: {'line': b'    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[39.058382] (ros1_bridge) StderrLine: {'line': b'    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]\n'}
+[39.058494] (ros1_bridge) StderrLine: {'line': b'    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[39.058606] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.058717] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.058828] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[39.058940] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[39.059055] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[39.059172] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:92 (ament_add_gtest)\n'}
+[39.059284] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.059394] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.109576] (-) TimerEvent: {}
+[39.200148] (ros1_bridge) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[39.200897] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[39.201066] (ros1_bridge) StderrLine: {'line': b'  test_ros2_to_ros1_serialization because files in some directories may\n'}
+[39.201240] (ros1_bridge) StderrLine: {'line': b'  conflict with libraries in implicit directories:\n'}
+[39.201378] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.201516] (ros1_bridge) StderrLine: {'line': b'    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.201648] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/opt/yaml_cpp_vendor/lib\n'}
+[39.201773] (ros1_bridge) StderrLine: {'line': b'    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:\n'}
+[39.201894] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[39.202009] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.202127] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.202242] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.202398] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.202513] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.202630] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.202744] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.202859] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.202972] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.203087] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.203222] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[39.203339] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[39.203456] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[39.203569] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:105 (ament_add_gtest)\n'}
+[39.203682] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.203793] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.203907] (ros1_bridge) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[39.204021] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[39.204133] (ros1_bridge) StderrLine: {'line': b'  test_ros2_to_ros1_serialization because there is a cycle in the constraint\n'}
+[39.204244] (ros1_bridge) StderrLine: {'line': b'  graph:\n'}
+[39.204357] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.204468] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[39.204579] (ros1_bridge) StderrLine: {'line': b'      dir 4 must precede it due to runtime library [liburdf.so]\n'}
+[39.204691] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]\n'}
+[39.204813] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]\n'}
+[39.204927] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]\n'}
+[39.205039] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/lib]\n'}
+[39.205169] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [libcv_bridge.so]\n'}
+[39.205301] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]\n'}
+[39.205420] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]\n'}
+[39.205534] (ros1_bridge) StderrLine: {'line': b'    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]\n'}
+[39.205648] (ros1_bridge) StderrLine: {'line': b'    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]\n'}
+[39.205761] (ros1_bridge) StderrLine: {'line': b'    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]\n'}
+[39.205874] (ros1_bridge) StderrLine: {'line': b'    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[39.205985] (ros1_bridge) StderrLine: {'line': b'    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]\n'}
+[39.206111] (ros1_bridge) StderrLine: {'line': b'    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[39.206226] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.206339] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.206451] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[39.206563] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[39.206688] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[39.206802] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:105 (ament_add_gtest)\n'}
+[39.206912] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.207023] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.209622] (-) TimerEvent: {}
+[39.310076] (-) TimerEvent: {}
+[39.377361] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:191 (add_executable):\n'}
+[39.378001] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target static_bridge because\n'}
+[39.378171] (ros1_bridge) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[39.378315] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[39.378447] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.378574] (ros1_bridge) StderrLine: {'line': b'    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.378699] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/opt/yaml_cpp_vendor/lib\n'}
+[39.378820] (ros1_bridge) StderrLine: {'line': b'    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:\n'}
+[39.378939] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[39.379058] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.379176] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.379290] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.379406] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.379532] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.379650] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.379764] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.379877] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.379990] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.380101] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.380213] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[39.380324] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:237 (custom_executable)\n'}
+[39.380435] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.380547] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.380658] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:191 (add_executable):\n'}
+[39.380770] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target static_bridge because\n'}
+[39.380883] (ros1_bridge) StderrLine: {'line': b'  there is a cycle in the constraint graph:\n'}
+[39.380995] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.381106] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[39.381264] (ros1_bridge) StderrLine: {'line': b'      dir 4 must precede it due to runtime library [liburdf.so]\n'}
+[39.381388] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]\n'}
+[39.381503] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]\n'}
+[39.381617] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]\n'}
+[39.381730] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/lib]\n'}
+[39.381841] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [libcv_bridge.so]\n'}
+[39.381953] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]\n'}
+[39.382107] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]\n'}
+[39.382225] (ros1_bridge) StderrLine: {'line': b'    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]\n'}
+[39.382340] (ros1_bridge) StderrLine: {'line': b'    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]\n'}
+[39.382454] (ros1_bridge) StderrLine: {'line': b'    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]\n'}
+[39.382568] (ros1_bridge) StderrLine: {'line': b'    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[39.382681] (ros1_bridge) StderrLine: {'line': b'    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]\n'}
+[39.382796] (ros1_bridge) StderrLine: {'line': b'    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[39.382939] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.383056] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.383190] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[39.383308] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:237 (custom_executable)\n'}
+[39.383425] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.383541] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.410538] (-) TimerEvent: {}
+[39.515779] (-) TimerEvent: {}
+[39.616466] (-) TimerEvent: {}
+[39.717182] (-) TimerEvent: {}
+[39.744150] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:220 (add_library):\n'}
+[39.744673] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target ros1_bridge because\n'}
+[39.744836] (ros1_bridge) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[39.744979] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[39.745110] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.745276] (ros1_bridge) StderrLine: {'line': b'    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.745410] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/opt/yaml_cpp_vendor/lib\n'}
+[39.745535] (ros1_bridge) StderrLine: {'line': b'    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:\n'}
+[39.745655] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[39.745772] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.745892] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.746008] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.746125] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.746239] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.746355] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.746470] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[39.746585] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[39.746700] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.746814] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.746927] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.747039] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.747153] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:220 (add_library):\n'}
+[39.747267] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target ros1_bridge because\n'}
+[39.747381] (ros1_bridge) StderrLine: {'line': b'  there is a cycle in the constraint graph:\n'}
+[39.747538] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.747655] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]\n'}
+[39.747785] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]\n'}
+[39.747900] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/opt/ros/foxy/lib]\n'}
+[39.748014] (ros1_bridge) StderrLine: {'line': b'      dir 7 must precede it due to runtime library [libcv_bridge.so]\n'}
+[39.748127] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]\n'}
+[39.748241] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]\n'}
+[39.748353] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]\n'}
+[39.748465] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]\n'}
+[39.748577] (ros1_bridge) StderrLine: {'line': b'    dir 7 is [/opt/ros/noetic/lib]\n'}
+[39.748691] (ros1_bridge) StderrLine: {'line': b'      dir 2 must precede it due to runtime library [liburdf.so]\n'}
+[39.748804] (ros1_bridge) StderrLine: {'line': b'    dir 8 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]\n'}
+[39.748916] (ros1_bridge) StderrLine: {'line': b'    dir 9 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[39.749028] (ros1_bridge) StderrLine: {'line': b'    dir 10 is [/opt/ros/foxy/lib/aarch64-linux-gnu]\n'}
+[39.749164] (ros1_bridge) StderrLine: {'line': b'    dir 11 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[39.749295] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.749411] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[39.749527] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.749639] (ros1_bridge) StderrLine: {'line': b'\n'}
+[39.817317] (-) TimerEvent: {}
+[39.918029] (-) TimerEvent: {}
+[40.018707] (-) TimerEvent: {}
+[40.038724] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:191 (add_executable):\n'}
+[40.039303] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target parameter_bridge\n'}
+[40.039467] (ros1_bridge) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[40.039613] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[40.039746] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.039873] (ros1_bridge) StderrLine: {'line': b'    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.040002] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/opt/yaml_cpp_vendor/lib\n'}
+[40.040122] (ros1_bridge) StderrLine: {'line': b'    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:\n'}
+[40.040240] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[40.040356] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.040475] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.040589] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.040705] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.040819] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.040934] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.041048] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.041188] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.041313] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.041432] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[40.041548] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[40.041705] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:244 (custom_executable)\n'}
+[40.041839] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.041955] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.042070] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:191 (add_executable):\n'}
+[40.042184] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target parameter_bridge\n'}
+[40.042297] (ros1_bridge) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[40.042409] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.042522] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[40.042637] (ros1_bridge) StderrLine: {'line': b'      dir 4 must precede it due to runtime library [liburdf.so]\n'}
+[40.042753] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]\n'}
+[40.042981] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]\n'}
+[40.043109] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]\n'}
+[40.043234] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/lib]\n'}
+[40.043357] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [libcv_bridge.so]\n'}
+[40.043498] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]\n'}
+[40.043621] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]\n'}
+[40.043737] (ros1_bridge) StderrLine: {'line': b'    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]\n'}
+[40.043852] (ros1_bridge) StderrLine: {'line': b'    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]\n'}
+[40.043982] (ros1_bridge) StderrLine: {'line': b'    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]\n'}
+[40.044100] (ros1_bridge) StderrLine: {'line': b'    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[40.044215] (ros1_bridge) StderrLine: {'line': b'    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]\n'}
+[40.044327] (ros1_bridge) StderrLine: {'line': b'    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[40.044441] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.044556] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[40.044669] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[40.044782] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:244 (custom_executable)\n'}
+[40.044894] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.045007] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.118889] (-) TimerEvent: {}
+[40.184164] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:191 (add_executable):\n'}
+[40.184776] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target dynamic_bridge\n'}
+[40.184943] (ros1_bridge) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[40.185084] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[40.185241] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.185368] (ros1_bridge) StderrLine: {'line': b'    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.185493] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/opt/yaml_cpp_vendor/lib\n'}
+[40.185613] (ros1_bridge) StderrLine: {'line': b'    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:\n'}
+[40.185732] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[40.185851] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.185968] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.186083] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.186241] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.186356] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.186490] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.186605] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[40.186720] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/aarch64-linux-gnu\n'}
+[40.186833] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.186945] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[40.187058] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[40.187172] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:251 (custom_executable)\n'}
+[40.187285] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.187397] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.187508] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:191 (add_executable):\n'}
+[40.187622] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target dynamic_bridge\n'}
+[40.187737] (ros1_bridge) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[40.187854] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.187967] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[40.188078] (ros1_bridge) StderrLine: {'line': b'      dir 4 must precede it due to runtime library [liburdf.so]\n'}
+[40.188191] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]\n'}
+[40.188303] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]\n'}
+[40.188415] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]\n'}
+[40.188527] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/lib]\n'}
+[40.188640] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [libcv_bridge.so]\n'}
+[40.188752] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]\n'}
+[40.188864] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]\n'}
+[40.188973] (ros1_bridge) StderrLine: {'line': b'    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]\n'}
+[40.189081] (ros1_bridge) StderrLine: {'line': b'    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]\n'}
+[40.189220] (ros1_bridge) StderrLine: {'line': b'    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]\n'}
+[40.189337] (ros1_bridge) StderrLine: {'line': b'    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[40.189477] (ros1_bridge) StderrLine: {'line': b'    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]\n'}
+[40.189726] (ros1_bridge) StderrLine: {'line': b'    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[40.189896] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.190027] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[40.190151] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[40.190270] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:251 (custom_executable)\n'}
+[40.190386] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.190501] (ros1_bridge) StderrLine: {'line': b'\n'}
+[40.219074] (-) TimerEvent: {}
+[40.319828] (-) TimerEvent: {}
+[40.404748] (ros1_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[40.419967] (-) TimerEvent: {}
+[40.422534] (ros1_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/agilex/krish_ws/build/ros1_bridge\n'}
+[40.492924] (ros1_bridge) CommandEnded: {'returncode': 0}
+[40.499124] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'build'}
+[40.504200] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agilex/krish_ws/build/ros1_bridge', '--', '-j6', '-l6'], 'cwd': '/home/agilex/krish_ws/build/ros1_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'agilex'), ('SSH_AGENT_PID', '1843'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/noetic/lib/aarch64-linux-gnu:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/agilex'), ('CYCLONEDDS_URI', 'file:///var/lib/theconstruct.rrl/cyclonedds.xml'), ('OLDPWD', '/home/agilex/krish_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('MANAGERPID', '1396'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agilex/krish_ws/install:/home/agilex/limo_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'agilex'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1423824356192'), ('JOURNAL_STREAM', '8:56594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/aarch64-linux-gnu/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agilex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/usr/local/cuda-11.4/bin:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin:/home/agilex/limo_ros2_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/master:@/tmp/.ICE-unix/1979,unix/master:/tmp/.ICE-unix/1979'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/lib/theconstruct.rrl/fastdds_husarnet.xml'), ('INVOCATION_ID', '52726f2660f849928145ef6648d93a49'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df7177c2_03b1_42b5_8ec7_b4dc89058cbb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://master:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agilex/krish_ws/build/ros1_bridge'), ('ROS_IPV6', 'on'), ('CUDA_HOME', '/usr/local/cuda-11.4'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'master'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy:/opt/ros/noetic:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[40.520105] (-) TimerEvent: {}
+[40.620706] (-) TimerEvent: {}
+[40.721397] (-) TimerEvent: {}
+[40.746720] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[40.747260] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[40.747533] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_ros1_client\x1b[0m\n'}
+[40.748632] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_ros1_server\x1b[0m\n'}
+[40.770451] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_bridge_1_to_2\x1b[0m\n'}
+[40.782934] (ros1_bridge) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating factories for interface types\x1b[0m\n'}
+[40.805074] (ros1_bridge) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[40.818998] (ros1_bridge) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[40.821597] (-) TimerEvent: {}
+[40.824939] (ros1_bridge) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object CMakeFiles/test_ros1_client.dir/test/test_ros1_client.cpp.o\x1b[0m\n'}
+[40.839181] (ros1_bridge) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object CMakeFiles/test_ros1_server.dir/test/test_ros1_server.cpp.o\x1b[0m\n'}
+[40.921801] (-) TimerEvent: {}
+[41.022491] (-) TimerEvent: {}
+[41.044978] (ros1_bridge) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object CMakeFiles/simple_bridge_1_to_2.dir/src/simple_bridge_1_to_2.cpp.o\x1b[0m\n'}
+[41.122684] (-) TimerEvent: {}
+[41.223414] (-) TimerEvent: {}
+[41.324160] (-) TimerEvent: {}
+[41.424878] (-) TimerEvent: {}
+[41.525599] (-) TimerEvent: {}
+[41.626352] (-) TimerEvent: {}
+[41.727060] (-) TimerEvent: {}
+[41.827800] (-) TimerEvent: {}
+[41.928477] (-) TimerEvent: {}
+[42.029199] (-) TimerEvent: {}
+[42.129914] (-) TimerEvent: {}
+[42.230665] (-) TimerEvent: {}
+[42.331399] (-) TimerEvent: {}
+[42.432140] (-) TimerEvent: {}
+[42.532902] (-) TimerEvent: {}
+[42.633672] (-) TimerEvent: {}
+[42.715084] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[42.733926] (-) TimerEvent: {}
+[42.834641] (-) TimerEvent: {}
+[42.884512] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target gtest_main\n'}
+[42.923562] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_bridge_2_to_1\x1b[0m\n'}
+[42.934816] (-) TimerEvent: {}
+[43.035532] (-) TimerEvent: {}
+[43.119715] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/simple_bridge_2_to_1.dir/src/simple_bridge_2_to_1.cpp.o\x1b[0m\n'}
+[43.135730] (-) TimerEvent: {}
+[43.236503] (-) TimerEvent: {}
+[43.337239] (-) TimerEvent: {}
+[43.438037] (-) TimerEvent: {}
+[43.538745] (-) TimerEvent: {}
+[43.639481] (-) TimerEvent: {}
+[43.740198] (-) TimerEvent: {}
+[43.840912] (-) TimerEvent: {}
+[43.941789] (-) TimerEvent: {}
+[44.042541] (-) TimerEvent: {}
+[44.143267] (-) TimerEvent: {}
+[44.243989] (-) TimerEvent: {}
+[44.344798] (-) TimerEvent: {}
+[44.445579] (-) TimerEvent: {}
+[44.546273] (-) TimerEvent: {}
+[44.646962] (-) TimerEvent: {}
+[44.747658] (-) TimerEvent: {}
+[44.848344] (-) TimerEvent: {}
+[44.949084] (-) TimerEvent: {}
+[45.049950] (-) TimerEvent: {}
+[45.150744] (-) TimerEvent: {}
+[45.251451] (-) TimerEvent: {}
+[45.352158] (-) TimerEvent: {}
+[45.452851] (-) TimerEvent: {}
+[45.553786] (-) TimerEvent: {}
+[45.654514] (-) TimerEvent: {}
+[45.755221] (-) TimerEvent: {}
+[45.855985] (-) TimerEvent: {}
+[45.889277] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32m\x1b[1mLinking CXX executable test_ros1_client\x1b[0m\n'}
+[45.956160] (-) TimerEvent: {}
+[46.056868] (-) TimerEvent: {}
+[46.157574] (-) TimerEvent: {}
+[46.258267] (-) TimerEvent: {}
+[46.311577] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target test_ros1_client\n'}
+[46.348570] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_ros2_server_cpp\x1b[0m\n'}
+[46.358446] (-) TimerEvent: {}
+[46.459114] (-) TimerEvent: {}
+[46.524815] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/test_ros2_server_cpp.dir/test/test_ros2_server.cpp.o\x1b[0m\n'}
+[46.559304] (-) TimerEvent: {}
+[46.648312] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32m\x1b[1mLinking CXX executable test_ros1_server\x1b[0m\n'}
+[46.659479] (-) TimerEvent: {}
+[46.760147] (-) TimerEvent: {}
+[46.860827] (-) TimerEvent: {}
+[46.961559] (-) TimerEvent: {}
+[47.062251] (-) TimerEvent: {}
+[47.124606] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target test_ros1_server\n'}
+[47.162469] (-) TimerEvent: {}
+[47.165460] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_bridge\x1b[0m\n'}
+[47.262652] (-) TimerEvent: {}
+[47.294728] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/simple_bridge.dir/src/simple_bridge.cpp.o\x1b[0m\n'}
+[47.362875] (-) TimerEvent: {}
+[47.463607] (-) TimerEvent: {}
+[47.564512] (-) TimerEvent: {}
+[47.665214] (-) TimerEvent: {}
+[47.765953] (-) TimerEvent: {}
+[47.866671] (-) TimerEvent: {}
+[47.967361] (-) TimerEvent: {}
+[48.068074] (-) TimerEvent: {}
+[48.168830] (-) TimerEvent: {}
+[48.269628] (-) TimerEvent: {}
+[48.370315] (-) TimerEvent: {}
+[48.471014] (-) TimerEvent: {}
+[48.571722] (-) TimerEvent: {}
+[48.672478] (-) TimerEvent: {}
+[48.763272] (ros1_bridge) StdoutLine: {'line': b'[  1%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[48.772658] (-) TimerEvent: {}
+[48.873715] (-) TimerEvent: {}
+[48.965976] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target gtest\n'}
+[48.974474] (-) TimerEvent: {}
+[49.031741] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_ros2_client_cpp\x1b[0m\n'}
+[49.074673] (-) TimerEvent: {}
+[49.175453] (-) TimerEvent: {}
+[49.237742] (ros1_bridge) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/test_ros2_client_cpp.dir/test/test_ros2_client.cpp.o\x1b[0m\n'}
+[49.275637] (-) TimerEvent: {}
+[49.376726] (-) TimerEvent: {}
+[49.477570] (-) TimerEvent: {}
+[49.578539] (-) TimerEvent: {}
+[49.679285] (-) TimerEvent: {}
+[49.780038] (-) TimerEvent: {}
+[49.880780] (-) TimerEvent: {}
+[49.981914] (-) TimerEvent: {}
+[50.082631] (-) TimerEvent: {}
+[50.183354] (-) TimerEvent: {}
+[50.284510] (-) TimerEvent: {}
+[50.385443] (-) TimerEvent: {}
+[50.486464] (-) TimerEvent: {}
+[50.588165] (-) TimerEvent: {}
+[50.688902] (-) TimerEvent: {}
+[50.789655] (-) TimerEvent: {}
+[50.890428] (-) TimerEvent: {}
+[50.991140] (-) TimerEvent: {}
+[51.091863] (-) TimerEvent: {}
+[51.192588] (-) TimerEvent: {}
+[51.293336] (-) TimerEvent: {}
+[51.394046] (-) TimerEvent: {}
+[51.494758] (-) TimerEvent: {}
+[51.595489] (-) TimerEvent: {}
+[51.696218] (-) TimerEvent: {}
+[51.796928] (-) TimerEvent: {}
+[51.897663] (-) TimerEvent: {}
+[51.998355] (-) TimerEvent: {}
+[52.099077] (-) TimerEvent: {}
+[52.199809] (-) TimerEvent: {}
+[52.300510] (-) TimerEvent: {}
+[52.401235] (-) TimerEvent: {}
+[52.501953] (-) TimerEvent: {}
+[52.602637] (-) TimerEvent: {}
+[52.703330] (-) TimerEvent: {}
+[52.804023] (-) TimerEvent: {}
+[52.904748] (-) TimerEvent: {}
+[53.005483] (-) TimerEvent: {}
+[53.063722] (ros1_bridge) StdoutLine: {'line': b'[  2%] \x1b[32m\x1b[1mLinking CXX executable test_ros2_server_cpp\x1b[0m\n'}
+[53.105688] (-) TimerEvent: {}
+[53.206380] (-) TimerEvent: {}
+[53.307084] (-) TimerEvent: {}
+[53.407788] (-) TimerEvent: {}
+[53.508486] (-) TimerEvent: {}
+[53.609277] (-) TimerEvent: {}
+[53.621622] (ros1_bridge) StdoutLine: {'line': b'[  2%] Built target test_ros2_server_cpp\n'}
+[53.709698] (-) TimerEvent: {}
+[53.810400] (-) TimerEvent: {}
+[53.911392] (-) TimerEvent: {}
+[54.012103] (-) TimerEvent: {}
+[54.112838] (-) TimerEvent: {}
+[54.135144] (ros1_bridge) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX executable simple_bridge_1_to_2\x1b[0m\n'}
+[54.213041] (-) TimerEvent: {}
+[54.313918] (-) TimerEvent: {}
+[54.414719] (-) TimerEvent: {}
+[54.515439] (-) TimerEvent: {}
+[54.616197] (-) TimerEvent: {}
+[54.717093] (-) TimerEvent: {}
+[54.817729] (-) TimerEvent: {}
+[54.858709] (ros1_bridge) StdoutLine: {'line': b'[  3%] Built target simple_bridge_1_to_2\n'}
+[54.917889] (-) TimerEvent: {}
+[55.018469] (-) TimerEvent: {}
+[55.119112] (-) TimerEvent: {}
+[55.219755] (-) TimerEvent: {}
+[55.320394] (-) TimerEvent: {}
+[55.421034] (-) TimerEvent: {}
+[55.521710] (-) TimerEvent: {}
+[55.622352] (-) TimerEvent: {}
+[55.722999] (-) TimerEvent: {}
+[55.743704] (ros1_bridge) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX executable test_ros2_client_cpp\x1b[0m\n'}
+[55.823198] (-) TimerEvent: {}
+[55.923912] (-) TimerEvent: {}
+[56.024595] (-) TimerEvent: {}
+[56.125331] (-) TimerEvent: {}
+[56.131531] (ros1_bridge) StdoutLine: {'line': b'[  3%] Built target test_ros2_client_cpp\n'}
+[56.225504] (-) TimerEvent: {}
+[56.326188] (-) TimerEvent: {}
+[56.426909] (-) TimerEvent: {}
+[56.527571] (-) TimerEvent: {}
+[56.628242] (-) TimerEvent: {}
+[56.728900] (-) TimerEvent: {}
+[56.829610] (-) TimerEvent: {}
+[56.930270] (-) TimerEvent: {}
+[57.030932] (-) TimerEvent: {}
+[57.131610] (-) TimerEvent: {}
+[57.232303] (-) TimerEvent: {}
+[57.332974] (-) TimerEvent: {}
+[57.433669] (-) TimerEvent: {}
+[57.534341] (-) TimerEvent: {}
+[57.634998] (-) TimerEvent: {}
+[57.735690] (-) TimerEvent: {}
+[57.836366] (-) TimerEvent: {}
+[57.937056] (-) TimerEvent: {}
+[58.037763] (-) TimerEvent: {}
+[58.138421] (-) TimerEvent: {}
+[58.239103] (-) TimerEvent: {}
+[58.339852] (-) TimerEvent: {}
+[58.440767] (-) TimerEvent: {}
+[58.541463] (-) TimerEvent: {}
+[58.642133] (-) TimerEvent: {}
+[58.742829] (-) TimerEvent: {}
+[58.843526] (-) TimerEvent: {}
+[58.944222] (-) TimerEvent: {}
+[59.045159] (-) TimerEvent: {}
+[59.145872] (-) TimerEvent: {}
+[59.246631] (-) TimerEvent: {}
+[59.347349] (-) TimerEvent: {}
+[59.448098] (-) TimerEvent: {}
+[59.501255] (ros1_bridge) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX executable simple_bridge_2_to_1\x1b[0m\n'}
+[59.548296] (-) TimerEvent: {}
+[59.648993] (-) TimerEvent: {}
+[59.749698] (-) TimerEvent: {}
+[59.850387] (-) TimerEvent: {}
+[59.951023] (-) TimerEvent: {}
+[60.051741] (-) TimerEvent: {}
+[60.152402] (-) TimerEvent: {}
+[60.253456] (-) TimerEvent: {}
+[60.271510] (ros1_bridge) StdoutLine: {'line': b'[  3%] Built target simple_bridge_2_to_1\n'}
+[60.353636] (-) TimerEvent: {}
+[60.454309] (-) TimerEvent: {}
+[60.554975] (-) TimerEvent: {}
+[60.655625] (-) TimerEvent: {}
+[60.756282] (-) TimerEvent: {}
+[60.856939] (-) TimerEvent: {}
+[60.957620] (-) TimerEvent: {}
+[61.058284] (-) TimerEvent: {}
+[61.158966] (-) TimerEvent: {}
+[61.259728] (-) TimerEvent: {}
+[61.360410] (-) TimerEvent: {}
+[61.459144] (ros1_bridge) StderrLine: {'line': b'1 mappings can not be generated due to missing dependencies:\n'}
+[61.459677] (ros1_bridge) StderrLine: {'line': b'- rtabmap_msgs/MapData <-> rtabmap_msgs/MapData:\n'}
+[61.459879] (ros1_bridge) StderrLine: {'line': b'  - rtabmap_msgs/MapGraph\n'}
+[61.460036] (ros1_bridge) StderrLine: {'line': b'\n'}
+[61.460482] (-) TimerEvent: {}
+[61.561051] (-) TimerEvent: {}
+[61.661757] (-) TimerEvent: {}
+[61.763283] (-) TimerEvent: {}
+[61.863945] (-) TimerEvent: {}
+[61.964613] (-) TimerEvent: {}
+[62.065291] (-) TimerEvent: {}
+[62.165940] (-) TimerEvent: {}
+[62.266601] (-) TimerEvent: {}
+[62.367255] (-) TimerEvent: {}
+[62.467922] (-) TimerEvent: {}
+[62.568603] (-) TimerEvent: {}
+[62.669276] (-) TimerEvent: {}
+[62.769937] (-) TimerEvent: {}
+[62.870607] (-) TimerEvent: {}
+[62.971276] (-) TimerEvent: {}
+[63.071956] (-) TimerEvent: {}
+[63.172616] (-) TimerEvent: {}
+[63.273300] (-) TimerEvent: {}
+[63.374024] (-) TimerEvent: {}
+[63.474699] (-) TimerEvent: {}
+[63.575375] (-) TimerEvent: {}
+[63.676048] (-) TimerEvent: {}
+[63.776730] (-) TimerEvent: {}
+[63.877441] (-) TimerEvent: {}
+[63.978121] (-) TimerEvent: {}
+[64.078806] (-) TimerEvent: {}
+[64.179480] (-) TimerEvent: {}
+[64.280181] (-) TimerEvent: {}
+[64.315025] (ros1_bridge) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX executable simple_bridge\x1b[0m\n'}
+[64.380368] (-) TimerEvent: {}
+[64.481095] (-) TimerEvent: {}
+[64.581855] (-) TimerEvent: {}
+[64.682598] (-) TimerEvent: {}
+[64.783294] (-) TimerEvent: {}
+[64.883999] (-) TimerEvent: {}
+[64.984735] (-) TimerEvent: {}
+[65.085576] (-) TimerEvent: {}
+[65.177016] (ros1_bridge) StdoutLine: {'line': b'[  3%] Built target simple_bridge\n'}
+[65.185771] (-) TimerEvent: {}
+[65.286641] (-) TimerEvent: {}
+[65.387448] (-) TimerEvent: {}
+[65.488260] (-) TimerEvent: {}
+[65.589049] (-) TimerEvent: {}
+[65.689875] (-) TimerEvent: {}
+[65.790667] (-) TimerEvent: {}
+[65.891478] (-) TimerEvent: {}
+[65.992260] (-) TimerEvent: {}
+[66.093070] (-) TimerEvent: {}
+[66.193888] (-) TimerEvent: {}
+[66.294657] (-) TimerEvent: {}
+[66.395433] (-) TimerEvent: {}
+[66.496245] (-) TimerEvent: {}
+[66.597005] (-) TimerEvent: {}
+[66.697673] (-) TimerEvent: {}
+[66.798371] (-) TimerEvent: {}
+[66.899028] (-) TimerEvent: {}
+[66.999683] (-) TimerEvent: {}
+[67.100349] (-) TimerEvent: {}
+[67.201012] (-) TimerEvent: {}
+[67.301692] (-) TimerEvent: {}
+[67.402363] (-) TimerEvent: {}
+[67.503029] (-) TimerEvent: {}
+[67.603729] (-) TimerEvent: {}
+[67.704418] (-) TimerEvent: {}
+[67.805107] (-) TimerEvent: {}
+[67.905817] (-) TimerEvent: {}
+[68.006486] (-) TimerEvent: {}
+[68.107153] (-) TimerEvent: {}
+[68.207811] (-) TimerEvent: {}
+[68.308479] (-) TimerEvent: {}
+[68.409183] (-) TimerEvent: {}
+[68.509862] (-) TimerEvent: {}
+[68.610531] (-) TimerEvent: {}
+[68.711220] (-) TimerEvent: {}
+[68.811900] (-) TimerEvent: {}
+[68.912577] (-) TimerEvent: {}
+[69.013266] (-) TimerEvent: {}
+[69.113939] (-) TimerEvent: {}
+[69.214617] (-) TimerEvent: {}
+[69.315326] (-) TimerEvent: {}
+[69.416186] (-) TimerEvent: {}
+[69.517024] (-) TimerEvent: {}
+[69.617735] (-) TimerEvent: {}
+[69.718424] (-) TimerEvent: {}
+[69.819106] (-) TimerEvent: {}
+[69.919789] (-) TimerEvent: {}
+[70.020457] (-) TimerEvent: {}
+[70.121513] (-) TimerEvent: {}
+[70.222697] (-) TimerEvent: {}
+[70.323369] (-) TimerEvent: {}
+[70.424048] (-) TimerEvent: {}
+[70.524722] (-) TimerEvent: {}
+[70.625415] (-) TimerEvent: {}
+[70.726086] (-) TimerEvent: {}
+[70.826761] (-) TimerEvent: {}
+[70.927440] (-) TimerEvent: {}
+[71.028124] (-) TimerEvent: {}
+[71.128804] (-) TimerEvent: {}
+[71.229501] (-) TimerEvent: {}
+[71.330196] (-) TimerEvent: {}
+[71.430872] (-) TimerEvent: {}
+[71.531573] (-) TimerEvent: {}
+[71.632233] (-) TimerEvent: {}
+[71.732918] (-) TimerEvent: {}
+[71.833621] (-) TimerEvent: {}
+[71.934307] (-) TimerEvent: {}
+[72.034993] (-) TimerEvent: {}
+[72.135678] (-) TimerEvent: {}
+[72.236372] (-) TimerEvent: {}
+[72.337062] (-) TimerEvent: {}
+[72.437763] (-) TimerEvent: {}
+[72.538480] (-) TimerEvent: {}
+[72.639188] (-) TimerEvent: {}
+[72.739890] (-) TimerEvent: {}
+[72.840598] (-) TimerEvent: {}
+[72.941297] (-) TimerEvent: {}
+[73.042003] (-) TimerEvent: {}
+[73.142829] (-) TimerEvent: {}
+[73.243696] (-) TimerEvent: {}
+[73.344514] (-) TimerEvent: {}
+[73.445263] (-) TimerEvent: {}
+[73.546109] (-) TimerEvent: {}
+[73.646931] (-) TimerEvent: {}
+[73.747783] (-) TimerEvent: {}
+[73.848624] (-) TimerEvent: {}
+[73.949513] (-) TimerEvent: {}
+[74.050311] (-) TimerEvent: {}
+[74.150976] (-) TimerEvent: {}
+[74.251672] (-) TimerEvent: {}
+[74.352324] (-) TimerEvent: {}
+[74.453004] (-) TimerEvent: {}
+[74.553699] (-) TimerEvent: {}
+[74.654354] (-) TimerEvent: {}
+[74.755066] (-) TimerEvent: {}
+[74.855747] (-) TimerEvent: {}
+[74.956424] (-) TimerEvent: {}
+[75.057102] (-) TimerEvent: {}
+[75.157809] (-) TimerEvent: {}
+[75.258525] (-) TimerEvent: {}
+[75.359205] (-) TimerEvent: {}
+[75.459877] (-) TimerEvent: {}
+[75.560566] (-) TimerEvent: {}
+[75.661425] (-) TimerEvent: {}
+[75.762246] (-) TimerEvent: {}
+[75.863147] (-) TimerEvent: {}
+[75.964108] (-) TimerEvent: {}
+[76.064950] (-) TimerEvent: {}
+[76.165772] (-) TimerEvent: {}
+[76.266584] (-) TimerEvent: {}
+[76.367424] (-) TimerEvent: {}
+[76.468230] (-) TimerEvent: {}
+[76.569044] (-) TimerEvent: {}
+[76.669754] (-) TimerEvent: {}
+[76.770482] (-) TimerEvent: {}
+[76.871172] (-) TimerEvent: {}
+[76.972035] (-) TimerEvent: {}
+[77.073223] (-) TimerEvent: {}
+[77.173907] (-) TimerEvent: {}
+[77.274600] (-) TimerEvent: {}
+[77.375327] (-) TimerEvent: {}
+[77.476433] (-) TimerEvent: {}
+[77.577281] (-) TimerEvent: {}
+[77.678149] (-) TimerEvent: {}
+[77.778996] (-) TimerEvent: {}
+[77.879705] (-) TimerEvent: {}
+[77.980460] (-) TimerEvent: {}
+[78.081522] (-) TimerEvent: {}
+[78.182711] (-) TimerEvent: {}
+[78.283751] (-) TimerEvent: {}
+[78.384962] (-) TimerEvent: {}
+[78.486193] (-) TimerEvent: {}
+[78.588330] (-) TimerEvent: {}
+[78.689043] (-) TimerEvent: {}
+[78.789806] (-) TimerEvent: {}
+[78.890511] (-) TimerEvent: {}
+[78.991275] (-) TimerEvent: {}
+[79.092027] (-) TimerEvent: {}
+[79.192761] (-) TimerEvent: {}
+[79.294927] (-) TimerEvent: {}
+[79.395610] (-) TimerEvent: {}
+[79.496286] (-) TimerEvent: {}
+[79.596978] (-) TimerEvent: {}
+[79.697697] (-) TimerEvent: {}
+[79.798387] (-) TimerEvent: {}
+[79.899595] (-) TimerEvent: {}
+[80.000286] (-) TimerEvent: {}
+[80.101235] (-) TimerEvent: {}
+[80.201893] (-) TimerEvent: {}
+[80.302592] (-) TimerEvent: {}
+[80.403592] (-) TimerEvent: {}
+[80.506733] (-) TimerEvent: {}
+[80.607420] (-) TimerEvent: {}
+[80.708111] (-) TimerEvent: {}
+[80.808817] (-) TimerEvent: {}
+[80.909540] (-) TimerEvent: {}
+[81.010232] (-) TimerEvent: {}
+[81.110905] (-) TimerEvent: {}
+[81.212266] (-) TimerEvent: {}
+[81.312953] (-) TimerEvent: {}
+[81.413794] (-) TimerEvent: {}
+[81.514481] (-) TimerEvent: {}
+[81.615147] (-) TimerEvent: {}
+[81.715821] (-) TimerEvent: {}
+[81.816500] (-) TimerEvent: {}
+[81.917269] (-) TimerEvent: {}
+[82.017931] (-) TimerEvent: {}
+[82.094009] (ros1_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros1_bridge\x1b[0m\n'}
+[82.118113] (-) TimerEvent: {}
+[82.218906] (-) TimerEvent: {}
+[82.319598] (-) TimerEvent: {}
+[82.420576] (-) TimerEvent: {}
+[82.521235] (-) TimerEvent: {}
+[82.621891] (-) TimerEvent: {}
+[82.722562] (-) TimerEvent: {}
+[82.823249] (-) TimerEvent: {}
+[82.923842] (-) TimerEvent: {}
+[83.024553] (-) TimerEvent: {}
+[83.125713] (-) TimerEvent: {}
+[83.226363] (-) TimerEvent: {}
+[83.327002] (-) TimerEvent: {}
+[83.427642] (-) TimerEvent: {}
+[83.528288] (-) TimerEvent: {}
+[83.628976] (-) TimerEvent: {}
+[83.729633] (-) TimerEvent: {}
+[83.830489] (-) TimerEvent: {}
+[83.931300] (-) TimerEvent: {}
+[84.031964] (-) TimerEvent: {}
+[84.132629] (-) TimerEvent: {}
+[84.233300] (-) TimerEvent: {}
+[84.334029] (-) TimerEvent: {}
+[84.435334] (-) TimerEvent: {}
+[84.536939] (-) TimerEvent: {}
+[84.637599] (-) TimerEvent: {}
+[84.738253] (-) TimerEvent: {}
+[84.838884] (-) TimerEvent: {}
+[84.939529] (-) TimerEvent: {}
+[85.040194] (-) TimerEvent: {}
+[85.140873] (-) TimerEvent: {}
+[85.241524] (-) TimerEvent: {}
+[85.342289] (-) TimerEvent: {}
+[85.442985] (-) TimerEvent: {}
+[85.543652] (-) TimerEvent: {}
+[85.644316] (-) TimerEvent: {}
+[85.744988] (-) TimerEvent: {}
+[85.845630] (-) TimerEvent: {}
+[85.946327] (-) TimerEvent: {}
+[86.047105] (-) TimerEvent: {}
+[86.147771] (-) TimerEvent: {}
+[86.248434] (-) TimerEvent: {}
+[86.349117] (-) TimerEvent: {}
+[86.449839] (-) TimerEvent: {}
+[86.550503] (-) TimerEvent: {}
+[86.651163] (-) TimerEvent: {}
+[86.751785] (-) TimerEvent: {}
+[86.852400] (-) TimerEvent: {}
+[86.953057] (-) TimerEvent: {}
+[87.053728] (-) TimerEvent: {}
+[87.154360] (-) TimerEvent: {}
+[87.255009] (-) TimerEvent: {}
+[87.355634] (-) TimerEvent: {}
+[87.456286] (-) TimerEvent: {}
+[87.556937] (-) TimerEvent: {}
+[87.657590] (-) TimerEvent: {}
+[87.758242] (-) TimerEvent: {}
+[87.858901] (-) TimerEvent: {}
+[87.959546] (-) TimerEvent: {}
+[88.060211] (-) TimerEvent: {}
+[88.160839] (-) TimerEvent: {}
+[88.261481] (-) TimerEvent: {}
+[88.362119] (-) TimerEvent: {}
+[88.462812] (-) TimerEvent: {}
+[88.563462] (-) TimerEvent: {}
+[88.664098] (-) TimerEvent: {}
+[88.764731] (-) TimerEvent: {}
+[88.865366] (-) TimerEvent: {}
+[88.966098] (-) TimerEvent: {}
+[89.066750] (-) TimerEvent: {}
+[89.167475] (-) TimerEvent: {}
+[89.268110] (-) TimerEvent: {}
+[89.368785] (-) TimerEvent: {}
+[89.469480] (-) TimerEvent: {}
+[89.570163] (-) TimerEvent: {}
+[89.670820] (-) TimerEvent: {}
+[89.771494] (-) TimerEvent: {}
+[89.872162] (-) TimerEvent: {}
+[89.972841] (-) TimerEvent: {}
+[90.073534] (-) TimerEvent: {}
+[90.174177] (-) TimerEvent: {}
+[90.274848] (-) TimerEvent: {}
+[90.375508] (-) TimerEvent: {}
+[90.476199] (-) TimerEvent: {}
+[90.577113] (-) TimerEvent: {}
+[90.677836] (-) TimerEvent: {}
+[90.778517] (-) TimerEvent: {}
+[90.879221] (-) TimerEvent: {}
+[90.979906] (-) TimerEvent: {}
+[91.080636] (-) TimerEvent: {}
+[91.181379] (-) TimerEvent: {}
+[91.282062] (-) TimerEvent: {}
+[91.382726] (-) TimerEvent: {}
+[91.483409] (-) TimerEvent: {}
+[91.580780] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/convert_builtin_interfaces.cpp.o\x1b[0m\n'}
+[91.581886] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/bridge.cpp.o\x1b[0m\n'}
+[91.583461] (-) TimerEvent: {}
+[91.587809] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o\x1b[0m\n'}
+[91.622974] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_mappings.cpp.o\x1b[0m\n'}
+[91.624092] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o\x1b[0m\n'}
+[91.668982] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs_factories.cpp.o\x1b[0m\n'}
+[91.683668] (-) TimerEvent: {}
+[91.784347] (-) TimerEvent: {}
+[91.885811] (-) TimerEvent: {}
+[91.987217] (-) TimerEvent: {}
+[92.087969] (-) TimerEvent: {}
+[92.188646] (-) TimerEvent: {}
+[92.289322] (-) TimerEvent: {}
+[92.390029] (-) TimerEvent: {}
+[92.490719] (-) TimerEvent: {}
+[92.591531] (-) TimerEvent: {}
+[92.692574] (-) TimerEvent: {}
+[92.793313] (-) TimerEvent: {}
+[92.894021] (-) TimerEvent: {}
+[92.994762] (-) TimerEvent: {}
+[93.095729] (-) TimerEvent: {}
+[93.196940] (-) TimerEvent: {}
+[93.197783] (ros1_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__FeedbackMsg__factories.cpp.o\x1b[0m\n'}
+[93.297742] (-) TimerEvent: {}
+[93.398556] (-) TimerEvent: {}
+[93.499378] (-) TimerEvent: {}
+[93.600492] (-) TimerEvent: {}
+[93.701253] (-) TimerEvent: {}
+[93.801956] (-) TimerEvent: {}
+[93.902667] (-) TimerEvent: {}
+[94.003469] (-) TimerEvent: {}
+[94.104235] (-) TimerEvent: {}
+[94.204962] (-) TimerEvent: {}
+[94.305703] (-) TimerEvent: {}
+[94.406434] (-) TimerEvent: {}
+[94.507196] (-) TimerEvent: {}
+[94.608032] (-) TimerEvent: {}
+[94.708838] (-) TimerEvent: {}
+[94.809639] (-) TimerEvent: {}
+[94.910438] (-) TimerEvent: {}
+[95.011255] (-) TimerEvent: {}
+[95.112031] (-) TimerEvent: {}
+[95.212771] (-) TimerEvent: {}
+[95.313519] (-) TimerEvent: {}
+[95.364440] (ros1_bridge) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp.o\x1b[0m\n'}
+[95.413695] (-) TimerEvent: {}
+[95.514396] (-) TimerEvent: {}
+[95.615099] (-) TimerEvent: {}
+[95.715814] (-) TimerEvent: {}
+[95.816517] (-) TimerEvent: {}
+[95.917239] (-) TimerEvent: {}
+[96.017930] (-) TimerEvent: {}
+[96.118641] (-) TimerEvent: {}
+[96.219339] (-) TimerEvent: {}
+[96.320033] (-) TimerEvent: {}
+[96.420716] (-) TimerEvent: {}
+[96.521434] (-) TimerEvent: {}
+[96.622125] (-) TimerEvent: {}
+[96.722832] (-) TimerEvent: {}
+[96.823525] (-) TimerEvent: {}
+[96.924239] (-) TimerEvent: {}
+[97.024957] (-) TimerEvent: {}
+[97.125809] (-) TimerEvent: {}
+[97.226721] (-) TimerEvent: {}
+[97.327427] (-) TimerEvent: {}
+[97.428102] (-) TimerEvent: {}
+[97.528798] (-) TimerEvent: {}
+[97.629527] (-) TimerEvent: {}
+[97.730238] (-) TimerEvent: {}
+[97.830945] (-) TimerEvent: {}
+[97.931667] (-) TimerEvent: {}
+[98.032355] (-) TimerEvent: {}
+[98.133096] (-) TimerEvent: {}
+[98.233801] (-) TimerEvent: {}
+[98.334502] (-) TimerEvent: {}
+[98.435217] (-) TimerEvent: {}
+[98.535869] (-) TimerEvent: {}
+[98.636571] (-) TimerEvent: {}
+[98.737318] (-) TimerEvent: {}
+[98.838053] (-) TimerEvent: {}
+[98.938746] (-) TimerEvent: {}
+[99.039427] (-) TimerEvent: {}
+[99.140116] (-) TimerEvent: {}
+[99.240841] (-) TimerEvent: {}
+[99.292555] (ros1_bridge) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp.o\x1b[0m\n'}
+[99.332361] (ros1_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6\x1b[m\x1b[K,\n'}
+[99.332901] (ros1_bridge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.cpp:3\x1b[m\x1b[K:\n'}
+[99.333090] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[99.333286] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::\x1b[01;31m\x1b[KSharedLibrary\x1b[m\x1b[K> ts_lib_;\n'}
+[99.333423] (ros1_bridge) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[99.333711] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[99.333868] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[99.334041] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::SharedLibrary\x1b[01;31m\x1b[K>\x1b[m\x1b[K ts_lib_;\n'}
+[99.334176] (ros1_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[99.334505] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[99.334678] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_library\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[99.334809] (ros1_bridge) StderrLine: {'line': b'   46 |     ts_lib_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_library\x1b[m\x1b[K(ros2_type_name, "rosidl_typesupport_cpp");\n'}
+[99.334929] (ros1_bridge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[99.335581] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_handle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[99.335788] (ros1_bridge) StderrLine: {'line': b'   48 |       type_support_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_handle\x1b[m\x1b[K(\n'}
+[99.335927] (ros1_bridge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[99.336053] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[99.336200] (ros1_bridge) StderrLine: {'line': b'   50 |         *\x1b[01;31m\x1b[Kts_lib_\x1b[m\x1b[K);\n'}
+[99.336316] (ros1_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[99.341013] (-) TimerEvent: {}
+[99.441694] (-) TimerEvent: {}
+[99.542388] (-) TimerEvent: {}
+[99.643095] (-) TimerEvent: {}
+[99.743798] (-) TimerEvent: {}
+[99.844508] (-) TimerEvent: {}
+[99.945231] (-) TimerEvent: {}
+[99.992719] (ros1_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/get_factory.cpp:3\x1b[m\x1b[K:\n'}
+[99.993589] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[99.993809] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::\x1b[01;31m\x1b[KSharedLibrary\x1b[m\x1b[K> ts_lib_;\n'}
+[99.993959] (ros1_bridge) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[100.003084] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.003801] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[100.004186] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::SharedLibrary\x1b[01;31m\x1b[K>\x1b[m\x1b[K ts_lib_;\n'}
+[100.004453] (ros1_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[100.008934] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[100.009564] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_library\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.009870] (ros1_bridge) StderrLine: {'line': b'   46 |     ts_lib_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_library\x1b[m\x1b[K(ros2_type_name, "rosidl_typesupport_cpp");\n'}
+[100.010133] (ros1_bridge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[100.014326] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_handle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.014898] (ros1_bridge) StderrLine: {'line': b'   48 |       type_support_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_handle\x1b[m\x1b[K(\n'}
+[100.015187] (ros1_bridge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[100.015604] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[100.015960] (ros1_bridge) StderrLine: {'line': b'   50 |         *\x1b[01;31m\x1b[Kts_lib_\x1b[m\x1b[K);\n'}
+[100.016220] (ros1_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[100.045403] (-) TimerEvent: {}
+[100.146117] (-) TimerEvent: {}
+[100.174546] (ros1_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/builtin_interfaces_factories.hpp:33\x1b[m\x1b[K,\n'}
+[100.175048] (ros1_bridge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/src/builtin_interfaces_factories.cpp:21\x1b[m\x1b[K:\n'}
+[100.175212] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.175390] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::\x1b[01;31m\x1b[KSharedLibrary\x1b[m\x1b[K> ts_lib_;\n'}
+[100.175542] (ros1_bridge) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[100.178049] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.178947] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[100.179187] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::SharedLibrary\x1b[01;31m\x1b[K>\x1b[m\x1b[K ts_lib_;\n'}
+[100.179337] (ros1_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[100.183575] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[100.184031] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_library\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.184189] (ros1_bridge) StderrLine: {'line': b'   46 |     ts_lib_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_library\x1b[m\x1b[K(ros2_type_name, "rosidl_typesupport_cpp");\n'}
+[100.184344] (ros1_bridge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[100.187977] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_handle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.188397] (ros1_bridge) StderrLine: {'line': b'   48 |       type_support_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_handle\x1b[m\x1b[K(\n'}
+[100.188555] (ros1_bridge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[100.188819] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[100.189033] (ros1_bridge) StderrLine: {'line': b'   50 |         *\x1b[01;31m\x1b[Kts_lib_\x1b[m\x1b[K);\n'}
+[100.189191] (ros1_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[100.246302] (-) TimerEvent: {}
+[100.347001] (-) TimerEvent: {}
+[100.447720] (-) TimerEvent: {}
+[100.548411] (-) TimerEvent: {}
+[100.649107] (-) TimerEvent: {}
+[100.749798] (-) TimerEvent: {}
+[100.850508] (-) TimerEvent: {}
+[100.916454] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1800: CMakeFiles/ros1_bridge.dir/generated/teb_msgs_factories.cpp.o] Error 1\n'}
+[100.916951] (ros1_bridge) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[100.950690] (-) TimerEvent: {}
+[101.051403] (-) TimerEvent: {}
+[101.152101] (-) TimerEvent: {}
+[101.252802] (-) TimerEvent: {}
+[101.353529] (-) TimerEvent: {}
+[101.454218] (-) TimerEvent: {}
+[101.554929] (-) TimerEvent: {}
+[101.655629] (-) TimerEvent: {}
+[101.756327] (-) TimerEvent: {}
+[101.857021] (-) TimerEvent: {}
+[101.957747] (-) TimerEvent: {}
+[102.058463] (-) TimerEvent: {}
+[102.159178] (-) TimerEvent: {}
+[102.228542] (ros1_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6\x1b[m\x1b[K,\n'}
+[102.229100] (ros1_bridge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__FeedbackMsg__factories.cpp:3\x1b[m\x1b[K:\n'}
+[102.229291] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[102.229440] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::\x1b[01;31m\x1b[KSharedLibrary\x1b[m\x1b[K> ts_lib_;\n'}
+[102.229573] (ros1_bridge) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[102.230567] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[102.230781] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[102.230934] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::SharedLibrary\x1b[01;31m\x1b[K>\x1b[m\x1b[K ts_lib_;\n'}
+[102.231066] (ros1_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[102.232580] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[102.232874] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_library\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[102.233045] (ros1_bridge) StderrLine: {'line': b'   46 |     ts_lib_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_library\x1b[m\x1b[K(ros2_type_name, "rosidl_typesupport_cpp");\n'}
+[102.233260] (ros1_bridge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[102.237094] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_handle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[102.237825] (ros1_bridge) StderrLine: {'line': b'   48 |       type_support_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_handle\x1b[m\x1b[K(\n'}
+[102.238745] (ros1_bridge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[102.239292] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[102.239671] (ros1_bridge) StderrLine: {'line': b'   50 |         *\x1b[01;31m\x1b[Kts_lib_\x1b[m\x1b[K);\n'}
+[102.239943] (ros1_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[102.259369] (-) TimerEvent: {}
+[102.360083] (-) TimerEvent: {}
+[102.460828] (-) TimerEvent: {}
+[102.561585] (-) TimerEvent: {}
+[102.662322] (-) TimerEvent: {}
+[102.763058] (-) TimerEvent: {}
+[102.863796] (-) TimerEvent: {}
+[102.964539] (-) TimerEvent: {}
+[103.065289] (-) TimerEvent: {}
+[103.166024] (-) TimerEvent: {}
+[103.266766] (-) TimerEvent: {}
+[103.367485] (-) TimerEvent: {}
+[103.468224] (-) TimerEvent: {}
+[103.568953] (-) TimerEvent: {}
+[103.669749] (-) TimerEvent: {}
+[103.716874] (ros1_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6\x1b[m\x1b[K,\n'}
+[103.717495] (ros1_bridge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp:3\x1b[m\x1b[K:\n'}
+[103.717700] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[103.717866] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::\x1b[01;31m\x1b[KSharedLibrary\x1b[m\x1b[K> ts_lib_;\n'}
+[103.718002] (ros1_bridge) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[103.718293] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[103.718445] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[103.718574] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::SharedLibrary\x1b[01;31m\x1b[K>\x1b[m\x1b[K ts_lib_;\n'}
+[103.718692] (ros1_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[103.720106] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[103.720448] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_library\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[103.720614] (ros1_bridge) StderrLine: {'line': b'   46 |     ts_lib_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_library\x1b[m\x1b[K(ros2_type_name, "rosidl_typesupport_cpp");\n'}
+[103.720786] (ros1_bridge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[103.721610] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_handle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[103.721877] (ros1_bridge) StderrLine: {'line': b'   48 |       type_support_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_handle\x1b[m\x1b[K(\n'}
+[103.722058] (ros1_bridge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[103.722193] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[103.722327] (ros1_bridge) StderrLine: {'line': b'   50 |         *\x1b[01;31m\x1b[Kts_lib_\x1b[m\x1b[K);\n'}
+[103.722452] (ros1_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[103.769938] (-) TimerEvent: {}
+[103.870686] (-) TimerEvent: {}
+[103.971422] (-) TimerEvent: {}
+[104.030613] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1813: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__FeedbackMsg__factories.cpp.o] Error 1\n'}
+[104.071603] (-) TimerEvent: {}
+[104.172316] (-) TimerEvent: {}
+[104.273045] (-) TimerEvent: {}
+[104.373824] (-) TimerEvent: {}
+[104.474551] (-) TimerEvent: {}
+[104.575303] (-) TimerEvent: {}
+[104.676028] (-) TimerEvent: {}
+[104.776751] (-) TimerEvent: {}
+[104.877550] (-) TimerEvent: {}
+[104.978261] (-) TimerEvent: {}
+[105.079006] (-) TimerEvent: {}
+[105.179724] (-) TimerEvent: {}
+[105.266263] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1826: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp.o] Error 1\n'}
+[105.279904] (-) TimerEvent: {}
+[105.380609] (-) TimerEvent: {}
+[105.481344] (-) TimerEvent: {}
+[105.582056] (-) TimerEvent: {}
+[105.682771] (-) TimerEvent: {}
+[105.783509] (-) TimerEvent: {}
+[105.884262] (-) TimerEvent: {}
+[105.984944] (-) TimerEvent: {}
+[106.085677] (-) TimerEvent: {}
+[106.131084] (ros1_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6\x1b[m\x1b[K,\n'}
+[106.131581] (ros1_bridge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp:3\x1b[m\x1b[K:\n'}
+[106.131757] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[106.132051] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::\x1b[01;31m\x1b[KSharedLibrary\x1b[m\x1b[K> ts_lib_;\n'}
+[106.132222] (ros1_bridge) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[106.132359] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedLibrary\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krcpputils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[106.132490] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[106.132636] (ros1_bridge) StderrLine: {'line': b'  389 |   std::shared_ptr<rcpputils::SharedLibrary\x1b[01;31m\x1b[K>\x1b[m\x1b[K ts_lib_;\n'}
+[106.132757] (ros1_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[106.133435] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[106.133650] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_library\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[106.133787] (ros1_bridge) StderrLine: {'line': b'   46 |     ts_lib_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_library\x1b[m\x1b[K(ros2_type_name, "rosidl_typesupport_cpp");\n'}
+[106.133929] (ros1_bridge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[106.134497] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_typesupport_handle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[106.134704] (ros1_bridge) StderrLine: {'line': b'   48 |       type_support_ = rclcpp::\x1b[01;31m\x1b[Kget_typesupport_handle\x1b[m\x1b[K(\n'}
+[106.134856] (ros1_bridge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[106.134995] (ros1_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[106.135129] (ros1_bridge) StderrLine: {'line': b'   50 |         *\x1b[01;31m\x1b[Kts_lib_\x1b[m\x1b[K);\n'}
+[106.135252] (ros1_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[106.185854] (-) TimerEvent: {}
+[106.204570] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1774: CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o] Error 1\n'}
+[106.286032] (-) TimerEvent: {}
+[106.386711] (-) TimerEvent: {}
+[106.487392] (-) TimerEvent: {}
+[106.588090] (-) TimerEvent: {}
+[106.688775] (-) TimerEvent: {}
+[106.789473] (-) TimerEvent: {}
+[106.890185] (-) TimerEvent: {}
+[106.990922] (-) TimerEvent: {}
+[107.091596] (-) TimerEvent: {}
+[107.192280] (-) TimerEvent: {}
+[107.292974] (-) TimerEvent: {}
+[107.393686] (-) TimerEvent: {}
+[107.494377] (-) TimerEvent: {}
+[107.562697] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1735: CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o] Error 1\n'}
+[107.586239] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1839: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp.o] Error 1\n'}
+[107.589769] (ros1_bridge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/ros1_bridge.dir/all] Error 2\n'}
+[107.590928] (ros1_bridge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[107.594448] (-) TimerEvent: {}
+[107.597940] (ros1_bridge) CommandEnded: {'returncode': 2}
+[107.694753] (-) TimerEvent: {}
+[107.795589] (-) TimerEvent: {}
+[107.896220] (-) TimerEvent: {}
+[107.996819] (-) TimerEvent: {}
+[108.097407] (-) TimerEvent: {}
+[108.197985] (-) TimerEvent: {}
+[108.299050] (-) TimerEvent: {}
+[108.400058] (-) TimerEvent: {}
+[108.500658] (-) TimerEvent: {}
+[108.601497] (-) TimerEvent: {}
+[108.702143] (-) TimerEvent: {}
+[108.803019] (-) TimerEvent: {}
+[108.903607] (-) TimerEvent: {}
+[109.004210] (-) TimerEvent: {}
+[109.105083] (-) TimerEvent: {}
+[109.205692] (-) TimerEvent: {}
+[109.306283] (-) TimerEvent: {}
+[109.406872] (-) TimerEvent: {}
+[109.507459] (-) TimerEvent: {}
+[109.608042] (-) TimerEvent: {}
+[109.708682] (-) TimerEvent: {}
+[109.809612] (-) TimerEvent: {}
+[109.910210] (-) TimerEvent: {}
+[110.010780] (-) TimerEvent: {}
+[110.111358] (-) TimerEvent: {}
+[110.212012] (-) TimerEvent: {}
+[110.312893] (-) TimerEvent: {}
+[110.413661] (-) TimerEvent: {}
+[110.514466] (-) TimerEvent: {}
+[110.615058] (-) TimerEvent: {}
+[110.715746] (-) TimerEvent: {}
+[110.816482] (-) TimerEvent: {}
+[110.917078] (-) TimerEvent: {}
+[111.017673] (-) TimerEvent: {}
+[111.118489] (-) TimerEvent: {}
+[111.219122] (-) TimerEvent: {}
+[111.319778] (-) TimerEvent: {}
+[111.420393] (-) TimerEvent: {}
+[111.520999] (-) TimerEvent: {}
+[111.621613] (-) TimerEvent: {}
+[111.722411] (-) TimerEvent: {}
+[111.823042] (-) TimerEvent: {}
+[111.923937] (-) TimerEvent: {}
+[112.024828] (-) TimerEvent: {}
+[112.125763] (-) TimerEvent: {}
+[112.226341] (-) TimerEvent: {}
+[112.326959] (-) TimerEvent: {}
+[112.427594] (-) TimerEvent: {}
+[112.528455] (-) TimerEvent: {}
+[112.630542] (-) TimerEvent: {}
+[112.731822] (-) TimerEvent: {}
+[112.836083] (-) TimerEvent: {}
+[112.936811] (-) TimerEvent: {}
+[113.037870] (-) TimerEvent: {}
+[113.138675] (-) TimerEvent: {}
+[113.239753] (-) TimerEvent: {}
+[113.251907] (ros1_bridge) JobEnded: {'identifier': 'ros1_bridge', 'rc': 2}
+[113.254821] (-) EventReactorShutdown: {}

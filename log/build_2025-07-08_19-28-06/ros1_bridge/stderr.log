@@ -1,0 +1,418 @@
+CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Cannot generate a safe runtime search path for target test_convert_generic
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:92 (ament_add_gtest)
+
+
+CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Cannot generate a safe runtime search path for target test_convert_generic
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 4 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+    dir 4 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [libcv_bridge.so]
+    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:92 (ament_add_gtest)
+
+
+CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Cannot generate a safe runtime search path for target
+  test_ros2_to_ros1_serialization because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:105 (ament_add_gtest)
+
+
+CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Cannot generate a safe runtime search path for target
+  test_ros2_to_ros1_serialization because there is a cycle in the constraint
+  graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 4 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+    dir 4 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [libcv_bridge.so]
+    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:105 (ament_add_gtest)
+
+
+CMake Warning at CMakeLists.txt:191 (add_executable):
+  Cannot generate a safe runtime search path for target static_bridge because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:237 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:191 (add_executable):
+  Cannot generate a safe runtime search path for target static_bridge because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 4 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+    dir 4 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [libcv_bridge.so]
+    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:237 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:220 (add_library):
+  Cannot generate a safe runtime search path for target ros1_bridge because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:220 (add_library):
+  Cannot generate a safe runtime search path for target ros1_bridge because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+    dir 1 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+    dir 2 is [/opt/ros/foxy/lib]
+      dir 7 must precede it due to runtime library [libcv_bridge.so]
+    dir 3 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+    dir 4 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+    dir 5 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+    dir 6 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+    dir 7 is [/opt/ros/noetic/lib]
+      dir 2 must precede it due to runtime library [liburdf.so]
+    dir 8 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+    dir 9 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 10 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+    dir 11 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:191 (add_executable):
+  Cannot generate a safe runtime search path for target parameter_bridge
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:244 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:191 (add_executable):
+  Cannot generate a safe runtime search path for target parameter_bridge
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 4 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+    dir 4 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [libcv_bridge.so]
+    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:244 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:191 (add_executable):
+  Cannot generate a safe runtime search path for target dynamic_bridge
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/aarch64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:251 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:191 (add_executable):
+  Cannot generate a safe runtime search path for target dynamic_bridge
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 4 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+    dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+    dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+    dir 4 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [libcv_bridge.so]
+    dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+    dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+    dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+    dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+    dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+    dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+    dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:251 (custom_executable)
+
+
+1 mappings can not be generated due to missing dependencies:
+- rtabmap_msgs/MapData <-> rtabmap_msgs/MapData:
+  - rtabmap_msgs/MapGraph
+
+In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+                 from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.cpp:3[m[K:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+  389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   50 |         *[01;31m[Kts_lib_[m[K);
+      |          [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/get_factory.cpp:3[m[K:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+  389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   50 |         *[01;31m[Kts_lib_[m[K);
+      |          [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/builtin_interfaces_factories.hpp:33[m[K,
+                 from [01m[K/home/agilex/krish_ws/src/ros1_bridge/src/builtin_interfaces_factories.cpp:21[m[K:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+  389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   50 |         *[01;31m[Kts_lib_[m[K);
+      |          [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1800: CMakeFiles/ros1_bridge.dir/generated/teb_msgs_factories.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+                 from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__FeedbackMsg__factories.cpp:3[m[K:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+  389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   50 |         *[01;31m[Kts_lib_[m[K);
+      |          [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+                 from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp:3[m[K:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+  389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   50 |         *[01;31m[Kts_lib_[m[K);
+      |          [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1813: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__FeedbackMsg__factories.cpp.o] Error 1
+make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1826: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp.o] Error 1
+In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+                 from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp:3[m[K:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+  389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   50 |         *[01;31m[Kts_lib_[m[K);
+      |          [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1774: CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o] Error 1
+make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1735: CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o] Error 1
+make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1839: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/ros1_bridge.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

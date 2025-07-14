@@ -1,0 +1,59 @@
+[4.510s] Invoking command in '/home/agilex/krish_ws/src/yolov5_ros2': PYTHONPATH=/home/agilex/krish_ws/build/yolov5_ros2/prefix_override:/home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/krish_ws/build/yolov5_ros2/build install --record /home/agilex/krish_ws/build/yolov5_ros2/install.log --single-version-externally-managed
+[5.144s] running egg_info
+[5.144s] creating ../../build/yolov5_ros2/yolov5_ros2.egg-info
+[5.187s] writing ../../build/yolov5_ros2/yolov5_ros2.egg-info/PKG-INFO
+[5.188s] writing dependency_links to ../../build/yolov5_ros2/yolov5_ros2.egg-info/dependency_links.txt
+[5.188s] writing entry points to ../../build/yolov5_ros2/yolov5_ros2.egg-info/entry_points.txt
+[5.189s] writing requirements to ../../build/yolov5_ros2/yolov5_ros2.egg-info/requires.txt
+[5.189s] writing top-level names to ../../build/yolov5_ros2/yolov5_ros2.egg-info/top_level.txt
+[5.448s] writing manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[5.533s] reading manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[5.534s] writing manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[5.535s] running build
+[5.535s] running build_py
+[5.535s] creating /home/agilex/krish_ws/build/yolov5_ros2/build
+[5.535s] creating /home/agilex/krish_ws/build/yolov5_ros2/build/lib
+[5.536s] creating /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.536s] copying yolov5_ros2/__init__.py -> /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.536s] copying yolov5_ros2/cv_tool.py -> /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.536s] copying yolov5_ros2/yolo_detect_2d.py -> /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.537s] running install
+[5.538s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.538s] !!
+[5.538s] 
+[5.538s]         ********************************************************************************
+[5.538s]         Please avoid running ``setup.py`` directly.
+[5.538s]         Instead, use pypa/build, pypa/installer or other
+[5.539s]         standards-based tools.
+[5.539s] 
+[5.539s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.539s]         ********************************************************************************
+[5.539s] 
+[5.539s] !!
+[5.539s]   self.initialize_options()
+[5.550s] running install_lib
+[5.592s] creating /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2
+[5.592s] copying /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2/__init__.py -> /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2
+[5.593s] copying /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2/cv_tool.py -> /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2
+[5.593s] copying /home/agilex/krish_ws/build/yolov5_ros2/build/lib/yolov5_ros2/yolo_detect_2d.py -> /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2
+[5.594s] byte-compiling /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2/__init__.py to __init__.cpython-38.pyc
+[5.595s] byte-compiling /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2/cv_tool.py to cv_tool.cpython-38.pyc
+[5.596s] byte-compiling /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2/yolo_detect_2d.py to yolo_detect_2d.cpython-38.pyc
+[5.598s] running install_data
+[5.638s] copying package.xml -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2
+[5.638s] creating /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[5.638s] copying launch/yolov5_ros2.launch.py -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[5.639s] copying launch/yolov5_fixed.launch.py -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[5.639s] creating /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[5.639s] copying config/yolov5s.pt -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[5.664s] copying config/camera_info.yaml -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[5.664s] creating /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.665s] copying resource/mouse.png -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.665s] copying resource/fish.jpg -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.666s] copying resource/yolov5_ros2 -> /home/agilex/krish_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.666s] running install_egg_info
+[5.712s] Copying ../../build/yolov5_ros2/yolov5_ros2.egg-info to /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2-0.0.0-py3.8.egg-info
+[5.714s] running install_scripts
+[5.816s] Installing yolo_detect_2d script to /home/agilex/krish_ws/install/yolov5_ros2/lib/yolov5_ros2
+[5.817s] writing list of installed files to '/home/agilex/krish_ws/build/yolov5_ros2/install.log'
+[5.896s] Invoked command in '/home/agilex/krish_ws/src/yolov5_ros2' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/yolov5_ros2/prefix_override:/home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/krish_ws/build/yolov5_ros2/build install --record /home/agilex/krish_ws/build/yolov5_ros2/install.log --single-version-externally-managed

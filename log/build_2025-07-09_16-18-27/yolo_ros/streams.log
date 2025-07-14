@@ -1,0 +1,62 @@
+[5.234s] Invoking command in '/home/agilex/krish_ws/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/agilex/krish_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/yolo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/krish_ws/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/krish_ws/build/yolo_ros/prefix_override:/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages:/home/agilex/krish_ws/install/yolo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/agilex/krish_ws/build/yolo_ros/build install --record /home/agilex/krish_ws/build/yolo_ros/install.log --single-version-externally-managed
+[5.830s] running egg_info
+[5.831s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[5.872s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[5.873s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[5.873s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[5.874s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[5.874s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[6.119s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[6.200s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[6.201s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[6.202s] running build
+[6.202s] running build_py
+[6.202s] creating /home/agilex/krish_ws/build/yolo_ros/build
+[6.202s] creating /home/agilex/krish_ws/build/yolo_ros/build/lib
+[6.203s] creating /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros
+[6.203s] copying yolo_ros/yolo_node.py -> /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros
+[6.203s] copying yolo_ros/__init__.py -> /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros
+[6.203s] copying yolo_ros/debug_node.py -> /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros
+[6.203s] copying yolo_ros/detect_3d_node.py -> /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros
+[6.204s] copying yolo_ros/tracking_node.py -> /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros
+[6.204s] running install
+[6.205s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.205s] !!
+[6.205s] 
+[6.205s]         ********************************************************************************
+[6.205s]         Please avoid running ``setup.py`` directly.
+[6.205s]         Instead, use pypa/build, pypa/installer or other
+[6.206s]         standards-based tools.
+[6.206s] 
+[6.206s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.206s]         ********************************************************************************
+[6.206s] 
+[6.206s] !!
+[6.206s]   self.initialize_options()
+[6.217s] running install_lib
+[6.258s] creating /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros
+[6.258s] copying /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros
+[6.258s] copying /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros
+[6.258s] copying /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros
+[6.258s] copying /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros
+[6.259s] copying /home/agilex/krish_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros
+[6.260s] byte-compiling /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-38.pyc
+[6.265s] byte-compiling /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros/__init__.py to __init__.cpython-38.pyc
+[6.265s] byte-compiling /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros/debug_node.py to debug_node.cpython-38.pyc
+[6.269s] byte-compiling /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-38.pyc
+[6.273s] byte-compiling /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-38.pyc
+[6.275s] running install_data
+[6.315s] creating /home/agilex/krish_ws/install/yolo_ros/share/ament_index
+[6.315s] creating /home/agilex/krish_ws/install/yolo_ros/share/ament_index/resource_index
+[6.316s] creating /home/agilex/krish_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[6.316s] copying resource/yolo_ros -> /home/agilex/krish_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[6.316s] copying package.xml -> /home/agilex/krish_ws/install/yolo_ros/share/yolo_ros
+[6.316s] running install_egg_info
+[6.358s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages/yolo_ros-0.0.0-py3.8.egg-info
+[6.360s] running install_scripts
+[6.459s] Installing debug_node script to /home/agilex/krish_ws/install/yolo_ros/lib/yolo_ros
+[6.459s] Installing detect_3d_node script to /home/agilex/krish_ws/install/yolo_ros/lib/yolo_ros
+[6.460s] Installing tracking_node script to /home/agilex/krish_ws/install/yolo_ros/lib/yolo_ros
+[6.460s] Installing yolo_node script to /home/agilex/krish_ws/install/yolo_ros/lib/yolo_ros
+[6.461s] writing list of installed files to '/home/agilex/krish_ws/build/yolo_ros/install.log'
+[6.539s] Invoked command in '/home/agilex/krish_ws/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/agilex/krish_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/yolo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/krish_ws/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/krish_ws/build/yolo_ros/prefix_override:/home/agilex/krish_ws/install/yolo_ros/lib/python3.8/site-packages:/home/agilex/krish_ws/install/yolo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/agilex/krish_ws/build/yolo_ros/build install --record /home/agilex/krish_ws/build/yolo_ros/install.log --single-version-externally-managed

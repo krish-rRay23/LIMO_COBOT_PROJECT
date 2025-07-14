@@ -1,0 +1,2 @@
+[console_scripts]
+simple_explorer = object_search.simple_explorer:main

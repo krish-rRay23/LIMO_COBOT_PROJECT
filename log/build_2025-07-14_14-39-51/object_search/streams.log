@@ -1,0 +1,53 @@
+[9.812s] Invoking command in '/home/agilex/krish_ws/src/object_search': PYTHONPATH=/home/agilex/krish_ws/build/object_search/prefix_override:/home/agilex/krish_ws/install/object_search/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_search build --build-base /home/agilex/krish_ws/build/object_search/build install --record /home/agilex/krish_ws/build/object_search/install.log --install-scripts $base/lib/object_search --single-version-externally-managed
+[10.202s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[10.202s] !!
+[10.202s] 
+[10.203s]         ********************************************************************************
+[10.203s]         Usage of dash-separated 'script-dir' will not be supported in future
+[10.203s]         versions. Please use the underscore name 'script_dir' instead.
+[10.203s] 
+[10.203s]         This deprecation is overdue, please update your project and remove deprecated
+[10.203s]         calls to avoid build errors in the future.
+[10.203s] 
+[10.203s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[10.204s]         ********************************************************************************
+[10.204s] 
+[10.204s] !!
+[10.204s]   opt = self.warn_dash_deprecation(opt, section)
+[10.481s] running egg_info
+[10.526s] writing ../../build/object_search/object_search.egg-info/PKG-INFO
+[10.528s] writing dependency_links to ../../build/object_search/object_search.egg-info/dependency_links.txt
+[10.528s] writing entry points to ../../build/object_search/object_search.egg-info/entry_points.txt
+[10.529s] writing requirements to ../../build/object_search/object_search.egg-info/requires.txt
+[10.530s] writing top-level names to ../../build/object_search/object_search.egg-info/top_level.txt
+[10.884s] reading manifest file '../../build/object_search/object_search.egg-info/SOURCES.txt'
+[10.886s] writing manifest file '../../build/object_search/object_search.egg-info/SOURCES.txt'
+[10.887s] running build
+[10.888s] running build_py
+[10.889s] copying object_search/__init__.py -> /home/agilex/krish_ws/build/object_search/build/lib/object_search
+[10.890s] copying object_search/simple_explorer.py -> /home/agilex/krish_ws/build/object_search/build/lib/object_search
+[10.890s] running install
+[10.890s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[10.891s] !!
+[10.891s] 
+[10.891s]         ********************************************************************************
+[10.892s]         Please avoid running ``setup.py`` directly.
+[10.892s]         Instead, use pypa/build, pypa/installer or other
+[10.894s]         standards-based tools.
+[10.895s] 
+[10.896s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[10.896s]         ********************************************************************************
+[10.896s] 
+[10.897s] !!
+[10.897s]   self.initialize_options()
+[10.903s] running install_lib
+[10.964s] running install_data
+[10.994s] copying resource/object_search -> /home/agilex/krish_ws/install/object_search/share/ament_index/resource_index/packages
+[10.996s] copying package.xml -> /home/agilex/krish_ws/install/object_search/share/object_search
+[10.997s] running install_egg_info
+[11.043s] removing '/home/agilex/krish_ws/install/object_search/lib/python3.8/site-packages/object_search-0.0.0-py3.8.egg-info' (and everything under it)
+[11.044s] Copying ../../build/object_search/object_search.egg-info to /home/agilex/krish_ws/install/object_search/lib/python3.8/site-packages/object_search-0.0.0-py3.8.egg-info
+[11.046s] running install_scripts
+[11.159s] Installing simple_explorer script to /home/agilex/krish_ws/install/object_search/lib/object_search
+[11.161s] writing list of installed files to '/home/agilex/krish_ws/build/object_search/install.log'
+[15.798s] Invoked command in '/home/agilex/krish_ws/src/object_search' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/object_search/prefix_override:/home/agilex/krish_ws/install/object_search/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_search build --build-base /home/agilex/krish_ws/build/object_search/build install --record /home/agilex/krish_ws/build/object_search/install.log --install-scripts $base/lib/object_search --single-version-externally-managed

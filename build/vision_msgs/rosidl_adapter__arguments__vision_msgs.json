@@ -1,0 +1,18 @@
+{
+  "package_name": "vision_msgs",
+  "non_idl_tuples": [
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/BoundingBox2D.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/BoundingBox2DArray.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/BoundingBox3D.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/BoundingBox3DArray.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/Classification2D.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/Classification3D.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/Detection2DArray.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/Detection2D.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/Detection3DArray.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/Detection3D.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/ObjectHypothesis.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/ObjectHypothesisWithPose.msg",
+    "/home/agilex/krish_ws/src/vision_msgs/vision_msgs:msg/VisionInfo.msg"
+  ]
+}

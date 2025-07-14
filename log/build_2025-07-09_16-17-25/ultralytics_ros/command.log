@@ -1,0 +1,2 @@
+Invoking command in '/home/agilex/krish_ws/build/ultralytics_ros': /usr/bin/cmake /home/agilex/krish_ws/src/ultralytics_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/ultralytics_ros
+Invoked command in '/home/agilex/krish_ws/build/ultralytics_ros' returned '1': /usr/bin/cmake /home/agilex/krish_ws/src/ultralytics_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/ultralytics_ros

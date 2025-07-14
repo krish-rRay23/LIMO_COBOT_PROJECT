@@ -1,0 +1,740 @@
+[1.798s] Invoking command in '/home/agilex/krish_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/agilex/krish_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/ros1_bridge
+[1.952s] -- The C compiler identification is GNU 9.4.0
+[2.083s] -- The CXX compiler identification is GNU 9.4.0
+[2.098s] -- Check for working C compiler: /usr/bin/cc
+[2.290s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.293s] -- Detecting C compiler ABI info
+[2.493s] -- Detecting C compiler ABI info - done
+[2.525s] -- Detecting C compile features
+[2.525s] -- Detecting C compile features - done
+[2.530s] -- Check for working CXX compiler: /usr/bin/c++
+[2.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.740s] -- Detecting CXX compiler ABI info
+[2.958s] -- Detecting CXX compiler ABI info - done
+[2.983s] -- Detecting CXX compile features
+[2.984s] -- Detecting CXX compile features - done
+[2.992s] -- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+[3.079s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.823s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.945s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.293s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.380s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.715s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.725s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.727s] -- Looking for pthread.h
+[4.935s] -- Looking for pthread.h - found
+[4.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.140s] -- Looking for pthread_create in pthreads
+[5.314s] -- Looking for pthread_create in pthreads - not found
+[5.314s] -- Looking for pthread_create in pthread
+[5.512s] -- Looking for pthread_create in pthread - found
+[5.514s] -- Found Threads: TRUE  
+[5.856s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.873s] -- Checking for module 'roscpp'
+[5.952s] --   Found roscpp, version 1.16.0
+[6.151s] -- Checking for module 'std_msgs'
+[6.227s] --   Found std_msgs, version 0.5.13
+[7.707s] -- Checking for module 'actionlib'
+[7.785s] --   Found actionlib, version 1.14.0
+[7.986s] -- Checking for module 'actionlib_msgs'
+[8.062s] --   Found actionlib_msgs, version 1.13.1
+[8.251s] -- Checking for module 'actionlib_tutorials'
+[8.331s] --   Found actionlib_tutorials, version 0.2.0
+[8.545s] -- Checking for module 'apriltag_ros'
+[8.628s] --   Found apriltag_ros, version 3.2.1
+[8.900s] -- Checking for module 'aruco_msgs'
+[8.974s] --   Found aruco_msgs, version 3.1.3
+[9.166s] -- Checking for module 'base_local_planner'
+[9.256s] --   Found base_local_planner, version 1.17.3
+[9.532s] -- Checking for module 'bond'
+[9.604s] --   Found bond, version 1.8.6
+[9.795s] -- Checking for module 'control_msgs'
+[9.877s] --   Found control_msgs, version 1.5.2
+[10.066s] -- Checking for module 'controller_manager_msgs'
+[10.152s] --   Found controller_manager_msgs, version 0.20.0
+[10.344s] -- Checking for module 'costmap_2d'
+[10.433s] --   Found costmap_2d, version 1.17.3
+[10.681s] -- Checking for module 'costmap_converter'
+[10.758s] --   Found costmap_converter, version 0.0.13
+[11.014s] -- Checking for module 'diagnostic_msgs'
+[11.090s] --   Found diagnostic_msgs, version 1.13.1
+[11.288s] -- Checking for module 'dynamic_reconfigure'
+[11.380s] --   Found dynamic_reconfigure, version 1.7.3
+[11.580s] -- Checking for module 'find_object_2d'
+[11.661s] --   Found find_object_2d, version 0.7.0
+[11.920s] -- Checking for module 'gazebo_msgs'
+[11.997s] --   Found gazebo_msgs, version 2.9.2
+[12.187s] -- Checking for module 'geographic_msgs'
+[12.269s] --   Found geographic_msgs, version 0.5.6
+[12.468s] -- Checking for module 'geometry_msgs'
+[12.555s] --   Found geometry_msgs, version 1.13.1
+[12.744s] -- Checking for module 'graph_msgs'
+[12.823s] --   Found graph_msgs, version 0.1.0
+[13.017s] -- Checking for module 'hector_mapping'
+[13.101s] --   Found hector_mapping, version 0.5.2
+[13.335s] -- Checking for module 'map_msgs'
+[13.412s] --   Found map_msgs, version 1.14.1
+[13.607s] -- Checking for module 'mbf_msgs'
+[13.694s] --   Found mbf_msgs, version 0.4.0
+[13.885s] -- Checking for module 'move_base_msgs'
+[13.966s] --   Found move_base_msgs, version 1.14.1
+[14.162s] -- Checking for module 'moveit_msgs'
+[14.248s] --   Found moveit_msgs, version 0.11.4
+[14.448s] -- Checking for module 'moveit_task_constructor_msgs'
+[14.539s] --   Found moveit_task_constructor_msgs, version 0.1.3
+[14.739s] -- Checking for module 'nav_msgs'
+[14.818s] --   Found nav_msgs, version 1.13.1
+[15.010s] -- Checking for module 'object_recognition_msgs'
+[15.093s] --   Found object_recognition_msgs, version 0.4.2
+[15.289s] -- Checking for module 'octomap_msgs'
+[15.373s] --   Found octomap_msgs, version 0.3.5
+[15.564s] -- Checking for module 'pcl_msgs'
+[15.647s] --   Found pcl_msgs, version 0.3.0
+[15.858s] -- Checking for module 'rosgraph_msgs'
+[15.940s] --   Found rosgraph_msgs, version 1.11.3
+[16.134s] -- Checking for module 'rospy_tutorials'
+[16.221s] --   Found rospy_tutorials, version 0.10.2
+[16.420s] -- Checking for module 'rosserial_msgs'
+[16.502s] --   Found rosserial_msgs, version 0.9.2
+[16.711s] -- Checking for module 'rtabmap_msgs'
+[16.796s] --   Found rtabmap_msgs, version 0.21.1
+[16.992s] -- Checking for module 'sensor_msgs'
+[17.074s] --   Found sensor_msgs, version 1.13.1
+[17.269s] -- Checking for module 'shape_msgs'
+[17.354s] --   Found shape_msgs, version 1.13.1
+[17.546s] -- Checking for module 'smach_msgs'
+[17.631s] --   Found smach_msgs, version 2.5.2
+[17.849s] -- Checking for module 'stereo_msgs'
+[17.932s] --   Found stereo_msgs, version 1.13.1
+[18.129s] -- Checking for module 'teb_local_planner'
+[18.220s] --   Found teb_local_planner, version 0.9.1
+[18.608s] -- Checking for module 'teleop_tools_msgs'
+[18.682s] --   Found teleop_tools_msgs, version 0.5.0
+[18.875s] -- Checking for module 'tf'
+[18.959s] --   Found tf, version 1.13.2
+[19.180s] -- Checking for module 'tf2_msgs'
+[19.257s] --   Found tf2_msgs, version 0.7.7
+[19.451s] -- Checking for module 'theora_image_transport'
+[19.539s] --   Found theora_image_transport, version 1.14.0
+[19.736s] -- Checking for module 'trajectory_msgs'
+[19.825s] --   Found trajectory_msgs, version 1.13.1
+[20.024s] -- Checking for module 'turtle_actionlib'
+[20.104s] --   Found turtle_actionlib, version 0.2.0
+[20.294s] -- Checking for module 'turtlebot3_msgs'
+[20.382s] --   Found turtlebot3_msgs, version 1.0.1
+[20.581s] -- Checking for module 'turtlesim'
+[20.666s] --   Found turtlesim, version 0.10.2
+[20.866s] -- Checking for module 'uuid_msgs'
+[20.953s] --   Found uuid_msgs, version 1.0.6
+[21.147s] -- Checking for module 'vision_msgs'
+[21.232s] --   Found vision_msgs, version 0.0.2
+[21.433s] -- Checking for module 'visualization_msgs'
+[21.513s] --   Found visualization_msgs, version 1.13.1
+[21.710s] -- Checking for module 'control_toolbox'
+[21.799s] --   Found control_toolbox, version 1.19.0
+[22.025s] -- Checking for module 'laser_assembler'
+[22.115s] --   Found laser_assembler, version 1.7.8
+[22.362s] -- Checking for module 'navfn'
+[22.440s] --   Found navfn, version 1.17.3
+[22.697s] -- Checking for module 'polled_camera'
+[22.774s] --   Found polled_camera, version 1.12.0
+[23.007s] -- Checking for module 'robot_localization'
+[23.092s] --   Found robot_localization, version 2.7.4
+[23.351s] -- Checking for module 'robot_pose_ekf'
+[23.429s] --   Found robot_pose_ekf, version 1.15.0
+[23.654s] -- Checking for module 'roscpp_tutorials'
+[23.741s] --   Found roscpp_tutorials, version 0.10.2
+[23.937s] -- Checking for module 'rviz'
+[24.029s] --   Found rviz, version 1.14.20
+[24.298s] -- Checking for module 'std_srvs'
+[24.376s] --   Found std_srvs, version 1.11.3
+[24.582s] -- Checking for module 'topic_tools'
+[24.677s] --   Found topic_tools, version 1.16.0
+[24.899s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[24.911s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[25.009s] -- Checking for module 'roslaunch'
+[25.084s] --   Found roslaunch, version 1.16.0
+[25.692s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[25.762s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[25.786s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[25.786s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[25.786s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[25.786s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[25.857s] -- Found PythonExtra: .so  
+[26.125s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[26.135s] -- Check if compiler accepts -pthread
+[26.342s] -- Check if compiler accepts -pthread - yes
+[26.773s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.787s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.788s] -- Configured cppcheck include dirs: 
+[26.788s] -- Configured cppcheck exclude dirs and/or files: 
+[26.800s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[26.800s] -- Configured cpplint exclude dirs and/or files: 
+[26.803s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.807s] -- Added test 'lint_cmake' to check CMake code style
+[26.810s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[26.818s] -- Added test 'uncrustify' to check C / C++ code style
+[26.819s] -- Configured uncrustify additional arguments: 
+[26.821s] -- Added test 'xmllint' to check XML markup files
+[27.242s] -- Found teb_msgs: 0.0.1 (/home/agilex/limo_ros2_ws/install/teb_msgs/share/teb_msgs/cmake)
+[27.462s] -- Found orbbec_camera_msgs: 1.2.2 (/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)
+[28.114s] -- Found dwb_msgs: 0.4.7 (/opt/ros/foxy/share/dwb_msgs/cmake)
+[28.114s] -- Found nav_2d_msgs: 0.4.7 (/opt/ros/foxy/share/nav_2d_msgs/cmake)
+[28.643s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[28.725s] -- Found mypalletizer_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake)
+[28.805s] -- Found mycobot_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake)
+[28.885s] -- Found mecharm_interfaces: 0.0.0 (/home/agilex/limo_ros2_ws/install/mecharm_interfaces/share/mecharm_interfaces/cmake)
+[28.970s] -- Found limo_msgs: 0.0.0 (/home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake)
+[28.971s] -- Found costmap_converter_msgs: 0.1.2 (/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+[28.971s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[29.080s] -- Found action_tutorials_interfaces: 0.9.4 (/opt/ros/foxy/share/action_tutorials_interfaces/cmake)
+[29.154s] -- Found actionlib_msgs: 2.0.5 (/opt/ros/foxy/share/actionlib_msgs/cmake)
+[29.289s] -- Found aruco_opencv_msgs: 1.1.1 (/opt/ros/foxy/share/aruco_opencv_msgs/cmake)
+[29.289s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[29.425s] -- Found cartographer_ros_msgs: 1.0.9003 (/opt/ros/foxy/share/cartographer_ros_msgs/cmake)
+[29.499s] -- Found composition_interfaces: 1.0.0 (/opt/ros/foxy/share/composition_interfaces/cmake)
+[30.072s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[30.073s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[30.189s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[30.427s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[30.429s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[30.431s] -- Found libstatistics_collector: 1.0.2 (/opt/ros/foxy/share/libstatistics_collector/cmake)
+[30.460s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[30.484s] -- Found logging_demo: 0.9.4 (/opt/ros/foxy/share/logging_demo/cmake)
+[30.796s] -- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+[30.797s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[30.929s] -- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+[31.145s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[31.182s] -- Found pendulum_msgs: 0.9.4 (/opt/ros/foxy/share/pendulum_msgs/cmake)
+[31.182s] -- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)
+[31.259s] -- Found realsense2_camera_msgs: 4.51.1 (/opt/ros/foxy/share/realsense2_camera_msgs/cmake)
+[31.291s] -- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[31.291s] -- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)
+[31.602s] -- Found rtabmap_msgs: 0.21.1 (/opt/ros/foxy/share/rtabmap_msgs/cmake)
+[31.604s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[31.731s] -- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)
+[32.997s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[33.017s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[33.228s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[33.233s] -- Found OGRE
+[33.234s] --   static     : OFF
+[33.234s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[33.234s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[33.235s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[33.235s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[33.235s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[33.236s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[33.236s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[33.236s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[33.236s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[33.237s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[33.237s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[33.315s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[33.342s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[33.778s] -- Found X11: /usr/include   
+[33.779s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[33.985s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[33.986s] -- Looking for gethostbyname
+[34.190s] -- Looking for gethostbyname - found
+[34.191s] -- Looking for connect
+[34.394s] -- Looking for connect - found
+[34.395s] -- Looking for remove
+[34.596s] -- Looking for remove - found
+[34.597s] -- Looking for shmat
+[34.797s] -- Looking for shmat - found
+[34.798s] -- Looking for IceConnectionNumber in ICE
+[35.000s] -- Looking for IceConnectionNumber in ICE - found
+[35.014s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[35.014s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[35.050s] -- library: libassimp.so.5
+[35.427s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[35.626s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[35.994s] -- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)
+[35.995s] -- Found statistics_msgs: 1.0.0 (/opt/ros/foxy/share/statistics_msgs/cmake)
+[35.995s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[35.998s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[36.227s] -- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[36.352s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[36.353s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[36.354s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[36.537s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[36.646s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[36.646s] -- Found unique_identifier_msgs: 2.1.3 (/opt/ros/foxy/share/unique_identifier_msgs/cmake)
+[36.718s] -- Found velodyne_msgs: 2.1.1 (/opt/ros/foxy/share/velodyne_msgs/cmake)
+[36.718s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[37.179s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+[38.730s] -- Configuring done
+[39.051s] CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[39.052s]   Cannot generate a safe runtime search path for target test_convert_generic
+[39.052s]   because files in some directories may conflict with libraries in implicit
+[39.052s]   directories:
+[39.052s] 
+[39.052s]     runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.052s]       /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+[39.052s]     runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+[39.053s]       /opt/ros/foxy/lib
+[39.053s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.053s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.053s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.053s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.053s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.053s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.053s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.053s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.054s] 
+[39.054s]   Some of these libraries may not be found correctly.
+[39.054s] Call Stack (most recent call first):
+[39.054s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[39.054s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[39.054s]   CMakeLists.txt:92 (ament_add_gtest)
+[39.054s] 
+[39.054s] 
+[39.055s] CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[39.055s]   Cannot generate a safe runtime search path for target test_convert_generic
+[39.055s]   because there is a cycle in the constraint graph:
+[39.055s] 
+[39.055s]     dir 0 is [/opt/ros/noetic/lib]
+[39.055s]       dir 4 must precede it due to runtime library [liburdf.so]
+[39.055s]     dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+[39.055s]     dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+[39.056s]     dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+[39.056s]     dir 4 is [/opt/ros/foxy/lib]
+[39.056s]       dir 0 must precede it due to runtime library [libcv_bridge.so]
+[39.056s]     dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+[39.056s]     dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+[39.056s]     dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+[39.056s]     dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+[39.056s]     dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+[39.056s]     dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[39.057s]     dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+[39.057s]     dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[39.057s] 
+[39.057s]   Some of these libraries may not be found correctly.
+[39.057s] Call Stack (most recent call first):
+[39.057s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[39.057s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[39.057s]   CMakeLists.txt:92 (ament_add_gtest)
+[39.057s] 
+[39.058s] 
+[39.199s] CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[39.199s]   Cannot generate a safe runtime search path for target
+[39.199s]   test_ros2_to_ros1_serialization because files in some directories may
+[39.199s]   conflict with libraries in implicit directories:
+[39.200s] 
+[39.200s]     runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.200s]       /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+[39.200s]     runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+[39.200s]       /opt/ros/foxy/lib
+[39.200s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.200s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.200s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.201s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.201s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.201s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.201s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.201s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.201s] 
+[39.201s]   Some of these libraries may not be found correctly.
+[39.201s] Call Stack (most recent call first):
+[39.202s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[39.202s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[39.202s]   CMakeLists.txt:105 (ament_add_gtest)
+[39.202s] 
+[39.202s] 
+[39.202s] CMake Warning at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[39.202s]   Cannot generate a safe runtime search path for target
+[39.202s]   test_ros2_to_ros1_serialization because there is a cycle in the constraint
+[39.202s]   graph:
+[39.203s] 
+[39.203s]     dir 0 is [/opt/ros/noetic/lib]
+[39.203s]       dir 4 must precede it due to runtime library [liburdf.so]
+[39.203s]     dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+[39.203s]     dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+[39.203s]     dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+[39.203s]     dir 4 is [/opt/ros/foxy/lib]
+[39.203s]       dir 0 must precede it due to runtime library [libcv_bridge.so]
+[39.203s]     dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+[39.204s]     dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+[39.204s]     dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+[39.204s]     dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+[39.204s]     dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+[39.204s]     dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[39.204s]     dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+[39.204s]     dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[39.204s] 
+[39.205s]   Some of these libraries may not be found correctly.
+[39.205s] Call Stack (most recent call first):
+[39.205s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[39.205s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[39.205s]   CMakeLists.txt:105 (ament_add_gtest)
+[39.205s] 
+[39.205s] 
+[39.376s] CMake Warning at CMakeLists.txt:191 (add_executable):
+[39.376s]   Cannot generate a safe runtime search path for target static_bridge because
+[39.376s]   files in some directories may conflict with libraries in implicit
+[39.376s]   directories:
+[39.377s] 
+[39.377s]     runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.377s]       /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+[39.377s]     runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+[39.377s]       /opt/ros/foxy/lib
+[39.377s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.377s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.377s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.378s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.378s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.378s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.378s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.378s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.378s] 
+[39.378s]   Some of these libraries may not be found correctly.
+[39.378s] Call Stack (most recent call first):
+[39.378s]   CMakeLists.txt:237 (custom_executable)
+[39.379s] 
+[39.379s] 
+[39.379s] CMake Warning at CMakeLists.txt:191 (add_executable):
+[39.379s]   Cannot generate a safe runtime search path for target static_bridge because
+[39.379s]   there is a cycle in the constraint graph:
+[39.379s] 
+[39.379s]     dir 0 is [/opt/ros/noetic/lib]
+[39.379s]       dir 4 must precede it due to runtime library [liburdf.so]
+[39.380s]     dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+[39.380s]     dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+[39.380s]     dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+[39.380s]     dir 4 is [/opt/ros/foxy/lib]
+[39.380s]       dir 0 must precede it due to runtime library [libcv_bridge.so]
+[39.380s]     dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+[39.380s]     dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+[39.380s]     dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+[39.381s]     dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+[39.381s]     dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+[39.381s]     dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[39.381s]     dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+[39.381s]     dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[39.381s] 
+[39.381s]   Some of these libraries may not be found correctly.
+[39.381s] Call Stack (most recent call first):
+[39.381s]   CMakeLists.txt:237 (custom_executable)
+[39.382s] 
+[39.382s] 
+[39.743s] CMake Warning at CMakeLists.txt:220 (add_library):
+[39.743s]   Cannot generate a safe runtime search path for target ros1_bridge because
+[39.743s]   files in some directories may conflict with libraries in implicit
+[39.743s]   directories:
+[39.743s] 
+[39.743s]     runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.744s]       /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+[39.744s]     runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+[39.744s]       /opt/ros/foxy/lib
+[39.744s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.744s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.744s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.744s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.744s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.745s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.745s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[39.745s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[39.745s] 
+[39.745s]   Some of these libraries may not be found correctly.
+[39.745s] 
+[39.745s] 
+[39.745s] CMake Warning at CMakeLists.txt:220 (add_library):
+[39.745s]   Cannot generate a safe runtime search path for target ros1_bridge because
+[39.746s]   there is a cycle in the constraint graph:
+[39.746s] 
+[39.746s]     dir 0 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+[39.746s]     dir 1 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+[39.746s]     dir 2 is [/opt/ros/foxy/lib]
+[39.746s]       dir 7 must precede it due to runtime library [libcv_bridge.so]
+[39.746s]     dir 3 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+[39.746s]     dir 4 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+[39.747s]     dir 5 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+[39.747s]     dir 6 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+[39.747s]     dir 7 is [/opt/ros/noetic/lib]
+[39.747s]       dir 2 must precede it due to runtime library [liburdf.so]
+[39.747s]     dir 8 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+[39.747s]     dir 9 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[39.747s]     dir 10 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+[39.747s]     dir 11 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[39.747s] 
+[39.748s]   Some of these libraries may not be found correctly.
+[39.748s] 
+[39.748s] 
+[40.037s] CMake Warning at CMakeLists.txt:191 (add_executable):
+[40.038s]   Cannot generate a safe runtime search path for target parameter_bridge
+[40.038s]   because files in some directories may conflict with libraries in implicit
+[40.038s]   directories:
+[40.038s] 
+[40.038s]     runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.038s]       /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+[40.038s]     runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+[40.038s]       /opt/ros/foxy/lib
+[40.039s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.039s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.039s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.039s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.039s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.039s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.039s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.039s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.039s] 
+[40.040s]   Some of these libraries may not be found correctly.
+[40.040s] Call Stack (most recent call first):
+[40.040s]   CMakeLists.txt:244 (custom_executable)
+[40.040s] 
+[40.040s] 
+[40.040s] CMake Warning at CMakeLists.txt:191 (add_executable):
+[40.040s]   Cannot generate a safe runtime search path for target parameter_bridge
+[40.040s]   because there is a cycle in the constraint graph:
+[40.041s] 
+[40.041s]     dir 0 is [/opt/ros/noetic/lib]
+[40.041s]       dir 4 must precede it due to runtime library [liburdf.so]
+[40.041s]     dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+[40.041s]     dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+[40.041s]     dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+[40.041s]     dir 4 is [/opt/ros/foxy/lib]
+[40.042s]       dir 0 must precede it due to runtime library [libcv_bridge.so]
+[40.042s]     dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+[40.042s]     dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+[40.042s]     dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+[40.042s]     dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+[40.042s]     dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+[40.042s]     dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[40.042s]     dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+[40.042s]     dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[40.043s] 
+[40.043s]   Some of these libraries may not be found correctly.
+[40.043s] Call Stack (most recent call first):
+[40.043s]   CMakeLists.txt:244 (custom_executable)
+[40.043s] 
+[40.043s] 
+[40.183s] CMake Warning at CMakeLists.txt:191 (add_executable):
+[40.183s]   Cannot generate a safe runtime search path for target dynamic_bridge
+[40.183s]   because files in some directories may conflict with libraries in implicit
+[40.183s]   directories:
+[40.183s] 
+[40.184s]     runtime library [libyaml-cpp.so.0.6] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.184s]       /opt/ros/foxy/opt/yaml_cpp_vendor/lib
+[40.184s]     runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+[40.184s]       /opt/ros/foxy/lib
+[40.184s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.184s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.184s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.184s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.185s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.185s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.185s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[40.185s]       /opt/ros/foxy/lib/aarch64-linux-gnu
+[40.185s] 
+[40.185s]   Some of these libraries may not be found correctly.
+[40.185s] Call Stack (most recent call first):
+[40.185s]   CMakeLists.txt:251 (custom_executable)
+[40.185s] 
+[40.186s] 
+[40.186s] CMake Warning at CMakeLists.txt:191 (add_executable):
+[40.186s]   Cannot generate a safe runtime search path for target dynamic_bridge
+[40.186s]   because there is a cycle in the constraint graph:
+[40.186s] 
+[40.186s]     dir 0 is [/opt/ros/noetic/lib]
+[40.186s]       dir 4 must precede it due to runtime library [liburdf.so]
+[40.186s]     dir 1 is [/home/agilex/krish_ws/build/ros1_bridge]
+[40.186s]     dir 2 is [/home/agilex/limo_ros2_ws/install/teb_msgs/lib]
+[40.187s]     dir 3 is [/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib]
+[40.187s]     dir 4 is [/opt/ros/foxy/lib]
+[40.187s]       dir 0 must precede it due to runtime library [libcv_bridge.so]
+[40.187s]     dir 5 is [/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib]
+[40.187s]     dir 6 is [/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib]
+[40.187s]     dir 7 is [/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib]
+[40.187s]     dir 8 is [/home/agilex/limo_ros2_ws/install/limo_msgs/lib]
+[40.187s]     dir 9 is [/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib]
+[40.188s]     dir 10 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[40.188s]     dir 11 is [/opt/ros/foxy/lib/aarch64-linux-gnu]
+[40.188s]     dir 12 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[40.188s] 
+[40.188s]   Some of these libraries may not be found correctly.
+[40.188s] Call Stack (most recent call first):
+[40.188s]   CMakeLists.txt:251 (custom_executable)
+[40.189s] 
+[40.189s] 
+[40.403s] -- Generating done
+[40.421s] -- Build files have been written to: /home/agilex/krish_ws/build/ros1_bridge
+[40.493s] Invoked command in '/home/agilex/krish_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/agilex/krish_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/ros1_bridge
+[40.509s] Invoking command in '/home/agilex/krish_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/agilex/krish_ws/build/ros1_bridge -- -j6 -l6
+[40.745s] [35m[1mScanning dependencies of target gtest[0m
+[40.745s] [35m[1mScanning dependencies of target gtest_main[0m
+[40.746s] [35m[1mScanning dependencies of target test_ros1_client[0m
+[40.747s] [35m[1mScanning dependencies of target test_ros1_server[0m
+[40.769s] [35m[1mScanning dependencies of target simple_bridge_1_to_2[0m
+[40.781s] [  0%] [34m[1mGenerating factories for interface types[0m
+[40.804s] [  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[40.817s] [  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[40.823s] [  0%] [32mBuilding CXX object CMakeFiles/test_ros1_client.dir/test/test_ros1_client.cpp.o[0m
+[40.838s] [  0%] [32mBuilding CXX object CMakeFiles/test_ros1_server.dir/test/test_ros1_server.cpp.o[0m
+[41.044s] [  0%] [32mBuilding CXX object CMakeFiles/simple_bridge_1_to_2.dir/src/simple_bridge_1_to_2.cpp.o[0m
+[42.714s] [  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[42.883s] [  1%] Built target gtest_main
+[42.922s] [35m[1mScanning dependencies of target simple_bridge_2_to_1[0m
+[43.118s] [  1%] [32mBuilding CXX object CMakeFiles/simple_bridge_2_to_1.dir/src/simple_bridge_2_to_1.cpp.o[0m
+[45.888s] [  1%] [32m[1mLinking CXX executable test_ros1_client[0m
+[46.310s] [  1%] Built target test_ros1_client
+[46.347s] [35m[1mScanning dependencies of target test_ros2_server_cpp[0m
+[46.523s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros2_server_cpp.dir/test/test_ros2_server.cpp.o[0m
+[46.647s] [  1%] [32m[1mLinking CXX executable test_ros1_server[0m
+[47.123s] [  1%] Built target test_ros1_server
+[47.164s] [35m[1mScanning dependencies of target simple_bridge[0m
+[47.293s] [  1%] [32mBuilding CXX object CMakeFiles/simple_bridge.dir/src/simple_bridge.cpp.o[0m
+[48.762s] [  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[48.964s] [  1%] Built target gtest
+[49.030s] [35m[1mScanning dependencies of target test_ros2_client_cpp[0m
+[49.236s] [  2%] [32mBuilding CXX object CMakeFiles/test_ros2_client_cpp.dir/test/test_ros2_client.cpp.o[0m
+[53.062s] [  2%] [32m[1mLinking CXX executable test_ros2_server_cpp[0m
+[53.620s] [  2%] Built target test_ros2_server_cpp
+[54.134s] [  3%] [32m[1mLinking CXX executable simple_bridge_1_to_2[0m
+[54.857s] [  3%] Built target simple_bridge_1_to_2
+[55.742s] [  3%] [32m[1mLinking CXX executable test_ros2_client_cpp[0m
+[56.130s] [  3%] Built target test_ros2_client_cpp
+[59.500s] [  3%] [32m[1mLinking CXX executable simple_bridge_2_to_1[0m
+[60.270s] [  3%] Built target simple_bridge_2_to_1
+[61.458s] 1 mappings can not be generated due to missing dependencies:
+[61.458s] - rtabmap_msgs/MapData <-> rtabmap_msgs/MapData:
+[61.458s]   - rtabmap_msgs/MapGraph
+[61.458s] 
+[64.315s] [  3%] [32m[1mLinking CXX executable simple_bridge[0m
+[65.176s] [  3%] Built target simple_bridge
+[82.092s] [35m[1mScanning dependencies of target ros1_bridge[0m
+[91.580s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/convert_builtin_interfaces.cpp.o[0m
+[91.580s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/bridge.cpp.o[0m
+[91.586s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o[0m
+[91.621s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_mappings.cpp.o[0m
+[91.622s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o[0m
+[91.668s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs_factories.cpp.o[0m
+[93.196s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__FeedbackMsg__factories.cpp.o[0m
+[95.363s] [  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp.o[0m
+[99.291s] [  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp.o[0m
+[99.331s] In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+[99.331s]                  from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.cpp:3[m[K:
+[99.331s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[99.331s]   389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+[99.332s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[99.332s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[99.332s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[99.332s]   389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+[99.332s]       |                                           [01;31m[K^[m[K
+[99.333s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[99.333s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[99.333s]    46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+[99.333s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[99.334s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[99.334s]    48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+[99.334s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[99.334s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[99.334s]    50 |         *[01;31m[Kts_lib_[m[K);
+[99.334s]       |          [01;31m[K^~~~~~~[m[K
+[99.991s] In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/get_factory.cpp:3[m[K:
+[99.992s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[99.992s]   389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+[99.992s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[100.002s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[100.002s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[100.002s]   389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+[100.003s]       |                                           [01;31m[K^[m[K
+[100.007s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[100.008s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[100.008s]    46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+[100.008s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100.013s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[100.013s]    48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+[100.013s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[100.014s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[100.014s]    50 |         *[01;31m[Kts_lib_[m[K);
+[100.014s]       |          [01;31m[K^~~~~~~[m[K
+[100.173s] In file included from [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/builtin_interfaces_factories.hpp:33[m[K,
+[100.173s]                  from [01m[K/home/agilex/krish_ws/src/ros1_bridge/src/builtin_interfaces_factories.cpp:21[m[K:
+[100.173s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[100.174s]   389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+[100.174s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[100.176s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[100.177s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[100.177s]   389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+[100.178s]       |                                           [01;31m[K^[m[K
+[100.182s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[100.182s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[100.182s]    46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+[100.183s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100.186s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[100.187s]    48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+[100.187s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[100.187s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[100.187s]    50 |         *[01;31m[Kts_lib_[m[K);
+[100.187s]       |          [01;31m[K^~~~~~~[m[K
+[100.915s] make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1800: CMakeFiles/ros1_bridge.dir/generated/teb_msgs_factories.cpp.o] Error 1
+[100.915s] make[2]: *** Waiting for unfinished jobs....
+[102.227s] In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+[102.227s]                  from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__FeedbackMsg__factories.cpp:3[m[K:
+[102.227s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[102.228s]   389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+[102.228s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[102.229s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[102.229s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[102.229s]   389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+[102.229s]       |                                           [01;31m[K^[m[K
+[102.231s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[102.231s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[102.231s]    46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+[102.232s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[102.236s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[102.237s]    48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+[102.237s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[102.238s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[102.238s]    50 |         *[01;31m[Kts_lib_[m[K);
+[102.238s]       |          [01;31m[K^~~~~~~[m[K
+[103.715s] In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+[103.716s]                  from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp:3[m[K:
+[103.716s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[103.716s]   389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+[103.716s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[103.716s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[103.717s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[103.717s]   389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+[103.717s]       |                                           [01;31m[K^[m[K
+[103.718s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[103.719s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[103.719s]    46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+[103.719s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[103.720s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[103.720s]    48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+[103.720s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[103.720s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[103.721s]    50 |         *[01;31m[Kts_lib_[m[K);
+[103.721s]       |          [01;31m[K^~~~~~~[m[K
+[104.029s] make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1813: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__FeedbackMsg__factories.cpp.o] Error 1
+[105.265s] make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1826: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryMsg__factories.cpp.o] Error 1
+[106.130s] In file included from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs_factories.hpp:6[m[K,
+[106.130s]                  from [01m[K/home/agilex/krish_ws/build/ros1_bridge/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp:3[m[K:
+[106.130s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[106.130s]   389 |   std::shared_ptr<rcpputils::[01;31m[KSharedLibrary[m[K> ts_lib_;
+[106.130s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[106.131s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedLibrary[m[K’ is not a member of ‘[01m[Krcpputils[m[K’
+[106.131s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:389:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[106.131s]   389 |   std::shared_ptr<rcpputils::SharedLibrary[01;31m[K>[m[K ts_lib_;
+[106.131s]       |                                           [01;31m[K^[m[K
+[106.132s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:[m[K In constructor ‘[01m[Kros1_bridge::Factory<ROS1_T, ROS2_T>::Factory(const string&, const string&)[m[K’:
+[106.132s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_library[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[106.132s]    46 |     ts_lib_ = rclcpp::[01;31m[Kget_typesupport_library[m[K(ros2_type_name, "rosidl_typesupport_cpp");
+[106.132s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[106.133s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_typesupport_handle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[106.133s]    48 |       type_support_ = rclcpp::[01;31m[Kget_typesupport_handle[m[K(
+[106.133s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[106.133s] [01m[K/home/agilex/krish_ws/src/ros1_bridge/include/ros1_bridge/factory.hpp:50:10:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[106.133s]    50 |         *[01;31m[Kts_lib_[m[K);
+[106.133s]       |          [01;31m[K^~~~~~~[m[K
+[106.203s] make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1774: CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o] Error 1
+[107.561s] make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1735: CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o] Error 1
+[107.585s] make[2]: *** [CMakeFiles/ros1_bridge.dir/build.make:1839: CMakeFiles/ros1_bridge.dir/generated/teb_msgs__msg__TrajectoryPointMsg__factories.cpp.o] Error 1
+[107.588s] make[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/ros1_bridge.dir/all] Error 2
+[107.589s] make: *** [Makefile:141: all] Error 2
+[107.597s] Invoked command in '/home/agilex/krish_ws/build/ros1_bridge' returned '2': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/ros1_bridge:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/agilex/krish_ws/build/ros1_bridge -- -j6 -l6

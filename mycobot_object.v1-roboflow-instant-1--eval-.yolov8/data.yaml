@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['object']
+
+roboflow:
+  workspace: krishws
+  project: mycobot_object
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/krishws/mycobot_object/dataset/1

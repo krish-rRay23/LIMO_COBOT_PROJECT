@@ -1,0 +1,18 @@
+{
+  "package_name": "yolo_msgs",
+  "non_idl_tuples": [
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/Point2D.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/Vector2.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/Pose2D.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/BoundingBox2D.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/BoundingBox3D.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/Mask.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/KeyPoint2D.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/KeyPoint2DArray.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/KeyPoint3D.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/KeyPoint3DArray.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/Detection.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:msg/DetectionArray.msg",
+    "/home/agilex/krish_ws/src/yolo_ros/yolo_msgs:srv/SetClasses.srv"
+  ]
+}

@@ -1,0 +1,34 @@
+[7.440s] Invoking command in '/home/agilex/krish_ws/src/yolov5_ros2': AMENT_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/krish_ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/krish_ws/build/yolov5_ros2/prefix_override:/home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages:/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/krish_ws/build/yolov5_ros2/build install --record /home/agilex/krish_ws/build/yolov5_ros2/install.log --single-version-externally-managed
+[8.103s] running egg_info
+[8.149s] writing ../../build/yolov5_ros2/yolov5_ros2.egg-info/PKG-INFO
+[8.150s] writing dependency_links to ../../build/yolov5_ros2/yolov5_ros2.egg-info/dependency_links.txt
+[8.151s] writing entry points to ../../build/yolov5_ros2/yolov5_ros2.egg-info/entry_points.txt
+[8.151s] writing requirements to ../../build/yolov5_ros2/yolov5_ros2.egg-info/requires.txt
+[8.151s] writing top-level names to ../../build/yolov5_ros2/yolov5_ros2.egg-info/top_level.txt
+[8.507s] reading manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[8.509s] writing manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[8.509s] running build
+[8.509s] running build_py
+[8.511s] running install
+[8.512s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[8.512s] !!
+[8.512s] 
+[8.512s]         ********************************************************************************
+[8.512s]         Please avoid running ``setup.py`` directly.
+[8.512s]         Instead, use pypa/build, pypa/installer or other
+[8.512s]         standards-based tools.
+[8.513s] 
+[8.513s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[8.513s]         ********************************************************************************
+[8.513s] 
+[8.513s] !!
+[8.513s]   self.initialize_options()
+[8.524s] running install_lib
+[8.571s] running install_data
+[8.616s] running install_egg_info
+[8.663s] removing '/home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2-0.0.0-py3.8.egg-info' (and everything under it)
+[8.664s] Copying ../../build/yolov5_ros2/yolov5_ros2.egg-info to /home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages/yolov5_ros2-0.0.0-py3.8.egg-info
+[8.666s] running install_scripts
+[8.777s] Installing yolo_detect_2d script to /home/agilex/krish_ws/install/yolov5_ros2/lib/yolov5_ros2
+[8.778s] writing list of installed files to '/home/agilex/krish_ws/build/yolov5_ros2/install.log'
+[8.879s] Invoked command in '/home/agilex/krish_ws/src/yolov5_ros2' returned '0': AMENT_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/krish_ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/krish_ws/build/yolov5_ros2/prefix_override:/home/agilex/krish_ws/install/yolov5_ros2/lib/python3.8/site-packages:/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/krish_ws/build/yolov5_ros2/build install --record /home/agilex/krish_ws/build/yolov5_ros2/install.log --single-version-externally-managed

@@ -1,0 +1,53 @@
+[5.500s] Invoking command in '/home/agilex/krish_ws/src/object_detector': PYTHONPATH=/home/agilex/krish_ws/build/object_detector/prefix_override:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detector build --build-base /home/agilex/krish_ws/build/object_detector/build install --record /home/agilex/krish_ws/build/object_detector/install.log --install-scripts $base/lib/object_detector --single-version-externally-managed
+[5.895s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.896s] !!
+[5.896s] 
+[5.896s]         ********************************************************************************
+[5.896s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.896s]         versions. Please use the underscore name 'script_dir' instead.
+[5.896s] 
+[5.897s]         This deprecation is overdue, please update your project and remove deprecated
+[5.897s]         calls to avoid build errors in the future.
+[5.897s] 
+[5.897s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.897s]         ********************************************************************************
+[5.897s] 
+[5.897s] !!
+[5.897s]   opt = self.warn_dash_deprecation(opt, section)
+[6.171s] running egg_info
+[6.217s] writing ../../build/object_detector/object_detector.egg-info/PKG-INFO
+[6.218s] writing dependency_links to ../../build/object_detector/object_detector.egg-info/dependency_links.txt
+[6.219s] writing entry points to ../../build/object_detector/object_detector.egg-info/entry_points.txt
+[6.219s] writing requirements to ../../build/object_detector/object_detector.egg-info/requires.txt
+[6.219s] writing top-level names to ../../build/object_detector/object_detector.egg-info/top_level.txt
+[6.571s] reading manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[6.573s] writing manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[6.573s] running build
+[6.573s] running build_py
+[6.573s] copying object_detector/__init__.py -> /home/agilex/krish_ws/build/object_detector/build/lib/object_detector
+[6.574s] copying object_detector/object_detector.py -> /home/agilex/krish_ws/build/object_detector/build/lib/object_detector
+[6.575s] running install
+[6.575s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.576s] !!
+[6.576s] 
+[6.576s]         ********************************************************************************
+[6.576s]         Please avoid running ``setup.py`` directly.
+[6.577s]         Instead, use pypa/build, pypa/installer or other
+[6.577s]         standards-based tools.
+[6.577s] 
+[6.577s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.577s]         ********************************************************************************
+[6.577s] 
+[6.577s] !!
+[6.578s]   self.initialize_options()
+[6.589s] running install_lib
+[6.636s] running install_data
+[6.682s] copying resource/object_detector -> /home/agilex/krish_ws/install/object_detector/share/ament_index/resource_index/packages
+[6.682s] copying package.xml -> /home/agilex/krish_ws/install/object_detector/share/object_detector
+[6.684s] running install_egg_info
+[6.730s] removing '/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages/object_detector-0.0.0-py3.8.egg-info' (and everything under it)
+[6.731s] Copying ../../build/object_detector/object_detector.egg-info to /home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages/object_detector-0.0.0-py3.8.egg-info
+[6.733s] running install_scripts
+[6.843s] Installing yolo_detector script to /home/agilex/krish_ws/install/object_detector/lib/object_detector
+[6.844s] writing list of installed files to '/home/agilex/krish_ws/build/object_detector/install.log'
+[6.934s] Invoked command in '/home/agilex/krish_ws/src/object_detector' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/object_detector/prefix_override:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detector build --build-base /home/agilex/krish_ws/build/object_detector/build install --record /home/agilex/krish_ws/build/object_detector/install.log --install-scripts $base/lib/object_detector --single-version-externally-managed
