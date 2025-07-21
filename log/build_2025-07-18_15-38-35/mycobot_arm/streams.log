@@ -1,0 +1,61 @@
+[17.836s] Invoking command in '/home/agilex/krish_ws/build/mycobot_arm': PYTHONPATH=/home/agilex/krish_ws/build/mycobot_arm/prefix_override:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/agilex/krish_ws/build/mycobot_arm/build --no-deps install_data
+[18.267s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[18.267s] !!
+[18.267s] 
+[18.267s]         ********************************************************************************
+[18.267s]         Usage of dash-separated 'script-dir' will not be supported in future
+[18.268s]         versions. Please use the underscore name 'script_dir' instead.
+[18.268s] 
+[18.268s]         This deprecation is overdue, please update your project and remove deprecated
+[18.268s]         calls to avoid build errors in the future.
+[18.268s] 
+[18.268s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[18.268s]         ********************************************************************************
+[18.269s] 
+[18.269s] !!
+[18.269s]   opt = self.warn_dash_deprecation(opt, section)
+[18.826s] running develop
+[18.826s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[18.826s] !!
+[18.827s] 
+[18.827s]         ********************************************************************************
+[18.827s]         Please avoid running ``setup.py`` and ``easy_install``.
+[18.827s]         Instead, use pypa/build, pypa/installer or other
+[18.827s]         standards-based tools.
+[18.827s] 
+[18.827s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[18.827s]         ********************************************************************************
+[18.828s] 
+[18.828s] !!
+[18.828s]   easy_install.initialize_options(self)
+[18.925s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[18.925s] !!
+[18.925s] 
+[18.925s]         ********************************************************************************
+[18.925s]         Please avoid running ``setup.py`` directly.
+[18.925s]         Instead, use pypa/build, pypa/installer or other
+[18.926s]         standards-based tools.
+[18.926s] 
+[18.926s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[18.926s]         ********************************************************************************
+[18.926s] 
+[18.926s] !!
+[18.926s]   self.initialize_options()
+[19.429s] running egg_info
+[19.479s] writing mycobot_arm.egg-info/PKG-INFO
+[19.483s] writing dependency_links to mycobot_arm.egg-info/dependency_links.txt
+[19.485s] writing entry points to mycobot_arm.egg-info/entry_points.txt
+[19.487s] writing requirements to mycobot_arm.egg-info/requires.txt
+[19.489s] writing top-level names to mycobot_arm.egg-info/top_level.txt
+[19.600s] reading manifest file 'mycobot_arm.egg-info/SOURCES.txt'
+[19.605s] writing manifest file 'mycobot_arm.egg-info/SOURCES.txt'
+[19.884s] running build_ext
+[19.885s] Creating /home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages/mycobot-arm.egg-link (link to .)
+[19.887s] Installing drop_node script to /home/agilex/krish_ws/install/mycobot_arm/lib/mycobot_arm
+[19.888s] Installing pick_node script to /home/agilex/krish_ws/install/mycobot_arm/lib/mycobot_arm
+[19.889s] 
+[19.889s] Installed /home/agilex/krish_ws/build/mycobot_arm
+[19.889s] running install_data
+[19.893s] copying resource/mycobot_arm -> /home/agilex/krish_ws/install/mycobot_arm/share/ament_index/resource_index/packages
+[19.894s] copying package.xml -> /home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm
+[22.806s] Invoked command in '/home/agilex/krish_ws/build/mycobot_arm' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/mycobot_arm/prefix_override:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/agilex/krish_ws/build/mycobot_arm/build --no-deps install_data

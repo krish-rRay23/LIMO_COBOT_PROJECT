@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mycobot_arm/mycobot_arm.egg-info/PKG-INFO
+../../build/mycobot_arm/mycobot_arm.egg-info/SOURCES.txt
+../../build/mycobot_arm/mycobot_arm.egg-info/dependency_links.txt
+../../build/mycobot_arm/mycobot_arm.egg-info/entry_points.txt
+../../build/mycobot_arm/mycobot_arm.egg-info/requires.txt
+../../build/mycobot_arm/mycobot_arm.egg-info/top_level.txt
+../../build/mycobot_arm/mycobot_arm.egg-info/zip-safe
+mycobot_arm/__init__.py
+mycobot_arm/drop_node.py
+mycobot_arm/pick_node.py
+resource/mycobot_arm
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

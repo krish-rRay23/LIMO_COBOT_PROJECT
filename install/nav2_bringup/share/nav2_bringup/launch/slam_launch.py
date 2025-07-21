@@ -1,0 +1,1 @@
+/home/agilex/krish_ws/src/navigation2/nav2_bringup/bringup/launch/slam_launch.py

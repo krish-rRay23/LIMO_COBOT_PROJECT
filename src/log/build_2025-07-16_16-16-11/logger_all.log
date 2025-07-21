@@ -1,0 +1,161 @@
+[15.775s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'nav_handler']
+[15.775s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff841547f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['nav_handler'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff841547f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff84154c70>)
+[16.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[16.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[16.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[16.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[16.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[16.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[16.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/krish_ws/src'
+[16.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[16.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extensions ['ignore', 'ignore_ament_install']
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extension 'ignore'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extension 'ignore_ament_install'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extensions ['colcon_pkg']
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extension 'colcon_pkg'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extensions ['colcon_meta']
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extension 'colcon_meta'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extensions ['ros']
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(nav_handler) by extension 'ros'
+[16.494s] DEBUG:colcon.colcon_core.package_identification:Package 'nav_handler' with type 'ros.ament_python' and name 'nav_handler'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['ignore', 'ignore_ament_install']
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'ignore'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'ignore_ament_install'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['colcon_pkg']
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'colcon_pkg'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['colcon_meta']
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'colcon_meta'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['ros']
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'ros'
+[16.497s] DEBUG:colcon.colcon_core.package_identification:Package 'object_detector' with type 'ros.ament_python' and name 'object_detector'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'ignore'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'ignore_ament_install'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['colcon_pkg']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'colcon_pkg'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['colcon_meta']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'colcon_meta'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['ros']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'ros'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['cmake', 'python']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'cmake'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'python'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['python_setup_py']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'python_setup_py'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'ignore'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'ignore_ament_install'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['colcon_pkg']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'colcon_pkg'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['colcon_meta']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'colcon_meta'
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['ros']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'ros'
+[16.501s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_msgs/vision_msgs' with type 'ros.ament_cmake' and name 'vision_msgs'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore_ament_install'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_pkg']
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_pkg'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_meta']
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_meta'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['ros']
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'ros'
+[16.504s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_msgs/vision_msgs_rviz_plugins' with type 'ros.ament_cmake' and name 'vision_msgs_rviz_plugins'
+[16.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[16.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[16.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[16.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[16.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[17.365s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'object_detector' in 'object_detector'
+[17.365s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_msgs' in 'vision_msgs/vision_msgs'
+[17.365s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_msgs_rviz_plugins' in 'vision_msgs/vision_msgs_rviz_plugins'
+[17.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[17.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[18.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/agilex/krish_ws/install
+[18.717s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /home/agilex/limo_ros2_ws/install
+[18.987s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/foxy
+[18.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_args' from command line to 'None'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_target' from command line to 'None'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_clean_cache' from command line to 'False'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_clean_first' from command line to 'False'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_force_configure' from command line to 'False'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'ament_cmake_args' from command line to 'None'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'catkin_cmake_args' from command line to 'None'
+[19.672s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.673s] DEBUG:colcon.colcon_core.verb:Building package 'nav_handler' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/src/build/nav_handler', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/src/install/nav_handler', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/nav_handler', 'symlink_install': False, 'test_result_base': None}
+[19.940s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[20.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[20.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/krish_ws/src/nav_handler' with build type 'ament_python'
+[20.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_handler', 'ament_prefix_path')
+[20.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[20.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/hook/ament_prefix_path.ps1'
+[20.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/hook/ament_prefix_path.dsv'
+[20.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/hook/ament_prefix_path.sh'
+[20.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.557s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/krish_ws/src/nav_handler'
+[22.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/src/nav_handler': PYTHONPATH=/home/agilex/krish_ws/src/build/nav_handler/prefix_override:/home/agilex/krish_ws/src/install/nav_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/nav_handler build --build-base /home/agilex/krish_ws/src/build/nav_handler/build install --record /home/agilex/krish_ws/src/build/nav_handler/install.log --install-scripts $base/lib/nav_handler --single-version-externally-managed
+[27.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/src/nav_handler' returned '0': PYTHONPATH=/home/agilex/krish_ws/src/build/nav_handler/prefix_override:/home/agilex/krish_ws/src/install/nav_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/nav_handler build --build-base /home/agilex/krish_ws/src/build/nav_handler/build install --record /home/agilex/krish_ws/src/build/nav_handler/install.log --install-scripts $base/lib/nav_handler --single-version-externally-managed
+[27.631s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler' for CMake module files
+[27.632s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler' for CMake config files
+[27.634s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler/lib'
+[27.634s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler/bin'
+[27.634s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler/lib/pkgconfig/nav_handler.pc'
+[27.635s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler/lib/python3.8/site-packages'
+[27.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_handler', 'pythonpath')
+[27.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/hook/pythonpath.ps1'
+[27.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/hook/pythonpath.dsv'
+[27.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/hook/pythonpath.sh'
+[27.912s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/src/install/nav_handler/bin'
+[27.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_handler)
+[28.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/package.ps1'
+[28.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/package.dsv'
+[28.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/package.sh'
+[28.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/package.bash'
+[28.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/src/install/nav_handler/share/nav_handler/package.zsh'
+[28.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/src/install/nav_handler/share/colcon-core/packages/nav_handler)
+[28.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.518s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.ps1'
+[28.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/src/install/_local_setup_util_ps1.py'
+[28.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.ps1'
+[29.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.sh'
+[29.148s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/src/install/_local_setup_util_sh.py'
+[29.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.sh'
+[29.441s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.bash'
+[29.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.bash'
+[29.734s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.zsh'
+[29.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.zsh'

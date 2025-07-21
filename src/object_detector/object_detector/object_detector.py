@@ -5,6 +5,9 @@ from std_msgs.msg import String
 from cv_bridge import CvBridge
 from ultralytics import YOLO
 import numpy as np
+import subprocess
+import threading
+import time
 
 class YoloDetector(Node):
     def __init__(self):
@@ -25,6 +28,12 @@ class YoloDetector(Node):
         self.fx = self.fy = self.cx = self.cy = None
 
         self.get_logger().info("✅ YOLOv8 detector node initialized.")
+
+        # 🔊 Voice notification control
+        self.last_spoken_time = 0
+        self.audio_cooldown = 5  # seconds
+        self.audio_lock = threading.Lock()
+
 
     def camera_info_callback(self, msg):
         self.fx, self.fy = msg.k[0], msg.k[4]
@@ -57,7 +66,18 @@ class YoloDetector(Node):
             return (x_avg, y_avg, z_avg)
         except:
             return None
+        
 
+    def speak_object_detected(self):
+            def speak():
+                with self.audio_lock:
+                    subprocess.call("espeak 'Object detected' --stdout | aplay -D plughw:1,3", shell=True)
+
+            now = time.time()
+            if now - self.last_spoken_time > self.audio_cooldown:
+                self.last_spoken_time = now
+                threading.Thread(target=speak, daemon=True).start()
+    
     def image_callback(self, msg):
         if not self.intrinsics_received or self.latest_depth_image is None:
             return
@@ -68,6 +88,7 @@ class YoloDetector(Node):
         results = self.model.predict(source=color_img, conf=0.5, verbose=False)
 
         if results and results[0].boxes:
+            self.speak_object_detected()
             for box in results[0].boxes:
                 cls_id = int(box.cls)
                 cls_name = self.model.names[cls_id]

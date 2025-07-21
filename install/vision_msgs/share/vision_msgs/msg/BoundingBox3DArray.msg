@@ -1,2 +1,1 @@
-std_msgs/Header header
-vision_msgs/BoundingBox3D[] boxes
+/home/agilex/krish_ws/src/vision_msgs/vision_msgs/msg/BoundingBox3DArray.msg

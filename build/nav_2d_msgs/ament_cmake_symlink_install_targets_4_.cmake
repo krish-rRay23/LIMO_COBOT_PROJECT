@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/agilex/krish_ws/build/nav_2d_msgs/rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "nav_2d_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/nav_2d_msgs")

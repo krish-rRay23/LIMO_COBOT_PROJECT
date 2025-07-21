@@ -1,0 +1,58 @@
+/home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running egg_info
+creating ../../build/system_launcher/system_launcher.egg-info
+writing ../../build/system_launcher/system_launcher.egg-info/PKG-INFO
+writing dependency_links to ../../build/system_launcher/system_launcher.egg-info/dependency_links.txt
+writing requirements to ../../build/system_launcher/system_launcher.egg-info/requires.txt
+writing top-level names to ../../build/system_launcher/system_launcher.egg-info/top_level.txt
+writing manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+reading manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+writing manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/agilex/krish_ws/build/system_launcher/build
+creating /home/agilex/krish_ws/build/system_launcher/build/lib
+creating /home/agilex/krish_ws/build/system_launcher/build/lib/system_launcher
+copying system_launcher/__init__.py -> /home/agilex/krish_ws/build/system_launcher/build/lib/system_launcher
+running install
+/home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+creating /home/agilex/krish_ws/install/system_launcher/lib/python3.8/site-packages/system_launcher
+copying /home/agilex/krish_ws/build/system_launcher/build/lib/system_launcher/__init__.py -> /home/agilex/krish_ws/install/system_launcher/lib/python3.8/site-packages/system_launcher
+byte-compiling /home/agilex/krish_ws/install/system_launcher/lib/python3.8/site-packages/system_launcher/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/agilex/krish_ws/install/system_launcher/share/ament_index
+creating /home/agilex/krish_ws/install/system_launcher/share/ament_index/resource_index
+creating /home/agilex/krish_ws/install/system_launcher/share/ament_index/resource_index/packages
+copying resource/system_launcher -> /home/agilex/krish_ws/install/system_launcher/share/ament_index/resource_index/packages
+copying package.xml -> /home/agilex/krish_ws/install/system_launcher/share/system_launcher
+running install_egg_info
+Copying ../../build/system_launcher/system_launcher.egg-info to /home/agilex/krish_ws/install/system_launcher/lib/python3.8/site-packages/system_launcher-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/agilex/krish_ws/build/system_launcher/install.log'

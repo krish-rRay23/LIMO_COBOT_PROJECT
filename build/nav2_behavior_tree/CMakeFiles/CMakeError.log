@@ -1,0 +1,58 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be78a/fast && /usr/bin/make -f CMakeFiles/cmTC_be78a.dir/build.make CMakeFiles/cmTC_be78a.dir/build
+make[1]: Entering directory '/home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be78a.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_be78a.dir/src.cxx.o -c /home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_be78a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be78a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_be78a.dir/src.cxx.o  -o cmTC_be78a 
+/usr/bin/ld: CMakeFiles/cmTC_be78a.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x48): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_be78a.dir/build.make:87: cmTC_be78a] Error 1
+make[1]: Leaving directory '/home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_be78a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa4dc/fast && /usr/bin/make -f CMakeFiles/cmTC_aa4dc.dir/build.make CMakeFiles/cmTC_aa4dc.dir/build
+make[1]: Entering directory '/home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa4dc.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aa4dc.dir/CheckFunctionExists.cxx.o -c /home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_aa4dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4dc.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aa4dc.dir/CheckFunctionExists.cxx.o  -o cmTC_aa4dc  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_aa4dc.dir/build.make:87: cmTC_aa4dc] Error 1
+make[1]: Leaving directory '/home/agilex/krish_ws/build/nav2_behavior_tree/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aa4dc/fast] Error 2
+
+
+

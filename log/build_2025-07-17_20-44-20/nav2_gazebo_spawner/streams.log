@@ -1,0 +1,65 @@
+[12.931s] Invoking command in '/home/agilex/krish_ws/build/nav2_gazebo_spawner': PYTHONPATH=/home/agilex/krish_ws/build/nav2_gazebo_spawner/prefix_override:/home/agilex/krish_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/agilex/krish_ws/build/nav2_gazebo_spawner/build --no-deps install_data
+[13.844s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[13.844s] !!
+[13.844s] 
+[13.844s]         ********************************************************************************
+[13.845s]         Usage of dash-separated 'script-dir' will not be supported in future
+[13.845s]         versions. Please use the underscore name 'script_dir' instead.
+[13.845s] 
+[13.845s]         This deprecation is overdue, please update your project and remove deprecated
+[13.845s]         calls to avoid build errors in the future.
+[13.845s] 
+[13.845s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[13.846s]         ********************************************************************************
+[13.846s] 
+[13.846s] !!
+[13.846s]   opt = self.warn_dash_deprecation(opt, section)
+[15.035s] running develop
+[15.037s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[15.037s] !!
+[15.037s] 
+[15.037s]         ********************************************************************************
+[15.037s]         Please avoid running ``setup.py`` and ``easy_install``.
+[15.037s]         Instead, use pypa/build, pypa/installer or other
+[15.038s]         standards-based tools.
+[15.038s] 
+[15.038s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[15.038s]         ********************************************************************************
+[15.038s] 
+[15.038s] !!
+[15.038s]   easy_install.initialize_options(self)
+[15.168s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[15.168s] !!
+[15.169s] 
+[15.169s]         ********************************************************************************
+[15.169s]         Please avoid running ``setup.py`` directly.
+[15.169s]         Instead, use pypa/build, pypa/installer or other
+[15.169s]         standards-based tools.
+[15.169s] 
+[15.169s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[15.170s]         ********************************************************************************
+[15.170s] 
+[15.170s] !!
+[15.170s]   self.initialize_options()
+[15.914s] running egg_info
+[15.915s] creating nav2_gazebo_spawner.egg-info
+[15.958s] writing nav2_gazebo_spawner.egg-info/PKG-INFO
+[15.961s] writing dependency_links to nav2_gazebo_spawner.egg-info/dependency_links.txt
+[15.970s] writing entry points to nav2_gazebo_spawner.egg-info/entry_points.txt
+[15.971s] writing requirements to nav2_gazebo_spawner.egg-info/requires.txt
+[15.971s] writing top-level names to nav2_gazebo_spawner.egg-info/top_level.txt
+[15.975s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[16.100s] reading manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[16.100s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[16.374s] running build_ext
+[16.375s] Creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2-gazebo-spawner.egg-link (link to .)
+[16.376s] Installing nav2_gazebo_spawner script to /home/agilex/krish_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[16.376s] 
+[16.376s] Installed /home/agilex/krish_ws/build/nav2_gazebo_spawner
+[16.379s] running install_data
+[16.379s] creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index
+[16.379s] creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index
+[16.379s] creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[16.380s] copying resource/nav2_gazebo_spawner -> /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[16.380s] copying package.xml -> /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/nav2_gazebo_spawner
+[17.464s] Invoked command in '/home/agilex/krish_ws/build/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/nav2_gazebo_spawner/prefix_override:/home/agilex/krish_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/agilex/krish_ws/build/nav2_gazebo_spawner/build --no-deps install_data

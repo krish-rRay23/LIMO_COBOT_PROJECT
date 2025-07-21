@@ -1,0 +1,853 @@
+[16.329s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mycobot_ros2']
+[16.330s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8bafe8b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['mycobot_ros2'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8bafe8b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8bafed30>)
+[17.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[17.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[17.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[17.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[17.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[17.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[17.008s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/krish_ws/src'
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[17.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[17.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[17.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[17.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[17.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[17.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[17.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[17.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[17.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[17.042s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[17.042s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[17.042s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[17.042s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[17.042s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'ignore'
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'ignore_ament_install'
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['colcon_pkg']
+[17.043s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'colcon_pkg'
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['colcon_meta']
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'colcon_meta'
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['ros']
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'ros'
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['cmake', 'python']
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'cmake'
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'python'
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['python_setup_py']
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'python_setup_py'
+[17.044s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extensions ['ignore', 'ignore_ament_install']
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'ignore'
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'ignore_ament_install'
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extensions ['colcon_pkg']
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'colcon_pkg'
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extensions ['colcon_meta']
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'colcon_meta'
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extensions ['ros']
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'ros'
+[17.045s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extensions ['cmake', 'python']
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'cmake'
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'python'
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extensions ['python_setup_py']
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy) by extension 'python_setup_py'
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extensions ['ignore', 'ignore_ament_install']
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extension 'ignore'
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extension 'ignore_ament_install'
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extensions ['colcon_pkg']
+[17.046s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extension 'colcon_pkg'
+[17.047s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extensions ['colcon_meta']
+[17.047s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extension 'colcon_meta'
+[17.047s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extensions ['ros']
+[17.047s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/Mybuddy/mybuddy) by extension 'ros'
+[17.052s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/Mybuddy/mybuddy' with type 'ros.ament_python' and name 'mybuddy'
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extensions ['ignore', 'ignore_ament_install']
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'ignore'
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'ignore_ament_install'
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extensions ['colcon_pkg']
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'colcon_pkg'
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extensions ['colcon_meta']
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'colcon_meta'
+[17.053s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extensions ['ros']
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'ros'
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extensions ['cmake', 'python']
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'cmake'
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'python'
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extensions ['python_setup_py']
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img) by extension 'python_setup_py'
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extensions ['ignore', 'ignore_ament_install']
+[17.054s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'ignore'
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'ignore_ament_install'
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extensions ['colcon_pkg']
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'colcon_pkg'
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extensions ['colcon_meta']
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'colcon_meta'
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extensions ['ros']
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'ros'
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extensions ['cmake', 'python']
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'cmake'
+[17.055s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'python'
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extensions ['python_setup_py']
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260m5) by extension 'python_setup_py'
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extensions ['ignore', 'ignore_ament_install']
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'ignore'
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'ignore_ament_install'
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extensions ['colcon_pkg']
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'colcon_pkg'
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extensions ['colcon_meta']
+[17.056s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'colcon_meta'
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extensions ['ros']
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'ros'
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extensions ['cmake', 'python']
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'cmake'
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'python'
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extensions ['python_setup_py']
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/260pi) by extension 'python_setup_py'
+[17.057s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extensions ['ignore', 'ignore_ament_install']
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'ignore'
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'ignore_ament_install'
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extensions ['colcon_pkg']
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'colcon_pkg'
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extensions ['colcon_meta']
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'colcon_meta'
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extensions ['ros']
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'ros'
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extensions ['cmake', 'python']
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'cmake'
+[17.058s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'python'
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extensions ['python_setup_py']
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270m5) by extension 'python_setup_py'
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extensions ['ignore', 'ignore_ament_install']
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'ignore'
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'ignore_ament_install'
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extensions ['colcon_pkg']
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'colcon_pkg'
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extensions ['colcon_meta']
+[17.059s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'colcon_meta'
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extensions ['ros']
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'ros'
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extensions ['cmake', 'python']
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'cmake'
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'python'
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extensions ['python_setup_py']
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/270pi) by extension 'python_setup_py'
+[17.060s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extensions ['ignore', 'ignore_ament_install']
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'ignore'
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'ignore_ament_install'
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extensions ['colcon_pkg']
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'colcon_pkg'
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extensions ['colcon_meta']
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'colcon_meta'
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extensions ['ros']
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'ros'
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extensions ['cmake', 'python']
+[17.061s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'cmake'
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'python'
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extensions ['python_setup_py']
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280ar) by extension 'python_setup_py'
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extensions ['ignore', 'ignore_ament_install']
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'ignore'
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'ignore_ament_install'
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extensions ['colcon_pkg']
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'colcon_pkg'
+[17.062s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extensions ['colcon_meta']
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'colcon_meta'
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extensions ['ros']
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'ros'
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extensions ['cmake', 'python']
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'cmake'
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'python'
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extensions ['python_setup_py']
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280jn) by extension 'python_setup_py'
+[17.063s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extensions ['ignore', 'ignore_ament_install']
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'ignore'
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'ignore_ament_install'
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extensions ['colcon_pkg']
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'colcon_pkg'
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extensions ['colcon_meta']
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'colcon_meta'
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extensions ['ros']
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'ros'
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extensions ['cmake', 'python']
+[17.064s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'cmake'
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'python'
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extensions ['python_setup_py']
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280m5) by extension 'python_setup_py'
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extensions ['ignore', 'ignore_ament_install']
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'ignore'
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'ignore_ament_install'
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extensions ['colcon_pkg']
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'colcon_pkg'
+[17.065s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extensions ['colcon_meta']
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'colcon_meta'
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extensions ['ros']
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'ros'
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extensions ['cmake', 'python']
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'cmake'
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'python'
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extensions ['python_setup_py']
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/280pi) by extension 'python_setup_py'
+[17.066s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extensions ['ignore', 'ignore_ament_install']
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'ignore'
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'ignore_ament_install'
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extensions ['colcon_pkg']
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'colcon_pkg'
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extensions ['colcon_meta']
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'colcon_meta'
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extensions ['ros']
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'ros'
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extensions ['cmake', 'python']
+[17.067s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'cmake'
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'python'
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extensions ['python_setup_py']
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320m5_2022) by extension 'python_setup_py'
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extensions ['ignore', 'ignore_ament_install']
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'ignore'
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'ignore_ament_install'
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extensions ['colcon_pkg']
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'colcon_pkg'
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extensions ['colcon_meta']
+[17.068s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'colcon_meta'
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extensions ['ros']
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'ros'
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extensions ['cmake', 'python']
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'cmake'
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'python'
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extensions ['python_setup_py']
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/320pi_2022) by extension 'python_setup_py'
+[17.069s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extensions ['ignore', 'ignore_ament_install']
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'ignore'
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'ignore_ament_install'
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extensions ['colcon_pkg']
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'colcon_pkg'
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extensions ['colcon_meta']
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'colcon_meta'
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extensions ['ros']
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'ros'
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extensions ['cmake', 'python']
+[17.070s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'cmake'
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'python'
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extensions ['python_setup_py']
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/myarm300) by extension 'python_setup_py'
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extensions ['ignore', 'ignore_ament_install']
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'ignore'
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'ignore_ament_install'
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extensions ['colcon_pkg']
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'colcon_pkg'
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extensions ['colcon_meta']
+[17.071s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'colcon_meta'
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extensions ['ros']
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'ros'
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extensions ['cmake', 'python']
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'cmake'
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'python'
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extensions ['python_setup_py']
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/mybuddy) by extension 'python_setup_py'
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extensions ['ignore', 'ignore_ament_install']
+[17.072s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'ignore'
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'ignore_ament_install'
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extensions ['colcon_pkg']
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'colcon_pkg'
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extensions ['colcon_meta']
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'colcon_meta'
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extensions ['ros']
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'ros'
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extensions ['cmake', 'python']
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'cmake'
+[17.073s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'python'
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extensions ['python_setup_py']
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro600) by extension 'python_setup_py'
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extensions ['ignore', 'ignore_ament_install']
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'ignore'
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'ignore_ament_install'
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extensions ['colcon_pkg']
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'colcon_pkg'
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extensions ['colcon_meta']
+[17.074s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'colcon_meta'
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extensions ['ros']
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'ros'
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extensions ['cmake', 'python']
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'cmake'
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'python'
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extensions ['python_setup_py']
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/pro630) by extension 'python_setup_py'
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extensions ['ignore', 'ignore_ament_install']
+[17.075s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'ignore'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'ignore_ament_install'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extensions ['colcon_pkg']
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'colcon_pkg'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extensions ['colcon_meta']
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'colcon_meta'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extensions ['ros']
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'ros'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extensions ['cmake', 'python']
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'cmake'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'python'
+[17.076s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extensions ['python_setup_py']
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/demo_img/ultraArm_p340) by extension 'python_setup_py'
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extensions ['ignore', 'ignore_ament_install']
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'ignore'
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'ignore_ament_install'
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extensions ['colcon_pkg']
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'colcon_pkg'
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extensions ['colcon_meta']
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'colcon_meta'
+[17.077s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extensions ['ros']
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'ros'
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extensions ['cmake', 'python']
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'cmake'
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'python'
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extensions ['python_setup_py']
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm) by extension 'python_setup_py'
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extensions ['ignore', 'ignore_ament_install']
+[17.078s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extension 'ignore'
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extension 'ignore_ament_install'
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extensions ['colcon_pkg']
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extension 'colcon_pkg'
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extensions ['colcon_meta']
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extension 'colcon_meta'
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extensions ['ros']
+[17.079s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm) by extension 'ros'
+[17.080s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mecharm/mecharm' with type 'ros.ament_python' and name 'mecharm'
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extensions ['ignore', 'ignore_ament_install']
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extension 'ignore'
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extension 'ignore_ament_install'
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extensions ['colcon_pkg']
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extension 'colcon_pkg'
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extensions ['colcon_meta']
+[17.081s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extension 'colcon_meta'
+[17.082s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extensions ['ros']
+[17.082s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_communication) by extension 'ros'
+[17.083s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mecharm/mecharm_communication' with type 'ros.ament_python' and name 'mecharm_communication'
+[17.083s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[17.083s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extension 'ignore'
+[17.083s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extension 'ignore_ament_install'
+[17.084s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extensions ['colcon_pkg']
+[17.084s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extension 'colcon_pkg'
+[17.084s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extensions ['colcon_meta']
+[17.084s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extension 'colcon_meta'
+[17.084s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extensions ['ros']
+[17.084s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_interfaces) by extension 'ros'
+[17.085s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mecharm/mecharm_interfaces' with type 'ros.ament_cmake' and name 'mecharm_interfaces'
+[17.085s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extensions ['ignore', 'ignore_ament_install']
+[17.085s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extension 'ignore'
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extension 'ignore_ament_install'
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extensions ['colcon_pkg']
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extension 'colcon_pkg'
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extensions ['colcon_meta']
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extension 'colcon_meta'
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extensions ['ros']
+[17.086s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mecharm/mecharm_pi) by extension 'ros'
+[17.087s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mecharm/mecharm_pi' with type 'ros.ament_python' and name 'mecharm_pi'
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extensions ['ignore', 'ignore_ament_install']
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'ignore'
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'ignore_ament_install'
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extensions ['colcon_pkg']
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'colcon_pkg'
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extensions ['colcon_meta']
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'colcon_meta'
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extensions ['ros']
+[17.088s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'ros'
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extensions ['cmake', 'python']
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'cmake'
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'python'
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extensions ['python_setup_py']
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm) by extension 'python_setup_py'
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extensions ['ignore', 'ignore_ament_install']
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extension 'ignore'
+[17.089s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extension 'ignore_ament_install'
+[17.090s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extensions ['colcon_pkg']
+[17.090s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extension 'colcon_pkg'
+[17.090s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extensions ['colcon_meta']
+[17.090s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extension 'colcon_meta'
+[17.090s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extensions ['ros']
+[17.090s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_300) by extension 'ros'
+[17.091s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/myArm/myarm_300' with type 'ros.ament_python' and name 'myarm_300'
+[17.091s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extensions ['ignore', 'ignore_ament_install']
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extension 'ignore'
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extension 'ignore_ament_install'
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extensions ['colcon_pkg']
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extension 'colcon_pkg'
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extensions ['colcon_meta']
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extension 'colcon_meta'
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extensions ['ros']
+[17.092s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_c650) by extension 'ros'
+[17.094s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/myArm/myarm_c650' with type 'ros.ament_python' and name 'myarm_c650'
+[17.094s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extensions ['ignore', 'ignore_ament_install']
+[17.094s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extension 'ignore'
+[17.094s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extension 'ignore_ament_install'
+[17.095s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extensions ['colcon_pkg']
+[17.095s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extension 'colcon_pkg'
+[17.095s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extensions ['colcon_meta']
+[17.095s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extension 'colcon_meta'
+[17.095s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extensions ['ros']
+[17.095s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/myArm/myarm_m750) by extension 'ros'
+[17.097s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/myArm/myarm_m750' with type 'ros.ament_python' and name 'myarm_m750'
+[17.097s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extensions ['ignore', 'ignore_ament_install']
+[17.097s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'ignore'
+[17.097s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'ignore_ament_install'
+[17.097s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extensions ['colcon_pkg']
+[17.097s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'colcon_pkg'
+[17.097s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extensions ['colcon_meta']
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'colcon_meta'
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extensions ['ros']
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'ros'
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extensions ['cmake', 'python']
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'cmake'
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'python'
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extensions ['python_setup_py']
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280) by extension 'python_setup_py'
+[17.098s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extensions ['ignore', 'ignore_ament_install']
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extension 'ignore'
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extension 'ignore_ament_install'
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extensions ['colcon_pkg']
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extension 'colcon_pkg'
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extensions ['colcon_meta']
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extension 'colcon_meta'
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extensions ['ros']
+[17.099s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280) by extension 'ros'
+[17.101s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280' with type 'ros.ament_python' and name 'mycobot_280'
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extensions ['ignore', 'ignore_ament_install']
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extension 'ignore'
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extension 'ignore_ament_install'
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extensions ['colcon_pkg']
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extension 'colcon_pkg'
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extensions ['colcon_meta']
+[17.101s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extension 'colcon_meta'
+[17.102s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extensions ['ros']
+[17.102s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_arduino) by extension 'ros'
+[17.103s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280_arduino' with type 'ros.ament_python' and name 'mycobot_280_arduino'
+[17.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[17.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extension 'ignore'
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extension 'ignore_ament_install'
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extensions ['colcon_pkg']
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extension 'colcon_pkg'
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extensions ['colcon_meta']
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extension 'colcon_meta'
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extensions ['ros']
+[17.104s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2) by extension 'ros'
+[17.106s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280_moveit2' with type 'ros.ament_cmake' and name 'mycobot_280_moveit2'
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extensions ['ignore', 'ignore_ament_install']
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extension 'ignore'
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extension 'ignore_ament_install'
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extensions ['colcon_pkg']
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extension 'colcon_pkg'
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extensions ['colcon_meta']
+[17.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extension 'colcon_meta'
+[17.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extensions ['ros']
+[17.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_moveit2_control) by extension 'ros'
+[17.108s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280_moveit2_control' with type 'ros.ament_python' and name 'mycobot_280_moveit2_control'
+[17.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extensions ['ignore', 'ignore_ament_install']
+[17.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extension 'ignore'
+[17.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extension 'ignore_ament_install'
+[17.109s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extensions ['colcon_pkg']
+[17.109s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extension 'colcon_pkg'
+[17.109s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extensions ['colcon_meta']
+[17.109s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extension 'colcon_meta'
+[17.109s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extensions ['ros']
+[17.109s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_rdkx5) by extension 'ros'
+[17.110s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280_rdkx5' with type 'ros.ament_python' and name 'mycobot_280_rdkx5'
+[17.110s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extensions ['ignore', 'ignore_ament_install']
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extension 'ignore'
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extension 'ignore_ament_install'
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extensions ['colcon_pkg']
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extension 'colcon_pkg'
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extensions ['colcon_meta']
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extension 'colcon_meta'
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extensions ['ros']
+[17.111s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_riscv) by extension 'ros'
+[17.113s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280_riscv' with type 'ros.ament_python' and name 'mycobot_280_riscv'
+[17.113s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extensions ['ignore', 'ignore_ament_install']
+[17.113s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extension 'ignore'
+[17.113s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extension 'ignore_ament_install'
+[17.113s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extensions ['colcon_pkg']
+[17.114s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extension 'colcon_pkg'
+[17.114s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extensions ['colcon_meta']
+[17.114s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extension 'colcon_meta'
+[17.114s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extensions ['ros']
+[17.114s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280_x3pi) by extension 'ros'
+[17.115s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280_x3pi' with type 'ros.ament_python' and name 'mycobot_280_x3pi'
+[17.115s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extension 'ignore'
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extension 'ignore_ament_install'
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extensions ['colcon_pkg']
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extension 'colcon_pkg'
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extensions ['colcon_meta']
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extension 'colcon_meta'
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extensions ['ros']
+[17.116s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2) by extension 'ros'
+[17.118s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2' with type 'ros.ament_cmake' and name 'mycobot_280arduino_moveit2'
+[17.118s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extensions ['ignore', 'ignore_ament_install']
+[17.118s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'ignore'
+[17.118s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'ignore_ament_install'
+[17.118s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extensions ['colcon_pkg']
+[17.118s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'colcon_pkg'
+[17.118s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extensions ['colcon_meta']
+[17.119s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'colcon_meta'
+[17.119s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extensions ['ros']
+[17.119s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'ros'
+[17.120s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280jn' with type 'ros.ament_python' and name 'mycobot_280jn'
+[17.120s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extensions ['ignore', 'ignore_ament_install']
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'ignore'
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'ignore_ament_install'
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extensions ['colcon_pkg']
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'colcon_pkg'
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extensions ['colcon_meta']
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'colcon_meta'
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extensions ['ros']
+[17.121s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'ros'
+[17.123s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280pi' with type 'ros.ament_python' and name 'mycobot_280pi'
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extension 'ignore'
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extension 'ignore_ament_install'
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extensions ['colcon_pkg']
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extension 'colcon_pkg'
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extensions ['colcon_meta']
+[17.123s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extension 'colcon_meta'
+[17.124s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extensions ['ros']
+[17.124s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2) by extension 'ros'
+[17.125s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2' with type 'ros.ament_cmake' and name 'mycobot_280rdkx5_moveit2'
+[17.125s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[17.125s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ignore'
+[17.125s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ignore_ament_install'
+[17.126s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['colcon_pkg']
+[17.126s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'colcon_pkg'
+[17.126s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['colcon_meta']
+[17.126s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'colcon_meta'
+[17.126s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['ros']
+[17.126s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ros'
+[17.127s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_280/mycobot_interfaces' with type 'ros.ament_cmake' and name 'mycobot_interfaces'
+[17.127s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extensions ['ignore', 'ignore_ament_install']
+[17.127s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'ignore'
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'ignore_ament_install'
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extensions ['colcon_pkg']
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'colcon_pkg'
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extensions ['colcon_meta']
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'colcon_meta'
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extensions ['ros']
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'ros'
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extensions ['cmake', 'python']
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'cmake'
+[17.128s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'python'
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extensions ['python_setup_py']
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320) by extension 'python_setup_py'
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extensions ['ignore', 'ignore_ament_install']
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extension 'ignore'
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extension 'ignore_ament_install'
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extensions ['colcon_pkg']
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extension 'colcon_pkg'
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extensions ['colcon_meta']
+[17.129s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extension 'colcon_meta'
+[17.130s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extensions ['ros']
+[17.130s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320) by extension 'ros'
+[17.131s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_320/mycobot_320' with type 'ros.ament_python' and name 'mycobot_320'
+[17.131s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extensions ['ignore', 'ignore_ament_install']
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extension 'ignore'
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extension 'ignore_ament_install'
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extensions ['colcon_pkg']
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extension 'colcon_pkg'
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extensions ['colcon_meta']
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extension 'colcon_meta'
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extensions ['ros']
+[17.132s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320_riscv) by extension 'ros'
+[17.133s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_320/mycobot_320_riscv' with type 'ros.ament_python' and name 'mycobot_320_riscv'
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extensions ['ignore', 'ignore_ament_install']
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extension 'ignore'
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extension 'ignore_ament_install'
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extensions ['colcon_pkg']
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extension 'colcon_pkg'
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extensions ['colcon_meta']
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extension 'colcon_meta'
+[17.134s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extensions ['ros']
+[17.135s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_320/mycobot_320pi) by extension 'ros'
+[17.136s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_320/mycobot_320pi' with type 'ros.ament_python' and name 'mycobot_320pi'
+[17.136s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extensions ['ignore', 'ignore_ament_install']
+[17.136s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extension 'ignore'
+[17.136s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extension 'ignore_ament_install'
+[17.136s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extensions ['colcon_pkg']
+[17.136s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extension 'colcon_pkg'
+[17.137s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extensions ['colcon_meta']
+[17.137s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extension 'colcon_meta'
+[17.137s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extensions ['ros']
+[17.137s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_communication) by extension 'ros'
+[17.138s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_communication' with type 'ros.ament_python' and name 'mycobot_communication'
+[17.138s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extensions ['ignore', 'ignore_ament_install']
+[17.138s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extension 'ignore'
+[17.138s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extension 'ignore_ament_install'
+[17.139s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extensions ['colcon_pkg']
+[17.139s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extension 'colcon_pkg'
+[17.139s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extensions ['colcon_meta']
+[17.139s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extension 'colcon_meta'
+[17.139s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extensions ['ros']
+[17.139s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_description) by extension 'ros'
+[17.140s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_description' with type 'ros.ament_python' and name 'mycobot_description'
+[17.140s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extensions ['ignore', 'ignore_ament_install']
+[17.140s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'ignore'
+[17.140s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'ignore_ament_install'
+[17.140s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extensions ['colcon_pkg']
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'colcon_pkg'
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extensions ['colcon_meta']
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'colcon_meta'
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extensions ['ros']
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'ros'
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extensions ['cmake', 'python']
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'cmake'
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'python'
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extensions ['python_setup_py']
+[17.141s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro) by extension 'python_setup_py'
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extensions ['ignore', 'ignore_ament_install']
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extension 'ignore'
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extension 'ignore_ament_install'
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extensions ['colcon_pkg']
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extension 'colcon_pkg'
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extensions ['colcon_meta']
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extension 'colcon_meta'
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extensions ['ros']
+[17.142s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_600) by extension 'ros'
+[17.144s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_pro/mycobot_600' with type 'ros.ament_python' and name 'mycobot_600'
+[17.144s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extensions ['ignore', 'ignore_ament_install']
+[17.144s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extension 'ignore'
+[17.144s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extension 'ignore_ament_install'
+[17.145s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extensions ['colcon_pkg']
+[17.145s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extension 'colcon_pkg'
+[17.145s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extensions ['colcon_meta']
+[17.145s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extension 'colcon_meta'
+[17.145s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extensions ['ros']
+[17.145s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mycobot_pro/mycobot_630) by extension 'ros'
+[17.146s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mycobot_pro/mycobot_630' with type 'ros.ament_python' and name 'mycobot_630'
+[17.146s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extensions ['ignore', 'ignore_ament_install']
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'ignore'
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'ignore_ament_install'
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extensions ['colcon_pkg']
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'colcon_pkg'
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extensions ['colcon_meta']
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'colcon_meta'
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extensions ['ros']
+[17.147s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'ros'
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extensions ['cmake', 'python']
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'cmake'
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'python'
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extensions ['python_setup_py']
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260) by extension 'python_setup_py'
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extensions ['ignore', 'ignore_ament_install']
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extension 'ignore'
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extension 'ignore_ament_install'
+[17.148s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extensions ['colcon_pkg']
+[17.149s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extension 'colcon_pkg'
+[17.149s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extensions ['colcon_meta']
+[17.149s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extension 'colcon_meta'
+[17.149s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extensions ['ros']
+[17.149s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260) by extension 'ros'
+[17.150s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mypalletizer_260/mypalletizer_260' with type 'ros.ament_python' and name 'mypalletizer_260'
+[17.150s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extensions ['ignore', 'ignore_ament_install']
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extension 'ignore'
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extension 'ignore_ament_install'
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extensions ['colcon_pkg']
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extension 'colcon_pkg'
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extensions ['colcon_meta']
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extension 'colcon_meta'
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extensions ['ros']
+[17.151s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_260_pi) by extension 'ros'
+[17.154s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mypalletizer_260/mypalletizer_260_pi' with type 'ros.ament_python' and name 'mypalletizer_260_pi'
+[17.154s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extensions ['ignore', 'ignore_ament_install']
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extension 'ignore'
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extension 'ignore_ament_install'
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extensions ['colcon_pkg']
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extension 'colcon_pkg'
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extensions ['colcon_meta']
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extension 'colcon_meta'
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extensions ['ros']
+[17.155s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_communication) by extension 'ros'
+[17.157s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mypalletizer_260/mypalletizer_communication' with type 'ros.ament_python' and name 'mypalletizer_communication'
+[17.157s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[17.157s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extension 'ignore'
+[17.157s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extension 'ignore_ament_install'
+[17.157s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extensions ['colcon_pkg']
+[17.158s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extension 'colcon_pkg'
+[17.158s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extensions ['colcon_meta']
+[17.158s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extension 'colcon_meta'
+[17.158s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extensions ['ros']
+[17.158s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/mypalletizer_260/mypalletizer_interfaces) by extension 'ros'
+[17.159s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/mypalletizer_260/mypalletizer_interfaces' with type 'ros.ament_cmake' and name 'mypalletizer_interfaces'
+[17.159s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extensions ['ignore', 'ignore_ament_install']
+[17.159s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'ignore'
+[17.159s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'ignore_ament_install'
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extensions ['colcon_pkg']
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'colcon_pkg'
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extensions ['colcon_meta']
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'colcon_meta'
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extensions ['ros']
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'ros'
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extensions ['cmake', 'python']
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'cmake'
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'python'
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extensions ['python_setup_py']
+[17.160s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm) by extension 'python_setup_py'
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extensions ['ignore', 'ignore_ament_install']
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'ignore'
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'ignore_ament_install'
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extensions ['colcon_pkg']
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'colcon_pkg'
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extensions ['colcon_meta']
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'colcon_meta'
+[17.161s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extensions ['ros']
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'ros'
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extensions ['cmake', 'python']
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'cmake'
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'python'
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extensions ['python_setup_py']
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool) by extension 'python_setup_py'
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[17.162s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'ignore'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'ignore_ament_install'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extensions ['colcon_pkg']
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'colcon_pkg'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extensions ['colcon_meta']
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'colcon_meta'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extensions ['ros']
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'ros'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extensions ['cmake', 'python']
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'cmake'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'python'
+[17.163s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extensions ['python_setup_py']
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraArm_Testtool/__pycache__) by extension 'python_setup_py'
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extensions ['ignore', 'ignore_ament_install']
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extension 'ignore'
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extension 'ignore_ament_install'
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extensions ['colcon_pkg']
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extension 'colcon_pkg'
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extensions ['colcon_meta']
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extension 'colcon_meta'
+[17.164s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extensions ['ros']
+[17.165s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2/ultraArm/ultraarm) by extension 'ros'
+[17.166s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2/ultraArm/ultraarm' with type 'ros.ament_python' and name 'ultraarm'
+[17.166s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['ignore', 'ignore_ament_install']
+[17.166s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'ignore'
+[17.166s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'ignore_ament_install'
+[17.166s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['colcon_pkg']
+[17.167s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'colcon_pkg'
+[17.167s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['colcon_meta']
+[17.167s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'colcon_meta'
+[17.167s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extensions ['ros']
+[17.167s] Level 1:colcon.colcon_core.package_identification:_identify(object_detector) by extension 'ros'
+[17.168s] DEBUG:colcon.colcon_core.package_identification:Package 'object_detector' with type 'ros.ament_python' and name 'object_detector'
+[17.168s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extensions ['ignore', 'ignore_ament_install']
+[17.168s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extension 'ignore'
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extension 'ignore_ament_install'
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extensions ['colcon_pkg']
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extension 'colcon_pkg'
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extensions ['colcon_meta']
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extension 'colcon_meta'
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extensions ['ros']
+[17.169s] Level 1:colcon.colcon_core.package_identification:_identify(object_search) by extension 'ros'
+[17.171s] DEBUG:colcon.colcon_core.package_identification:Package 'object_search' with type 'ros.ament_python' and name 'object_search'
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'ignore'
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'ignore_ament_install'
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['colcon_pkg']
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'colcon_pkg'
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['colcon_meta']
+[17.171s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'colcon_meta'
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['ros']
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'ros'
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['cmake', 'python']
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'cmake'
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'python'
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extensions ['python_setup_py']
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs) by extension 'python_setup_py'
+[17.172s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'ignore'
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'ignore_ament_install'
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['colcon_pkg']
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'colcon_pkg'
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['colcon_meta']
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'colcon_meta'
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extensions ['ros']
+[17.173s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs) by extension 'ros'
+[17.174s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_msgs/vision_msgs' with type 'ros.ament_cmake' and name 'vision_msgs'
+[17.174s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore'
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore_ament_install'
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_pkg']
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_pkg'
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_meta']
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_meta'
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extensions ['ros']
+[17.175s] Level 1:colcon.colcon_core.package_identification:_identify(vision_msgs/vision_msgs_rviz_plugins) by extension 'ros'
+[17.177s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_msgs/vision_msgs_rviz_plugins' with type 'ros.ament_cmake' and name 'vision_msgs_rviz_plugins'
+[17.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[17.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[17.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[17.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[17.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[17.451s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'mycobot_ros2' in --packages-select
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mecharm_interfaces' in 'mycobot_ros2/mecharm/mecharm_interfaces'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_description' in 'mycobot_ros2/mycobot_description'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_interfaces' in 'mycobot_ros2/mycobot_280/mycobot_interfaces'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mypalletizer_interfaces' in 'mycobot_ros2/mypalletizer_260/mypalletizer_interfaces'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'object_detector' in 'object_detector'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'object_search' in 'object_search'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_msgs' in 'vision_msgs/vision_msgs'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mecharm' in 'mycobot_ros2/mecharm/mecharm'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mecharm_communication' in 'mycobot_ros2/mecharm/mecharm_communication'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mecharm_pi' in 'mycobot_ros2/mecharm/mecharm_pi'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'myarm_300' in 'mycobot_ros2/myArm/myarm_300'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mybuddy' in 'mycobot_ros2/Mybuddy/mybuddy'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280' in 'mycobot_ros2/mycobot_280/mycobot_280'
+[18.072s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280_arduino' in 'mycobot_ros2/mycobot_280/mycobot_280_arduino'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280_moveit2' in 'mycobot_ros2/mycobot_280/mycobot_280_moveit2'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280_moveit2_control' in 'mycobot_ros2/mycobot_280/mycobot_280_moveit2_control'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280_riscv' in 'mycobot_ros2/mycobot_280/mycobot_280_riscv'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280_x3pi' in 'mycobot_ros2/mycobot_280/mycobot_280_x3pi'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280arduino_moveit2' in 'mycobot_ros2/mycobot_280/mycobot_280arduino_moveit2'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280jn' in 'mycobot_ros2/mycobot_280/mycobot_280jn'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280pi' in 'mycobot_ros2/mycobot_280/mycobot_280pi'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280rdkx5_moveit2' in 'mycobot_ros2/mycobot_280/mycobot_280rdkx5_moveit2'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_320' in 'mycobot_ros2/mycobot_320/mycobot_320'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_320_riscv' in 'mycobot_ros2/mycobot_320/mycobot_320_riscv'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_320pi' in 'mycobot_ros2/mycobot_320/mycobot_320pi'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_600' in 'mycobot_ros2/mycobot_pro/mycobot_600'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_630' in 'mycobot_ros2/mycobot_pro/mycobot_630'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_communication' in 'mycobot_ros2/mycobot_communication'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mypalletizer_260' in 'mycobot_ros2/mypalletizer_260/mypalletizer_260'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mypalletizer_260_pi' in 'mycobot_ros2/mypalletizer_260/mypalletizer_260_pi'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mypalletizer_communication' in 'mycobot_ros2/mypalletizer_260/mypalletizer_communication'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ultraarm' in 'mycobot_ros2/ultraArm/ultraarm'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_msgs_rviz_plugins' in 'vision_msgs/vision_msgs_rviz_plugins'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'myarm_c650' in 'mycobot_ros2/myArm/myarm_c650'
+[18.073s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'myarm_m750' in 'mycobot_ros2/myArm/myarm_m750'
+[18.074s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_280_rdkx5' in 'mycobot_ros2/mycobot_280/mycobot_280_rdkx5'
+[18.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[18.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[19.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/agilex/krish_ws/install
+[19.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /home/agilex/limo_ros2_ws/install
+[19.745s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/foxy
+[19.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[20.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[20.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[20.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.742s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.029s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.029s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.029s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.087s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[21.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.ps1'
+[21.395s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/src/install/_local_setup_util_ps1.py'
+[21.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.ps1'
+[21.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.sh'
+[21.689s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/src/install/_local_setup_util_sh.py'
+[21.690s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.sh'
+[21.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.bash'
+[21.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.bash'
+[22.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/src/install/local_setup.zsh'
+[22.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/src/install/setup.zsh'

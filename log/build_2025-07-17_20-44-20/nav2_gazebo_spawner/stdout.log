@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating nav2_gazebo_spawner.egg-info
+writing nav2_gazebo_spawner.egg-info/PKG-INFO
+writing dependency_links to nav2_gazebo_spawner.egg-info/dependency_links.txt
+writing entry points to nav2_gazebo_spawner.egg-info/entry_points.txt
+writing requirements to nav2_gazebo_spawner.egg-info/requires.txt
+writing top-level names to nav2_gazebo_spawner.egg-info/top_level.txt
+writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+reading manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2-gazebo-spawner.egg-link (link to .)
+Installing nav2_gazebo_spawner script to /home/agilex/krish_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+
+Installed /home/agilex/krish_ws/build/nav2_gazebo_spawner
+running install_data
+creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index
+creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index
+creating /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+copying resource/nav2_gazebo_spawner -> /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+copying package.xml -> /home/agilex/krish_ws/install/nav2_gazebo_spawner/share/nav2_gazebo_spawner

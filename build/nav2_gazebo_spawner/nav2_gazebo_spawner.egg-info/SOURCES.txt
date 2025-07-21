@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+nav2_gazebo_spawner/__init__.py
+nav2_gazebo_spawner/nav2_gazebo_spawner.py
+nav2_gazebo_spawner.egg-info/PKG-INFO
+nav2_gazebo_spawner.egg-info/SOURCES.txt
+nav2_gazebo_spawner.egg-info/dependency_links.txt
+nav2_gazebo_spawner.egg-info/entry_points.txt
+nav2_gazebo_spawner.egg-info/requires.txt
+nav2_gazebo_spawner.egg-info/top_level.txt
+nav2_gazebo_spawner.egg-info/zip-safe
+resource/nav2_gazebo_spawner

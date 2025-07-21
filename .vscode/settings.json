@@ -72,5 +72,6 @@
         "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages",
         "/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "cmake.ignoreCMakeListsMissing": true
 }

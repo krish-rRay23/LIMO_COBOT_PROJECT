@@ -1,0 +1,3 @@
+[console_scripts]
+drop_node = mycobot_arm.drop_node:main
+pick_node = mycobot_arm.pick_node:main
