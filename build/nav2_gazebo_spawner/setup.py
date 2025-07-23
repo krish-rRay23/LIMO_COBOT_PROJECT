@@ -1,1 +1,0 @@
-/home/agilex/krish_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner/setup.py

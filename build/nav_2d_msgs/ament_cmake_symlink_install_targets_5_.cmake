@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/agilex/krish_ws/build/nav_2d_msgs/rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__python.so" "TARGETS" "nav_2d_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

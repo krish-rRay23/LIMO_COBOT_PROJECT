@@ -1,4 +1,0 @@
-Metadata-Version: 2.1
-Name: nav2_gazebo_spawner
-Version: 0.3.0
-Requires-Dist: setuptools

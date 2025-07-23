@@ -1,1 +1,0 @@
-/home/agilex/krish_ws/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.hpp

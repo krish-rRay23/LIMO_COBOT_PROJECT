@@ -1,1 +1,0 @@
-/home/agilex/krish_ws/src/system_launcher/launch/full_system.launch.py

@@ -1,1 +1,0 @@
-/home/agilex/krish_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTwists_Request.msg

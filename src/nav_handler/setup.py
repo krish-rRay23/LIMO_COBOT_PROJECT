@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'object_handler = nav_handler.object_handler:main',
+            'exploration_handler = nav_handler.exploration_handler:main',
+            'pose_setter = nav_handler.pose_setter:main',
+            'mission_manager = nav_handler.mission_manager:main',
         ],
     },
 )

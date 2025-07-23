@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/agilex/krish_ws/build/nav2_waypoint_follower/libwaypoint_follower_core.so" "TARGETS" "waypoint_follower_core" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

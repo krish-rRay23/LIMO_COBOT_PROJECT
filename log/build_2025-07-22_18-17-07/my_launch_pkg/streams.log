@@ -1,0 +1,66 @@
+[17.412s] Invoking command in '/home/agilex/krish_ws/build/my_launch_pkg': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/agilex/krish_ws/build/my_launch_pkg/build --no-deps install_data
+[17.978s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[17.979s] !!
+[17.979s] 
+[17.980s]         ********************************************************************************
+[17.980s]         Usage of dash-separated 'script-dir' will not be supported in future
+[17.980s]         versions. Please use the underscore name 'script_dir' instead.
+[17.981s] 
+[17.981s]         This deprecation is overdue, please update your project and remove deprecated
+[17.981s]         calls to avoid build errors in the future.
+[17.981s] 
+[17.981s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[17.982s]         ********************************************************************************
+[17.982s] 
+[17.982s] !!
+[17.982s]   opt = self.warn_dash_deprecation(opt, section)
+[19.173s] running develop
+[19.174s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[19.174s] !!
+[19.174s] 
+[19.174s]         ********************************************************************************
+[19.174s]         Please avoid running ``setup.py`` and ``easy_install``.
+[19.174s]         Instead, use pypa/build, pypa/installer or other
+[19.174s]         standards-based tools.
+[19.175s] 
+[19.175s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[19.175s]         ********************************************************************************
+[19.175s] 
+[19.175s] !!
+[19.175s]   easy_install.initialize_options(self)
+[19.398s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[19.399s] !!
+[19.399s] 
+[19.399s]         ********************************************************************************
+[19.400s]         Please avoid running ``setup.py`` directly.
+[19.400s]         Instead, use pypa/build, pypa/installer or other
+[19.400s]         standards-based tools.
+[19.400s] 
+[19.401s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[19.401s]         ********************************************************************************
+[19.401s] 
+[19.401s] !!
+[19.402s]   self.initialize_options()
+[20.298s] running egg_info
+[20.299s] creating my_launch_pkg.egg-info
+[20.344s] writing my_launch_pkg.egg-info/PKG-INFO
+[20.345s] writing dependency_links to my_launch_pkg.egg-info/dependency_links.txt
+[20.345s] writing requirements to my_launch_pkg.egg-info/requires.txt
+[20.346s] writing top-level names to my_launch_pkg.egg-info/top_level.txt
+[20.351s] writing manifest file 'my_launch_pkg.egg-info/SOURCES.txt'
+[20.516s] reading manifest file 'my_launch_pkg.egg-info/SOURCES.txt'
+[20.516s] writing manifest file 'my_launch_pkg.egg-info/SOURCES.txt'
+[20.700s] running build_ext
+[20.700s] Creating /home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages/my-launch-pkg.egg-link (link to .)
+[20.703s] 
+[20.703s] Installed /home/agilex/krish_ws/build/my_launch_pkg
+[20.703s] running install_data
+[20.703s] creating /home/agilex/krish_ws/install/my_launch_pkg/share/ament_index
+[20.704s] creating /home/agilex/krish_ws/install/my_launch_pkg/share/ament_index/resource_index
+[20.704s] creating /home/agilex/krish_ws/install/my_launch_pkg/share/ament_index/resource_index/packages
+[20.704s] copying resource/my_launch_pkg -> /home/agilex/krish_ws/install/my_launch_pkg/share/ament_index/resource_index/packages
+[20.704s] copying package.xml -> /home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg
+[20.704s] creating /home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/launch
+[20.704s] copying launch/full_system.launch.py -> /home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/launch
+[20.717s] error: can't copy 'launch/rtab_explore.launch.py': doesn't exist or not a regular file
+[23.437s] Invoked command in '/home/agilex/krish_ws/build/my_launch_pkg' returned '1': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/agilex/krish_ws/build/my_launch_pkg/build --no-deps install_data

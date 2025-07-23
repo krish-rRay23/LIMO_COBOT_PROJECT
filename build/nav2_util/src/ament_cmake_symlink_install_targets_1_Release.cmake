@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/agilex/krish_ws/build/nav2_util/src/lifecycle_bringup" "/home/agilex/krish_ws/build/nav2_util/src/dump_params" "TARGETS" "lifecycle_bringup" "dump_params" "RUNTIME_DESTINATION" "lib/nav2_util")

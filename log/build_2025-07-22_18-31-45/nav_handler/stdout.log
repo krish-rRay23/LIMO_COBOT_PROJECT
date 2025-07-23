@@ -1,0 +1,40 @@
+running develop
+Removing /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav-handler.egg-link (link to .)
+running egg_info
+writing ../../build/nav_handler/nav_handler.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav_handler/nav_handler.egg-info/dependency_links.txt
+writing entry points to ../../build/nav_handler/nav_handler.egg-info/entry_points.txt
+writing requirements to ../../build/nav_handler/nav_handler.egg-info/requires.txt
+writing top-level names to ../../build/nav_handler/nav_handler.egg-info/top_level.txt
+reading manifest file '../../build/nav_handler/nav_handler.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav_handler/nav_handler.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/agilex/krish_ws/build/nav_handler/build
+creating /home/agilex/krish_ws/build/nav_handler/build/lib
+creating /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+copying nav_handler/__init__.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+copying nav_handler/object_handler.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+copying nav_handler/pose_setter.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+copying nav_handler/exploration_handler.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+running install
+running install_lib
+creating /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler
+copying /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler/__init__.py -> /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler
+copying /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler/object_handler.py -> /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler
+copying /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler/pose_setter.py -> /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler
+copying /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler/exploration_handler.py -> /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler
+byte-compiling /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler/object_handler.py to object_handler.cpython-38.pyc
+byte-compiling /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler/pose_setter.py to pose_setter.cpython-38.pyc
+byte-compiling /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler/exploration_handler.py to exploration_handler.cpython-38.pyc
+running install_data
+copying resource/nav_handler -> /home/agilex/krish_ws/install/nav_handler/share/ament_index/resource_index/packages
+copying package.xml -> /home/agilex/krish_ws/install/nav_handler/share/nav_handler
+running install_egg_info
+Copying ../../build/nav_handler/nav_handler.egg-info to /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler-0.0.0-py3.8.egg-info
+running install_scripts
+Installing exploration_handler script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler
+Installing object_handler script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler
+Installing pose_setter script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler
+writing list of installed files to '/home/agilex/krish_ws/build/nav_handler/install.log'

@@ -4,9 +4,10 @@ from rclpy.action import ActionClient
 from std_msgs.msg import String
 from geometry_msgs.msg import PoseStamped
 from nav2_msgs.action import NavigateToPose
-import time
-import subprocess
 from action_msgs.msg import GoalStatus
+import subprocess
+import time
+import os
 
 class ObjectHandler(Node):
     def __init__(self):
@@ -17,10 +18,10 @@ class ObjectHandler(Node):
         self.object_pose = None
         self.initial_pose = None
         self.active_goal_handle = None
+        self.exploration_killed = False  # ✅ Added flag
 
         self.declare_parameter("m5_ip", "192.168.137.75")
         self.m5_ip = self.get_parameter("m5_ip").value
-
 
         self.yolo_sub = self.create_subscription(String, '/object_found', self.object_callback, 10)
         self.pose_sub = self.create_subscription(PoseStamped, '/amcl_pose', self.pose_callback, 10)
@@ -41,9 +42,27 @@ class ObjectHandler(Node):
             label, cx, cy, coords = msg.data.split(':')
             x, y, z = map(float, coords.split(','))
             self.object_pose = (x, y)
+
+            # ✅ Kill exploration node before sending goal
+            if not self.exploration_killed:
+                self.kill_exploration_node()
+                self.exploration_killed = True
+
             self.send_goal(x, y)
+
         except Exception as e:
             self.get_logger().error(f"❌ Failed to parse object msg: {e}")
+
+    def kill_exploration_node(self):
+        self.get_logger().info("🛑 Killing rtabmap_explore to stop further goal publishing...")
+        try:
+            # Try clean shutdown via lifecycle
+            result = subprocess.call("ros2 lifecycle set /rtabmap_explore shutdown", shell=True)
+            if result != 0:
+                raise Exception("Lifecycle command failed")
+        except Exception as e:
+            self.get_logger().warn(f"⚠️ Lifecycle kill failed: {e}. Using pkill fallback.")
+            subprocess.call("pkill -f rtabmap_explore", shell=True)
 
     def send_goal(self, x, y):
         self.goal_sent = True
