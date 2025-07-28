@@ -12,6 +12,7 @@ import time
 import tf2_ros
 import tf2_geometry_msgs
 
+
 class YoloDetector(Node):
     def __init__(self):
         super().__init__('yolo_detector')
@@ -82,22 +83,24 @@ class YoloDetector(Node):
         except:
             return None
 
-    def transform_to_map(self, point):
+    def transform_to_map(self, point, image_msg):
         shifted = PointStamped()
-        shifted.header.stamp = self.get_clock().now().to_msg()
+        shifted.header.stamp = rclpy.time.Time().to_msg()  # ✅ Use image timestamp
         shifted.header.frame_id = "camera_link"
         shifted.point.x = point[0]
         shifted.point.y = point[1]
-        shifted.point.z = point[2] + 0.3
+        shifted.point.z = point[2] + 0.3  # lift the point for safer TF
 
         try:
-            tf_result = self.tf_buffer.lookup_transform("map", "camera_link", rclpy.time.Time(), timeout=rclpy.duration.Duration(seconds=0.2))
-            self.get_logger().info(f"[TF OK] Using transform map ← camera_link")
-            shifted.header.stamp = tf_result.header.stamp  # ✅ align stamp to available TF
+            # Check if TF is available
+            self.tf_buffer.can_transform("map", "camera_link", image_msg.header.stamp, timeout=rclpy.duration.Duration(seconds=0.5))
+
             tf_point = self.tf_buffer.transform(shifted, "map", timeout=rclpy.duration.Duration(seconds=1.0))
+            self.get_logger().info(f"[TF OK] Transformed to map: ({tf_point.point.x:.2f}, {tf_point.point.y:.2f})")
             return tf_point
+
         except Exception as e:
-            self.get_logger().warn(f"[❌ TF FAIL] {e}")
+            self.get_logger().warn(f"[❌ TF FAIL] Transform failed → /target_pose NOT published: {e}")
             return None
 
     def image_callback(self, msg):
@@ -120,23 +123,23 @@ class YoloDetector(Node):
                 if point_3d:
                     x, y, z = point_3d
 
-                    # Publish legacy string message
+                    # Publish detection info
                     msg_data = f"{cls_name}:{cx}:{cy}:{x:.2f},{y:.2f},{z:.2f}"
                     self.result_pub.publish(String(data=msg_data))
                     self.get_logger().info(f"[📍 DETECTED] {cls_name} → 2D({cx},{cy}) → 3D({x:.2f},{y:.2f},{z:.2f})")
 
-                    # Try to publish PoseStamped in map frame
-                    tf_point = self.transform_to_map(point_3d)
+                    tf_point = self.transform_to_map(point_3d, msg)
                     if tf_point:
                         pose_msg = PoseStamped()
                         pose_msg.header = tf_point.header
                         pose_msg.pose.position = tf_point.point
-                        pose_msg.pose.orientation.w = 1.0  # No rotation
+                        pose_msg.pose.orientation.w = 1.0  # no rotation
                         self.pose_pub.publish(pose_msg)
                         self.get_logger().info(f"[🌍 POSE] Published /target_pose → map({tf_point.point.x:.2f}, {tf_point.point.y:.2f}, {tf_point.point.z:.2f})")
 
         annotated = results[0].plot()
         self.annotated_pub.publish(self.bridge.cv2_to_imgmsg(annotated, "bgr8"))
+
 
 def main(args=None):
     rclpy.init(args=args)
@@ -144,6 +147,7 @@ def main(args=None):
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'nav_handler = nav_handler.nav_handler:main',
             'pose_setter = nav_handler.pose_setter:main',
+            'test = nav_handler.manual_object_nav_test:main',
         ],
     },
 )

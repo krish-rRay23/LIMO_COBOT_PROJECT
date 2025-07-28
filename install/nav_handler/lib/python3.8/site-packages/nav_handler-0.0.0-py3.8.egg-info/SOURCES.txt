@@ -9,6 +9,7 @@ setup.py
 ../../build/nav_handler/nav_handler.egg-info/top_level.txt
 ../../build/nav_handler/nav_handler.egg-info/zip-safe
 nav_handler/__init__.py
+nav_handler/manual_object_nav_test.py
 nav_handler/nav_handler.py
 nav_handler/pose_setter.py
 resource/nav_handler
