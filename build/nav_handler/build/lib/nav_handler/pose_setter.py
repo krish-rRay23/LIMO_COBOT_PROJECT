@@ -17,9 +17,9 @@ class PoseSetter(Node):
         )
 
         # ✅ Fixed initial pose from amcl_pose
-        self.x = 1.9525
-        self.y = -9.8651
-        self.yaw_deg = 108.25
+        self.x = -0.781
+        self.y = -0.228
+        self.yaw_deg = 7.9
         self.delay_sec = 2.5
 
         self.timer = self.create_timer(0.1, self.publish_once)

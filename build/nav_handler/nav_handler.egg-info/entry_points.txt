@@ -1,5 +1,3 @@
 [console_scripts]
-exploration_handler = nav_handler.exploration_handler:main
-mission_manager = nav_handler.mission_manager:main
-object_handler = nav_handler.object_handler:main
+nav_handler = nav_handler.nav_handler:main
 pose_setter = nav_handler.pose_setter:main

@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
         'yolo_detector = object_detector.object_detector:main',
+        'test = object_detector.test:main',
         ],
     },
 )

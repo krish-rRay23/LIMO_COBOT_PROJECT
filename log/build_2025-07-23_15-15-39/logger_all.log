@@ -1,0 +1,747 @@
+[15.775s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[15.775s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ee53880>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ee53880>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ee53d00>)
+[16.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[16.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[16.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[16.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[16.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[16.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[16.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/krish_ws'
+[16.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[16.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[16.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[16.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[16.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[16.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[16.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[16.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[16.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[16.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[16.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[16.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[16.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[16.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[16.476s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ignore', 'ignore_ament_install']
+[16.476s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore'
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore_ament_install'
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_pkg']
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_pkg'
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_meta']
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_meta'
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ros']
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ros'
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['cmake', 'python']
+[16.477s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'cmake'
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python'
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['python_setup_py']
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python_setup_py'
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[16.478s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[16.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[16.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[16.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[16.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[16.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[16.479s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[16.480s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extensions ['ignore', 'ignore_ament_install']
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'ignore'
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'ignore_ament_install'
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extensions ['colcon_pkg']
+[16.481s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'colcon_pkg'
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extensions ['colcon_meta']
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'colcon_meta'
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extensions ['ros']
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'ros'
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extensions ['cmake', 'python']
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'cmake'
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'python'
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extensions ['python_setup_py']
+[16.482s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8) by extension 'python_setup_py'
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extensions ['ignore', 'ignore_ament_install']
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'ignore'
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'ignore_ament_install'
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extensions ['colcon_pkg']
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'colcon_pkg'
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extensions ['colcon_meta']
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'colcon_meta'
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extensions ['ros']
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'ros'
+[16.483s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extensions ['cmake', 'python']
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'cmake'
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'python'
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extensions ['python_setup_py']
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test) by extension 'python_setup_py'
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extensions ['ignore', 'ignore_ament_install']
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'ignore'
+[16.484s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'ignore_ament_install'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extensions ['colcon_pkg']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'colcon_pkg'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extensions ['colcon_meta']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'colcon_meta'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extensions ['ros']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'ros'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extensions ['cmake', 'python']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'cmake'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'python'
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extensions ['python_setup_py']
+[16.485s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/images) by extension 'python_setup_py'
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extensions ['ignore', 'ignore_ament_install']
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'ignore'
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'ignore_ament_install'
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extensions ['colcon_pkg']
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'colcon_pkg'
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extensions ['colcon_meta']
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'colcon_meta'
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extensions ['ros']
+[16.486s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'ros'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extensions ['cmake', 'python']
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'cmake'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'python'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extensions ['python_setup_py']
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/test/labels) by extension 'python_setup_py'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extensions ['ignore', 'ignore_ament_install']
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'ignore'
+[16.487s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'ignore_ament_install'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extensions ['colcon_pkg']
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'colcon_pkg'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extensions ['colcon_meta']
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'colcon_meta'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extensions ['ros']
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'ros'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extensions ['cmake', 'python']
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'cmake'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'python'
+[16.488s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extensions ['python_setup_py']
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train) by extension 'python_setup_py'
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extensions ['ignore', 'ignore_ament_install']
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'ignore'
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'ignore_ament_install'
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extensions ['colcon_pkg']
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'colcon_pkg'
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extensions ['colcon_meta']
+[16.489s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'colcon_meta'
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extensions ['ros']
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'ros'
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extensions ['cmake', 'python']
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'cmake'
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'python'
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extensions ['python_setup_py']
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/images) by extension 'python_setup_py'
+[16.490s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extensions ['ignore', 'ignore_ament_install']
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'ignore'
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'ignore_ament_install'
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extensions ['colcon_pkg']
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'colcon_pkg'
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extensions ['colcon_meta']
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'colcon_meta'
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extensions ['ros']
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'ros'
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extensions ['cmake', 'python']
+[16.491s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'cmake'
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'python'
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extensions ['python_setup_py']
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/train/labels) by extension 'python_setup_py'
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extensions ['ignore', 'ignore_ament_install']
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'ignore'
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'ignore_ament_install'
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extensions ['colcon_pkg']
+[16.492s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'colcon_pkg'
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extensions ['colcon_meta']
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'colcon_meta'
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extensions ['ros']
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'ros'
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extensions ['cmake', 'python']
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'cmake'
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'python'
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extensions ['python_setup_py']
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid) by extension 'python_setup_py'
+[16.493s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extensions ['ignore', 'ignore_ament_install']
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'ignore'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'ignore_ament_install'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extensions ['colcon_pkg']
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'colcon_pkg'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extensions ['colcon_meta']
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'colcon_meta'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extensions ['ros']
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'ros'
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extensions ['cmake', 'python']
+[16.494s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'cmake'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'python'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extensions ['python_setup_py']
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/images) by extension 'python_setup_py'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extensions ['ignore', 'ignore_ament_install']
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'ignore'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'ignore_ament_install'
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extensions ['colcon_pkg']
+[16.495s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'colcon_pkg'
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extensions ['colcon_meta']
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'colcon_meta'
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extensions ['ros']
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'ros'
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extensions ['cmake', 'python']
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'cmake'
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'python'
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extensions ['python_setup_py']
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_object.v1-roboflow-instant-1--eval-.yolov8/valid/labels) by extension 'python_setup_py'
+[16.496s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['ignore', 'ignore_ament_install']
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'ignore'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'ignore_ament_install'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['colcon_pkg']
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'colcon_pkg'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['colcon_meta']
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'colcon_meta'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['ros']
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'ros'
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['cmake', 'python']
+[16.497s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'cmake'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'python'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['python_setup_py']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'python_setup_py'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['ignore', 'ignore_ament_install']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'ignore'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'ignore_ament_install'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['colcon_pkg']
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'colcon_pkg'
+[16.498s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['colcon_meta']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'colcon_meta'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['ros']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'ros'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['cmake', 'python']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'cmake'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'python'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['python_setup_py']
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'python_setup_py'
+[16.499s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extensions ['ignore', 'ignore_ament_install']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'ignore'
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'ignore_ament_install'
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extensions ['colcon_pkg']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'colcon_pkg'
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extensions ['colcon_meta']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'colcon_meta'
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extensions ['ros']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'ros'
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extensions ['cmake', 'python']
+[16.500s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'cmake'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'python'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extensions ['python_setup_py']
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final) by extension 'python_setup_py'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extensions ['ignore', 'ignore_ament_install']
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'ignore'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'ignore_ament_install'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extensions ['colcon_pkg']
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'colcon_pkg'
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extensions ['colcon_meta']
+[16.501s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'colcon_meta'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extensions ['ros']
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'ros'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extensions ['cmake', 'python']
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'cmake'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'python'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extensions ['python_setup_py']
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final/weights) by extension 'python_setup_py'
+[16.502s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extensions ['ignore', 'ignore_ament_install']
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'ignore'
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'ignore_ament_install'
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extensions ['colcon_pkg']
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'colcon_pkg'
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extensions ['colcon_meta']
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'colcon_meta'
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extensions ['ros']
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'ros'
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extensions ['cmake', 'python']
+[16.503s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'cmake'
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'python'
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extensions ['python_setup_py']
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2) by extension 'python_setup_py'
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extensions ['ignore', 'ignore_ament_install']
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'ignore'
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'ignore_ament_install'
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extensions ['colcon_pkg']
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'colcon_pkg'
+[16.504s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extensions ['colcon_meta']
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'colcon_meta'
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extensions ['ros']
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'ros'
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extensions ['cmake', 'python']
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'cmake'
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'python'
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extensions ['python_setup_py']
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/mycobot_final2/weights) by extension 'python_setup_py'
+[16.505s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extensions ['ignore', 'ignore_ament_install']
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'ignore'
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'ignore_ament_install'
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extensions ['colcon_pkg']
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'colcon_pkg'
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extensions ['colcon_meta']
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'colcon_meta'
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extensions ['ros']
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'ros'
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extensions ['cmake', 'python']
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'cmake'
+[16.506s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'python'
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extensions ['python_setup_py']
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/predict) by extension 'python_setup_py'
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extensions ['ignore', 'ignore_ament_install']
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'ignore'
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'ignore_ament_install'
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extensions ['colcon_pkg']
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'colcon_pkg'
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extensions ['colcon_meta']
+[16.507s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'colcon_meta'
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extensions ['ros']
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'ros'
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extensions ['cmake', 'python']
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'cmake'
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'python'
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extensions ['python_setup_py']
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object) by extension 'python_setup_py'
+[16.508s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extensions ['ignore', 'ignore_ament_install']
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'ignore'
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'ignore_ament_install'
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extensions ['colcon_pkg']
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'colcon_pkg'
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extensions ['colcon_meta']
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'colcon_meta'
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extensions ['ros']
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'ros'
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extensions ['cmake', 'python']
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'cmake'
+[16.509s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'python'
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extensions ['python_setup_py']
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/train_new_object/weights) by extension 'python_setup_py'
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[16.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[16.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[16.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[16.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[16.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[16.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[16.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[16.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['ignore', 'ignore_ament_install']
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'ignore'
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'ignore_ament_install'
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['colcon_pkg']
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'colcon_pkg'
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['colcon_meta']
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'colcon_meta'
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['ros']
+[16.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'ros'
+[16.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_launch_pkg' with type 'ros.ament_python' and name 'my_launch_pkg'
+[16.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extensions ['ignore', 'ignore_ament_install']
+[16.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extension 'ignore'
+[16.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extension 'ignore_ament_install'
+[16.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extensions ['colcon_pkg']
+[16.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extension 'colcon_pkg'
+[16.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extensions ['colcon_meta']
+[16.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extension 'colcon_meta'
+[16.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extensions ['ros']
+[16.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_arm) by extension 'ros'
+[16.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_arm' with type 'ros.ament_python' and name 'mycobot_arm'
+[16.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extensions ['ignore', 'ignore_ament_install']
+[16.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extension 'ignore'
+[16.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extension 'ignore_ament_install'
+[16.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extensions ['colcon_pkg']
+[16.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extension 'colcon_pkg'
+[16.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extensions ['colcon_meta']
+[16.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extension 'colcon_meta'
+[16.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extensions ['ros']
+[16.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_handler) by extension 'ros'
+[16.524s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_handler' with type 'ros.ament_python' and name 'nav_handler'
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['ignore', 'ignore_ament_install']
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'ignore'
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'ignore_ament_install'
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['colcon_pkg']
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'colcon_pkg'
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['colcon_meta']
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'colcon_meta'
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['ros']
+[16.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'ros'
+[16.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detector' with type 'ros.ament_python' and name 'object_detector'
+[16.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[16.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ignore'
+[16.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ignore_ament_install'
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['colcon_pkg']
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'colcon_pkg'
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['colcon_meta']
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'colcon_meta'
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['ros']
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ros'
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['cmake', 'python']
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'cmake'
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'python'
+[16.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['python_setup_py']
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'python_setup_py'
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'ignore'
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'ignore_ament_install'
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['colcon_pkg']
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'colcon_pkg'
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['colcon_meta']
+[16.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'colcon_meta'
+[16.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['ros']
+[16.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'ros'
+[16.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_msgs/vision_msgs' with type 'ros.ament_cmake' and name 'vision_msgs'
+[16.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[16.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore'
+[16.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore_ament_install'
+[16.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_pkg']
+[16.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_pkg'
+[16.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_meta']
+[16.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_meta'
+[16.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['ros']
+[16.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'ros'
+[16.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_msgs/vision_msgs_rviz_plugins' with type 'ros.ament_cmake' and name 'vision_msgs_rviz_plugins'
+[16.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[16.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[16.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[16.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[16.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[17.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[17.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[18.454s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/agilex/krish_ws/install
+[18.723s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /home/agilex/limo_ros2_ws/install
+[18.994s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/foxy
+[19.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_args' from command line to 'None'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_target' from command line to 'None'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[19.693s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.694s] DEBUG:colcon.colcon_core.verb:Building package 'my_launch_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/my_launch_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/my_launch_pkg', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/my_launch_pkg', 'symlink_install': False, 'test_result_base': None}
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'cmake_args' from command line to 'None'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'cmake_target' from command line to 'None'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'cmake_clean_first' from command line to 'False'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'cmake_force_configure' from command line to 'False'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'ament_cmake_args' from command line to 'None'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[19.961s] Level 5:colcon.colcon_core.verb:set package 'mycobot_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.961s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/mycobot_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/mycobot_arm', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/mycobot_arm', 'symlink_install': False, 'test_result_base': None}
+[20.229s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_args' from command line to 'None'
+[20.229s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_target' from command line to 'None'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_clean_cache' from command line to 'False'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_clean_first' from command line to 'False'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'cmake_force_configure' from command line to 'False'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'ament_cmake_args' from command line to 'None'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'catkin_cmake_args' from command line to 'None'
+[20.230s] Level 5:colcon.colcon_core.verb:set package 'nav_handler' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.230s] DEBUG:colcon.colcon_core.verb:Building package 'nav_handler' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/nav_handler', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/nav_handler', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/nav_handler', 'symlink_install': False, 'test_result_base': None}
+[20.498s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_args' from command line to 'None'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_target' from command line to 'None'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_clean_first' from command line to 'False'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_force_configure' from command line to 'False'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'ament_cmake_args' from command line to 'None'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[20.499s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.499s] DEBUG:colcon.colcon_core.verb:Building package 'object_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/object_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/object_detector', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/object_detector', 'symlink_install': False, 'test_result_base': None}
+[20.770s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_args' from command line to 'None'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_target' from command line to 'None'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[20.771s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.771s] DEBUG:colcon.colcon_core.verb:Building package 'vision_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/vision_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/vision_msgs', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/vision_msgs/vision_msgs', 'symlink_install': False, 'test_result_base': None}
+[21.041s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'cmake_args' from command line to 'None'
+[21.041s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'cmake_target' from command line to 'None'
+[21.041s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[21.041s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[21.041s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[21.041s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[21.042s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[21.042s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[21.042s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs_rviz_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[21.042s] DEBUG:colcon.colcon_core.verb:Building package 'vision_msgs_rviz_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/krish_ws/build/vision_msgs_rviz_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins', 'merge_install': False, 'path': '/home/agilex/krish_ws/src/vision_msgs/vision_msgs_rviz_plugins', 'symlink_install': False, 'test_result_base': None}
+[21.311s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[21.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[21.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agilex/krish_ws/src/vision_msgs/vision_msgs' with build type 'ament_cmake'
+[21.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agilex/krish_ws/src/vision_msgs/vision_msgs'
+[21.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[21.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.062s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/krish_ws/src/my_launch_pkg' with build type 'ament_python'
+[23.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_launch_pkg', 'ament_prefix_path')
+[23.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/hook/ament_prefix_path.ps1'
+[23.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/hook/ament_prefix_path.dsv'
+[23.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/hook/ament_prefix_path.sh'
+[23.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.793s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/krish_ws/src/mycobot_arm' with build type 'ament_python'
+[24.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_arm', 'ament_prefix_path')
+[25.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/hook/ament_prefix_path.ps1'
+[25.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/hook/ament_prefix_path.dsv'
+[25.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/hook/ament_prefix_path.sh'
+[25.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.518s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/krish_ws/src/nav_handler' with build type 'ament_python'
+[26.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_handler', 'ament_prefix_path')
+[26.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/hook/ament_prefix_path.ps1'
+[26.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/hook/ament_prefix_path.dsv'
+[26.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/hook/ament_prefix_path.sh'
+[27.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/krish_ws/src/object_detector' with build type 'ament_python'
+[28.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detector', 'ament_prefix_path')
+[28.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/object_detector/share/object_detector/hook/ament_prefix_path.ps1'
+[28.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/object_detector/share/object_detector/hook/ament_prefix_path.dsv'
+[28.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/object_detector/share/object_detector/hook/ament_prefix_path.sh'
+[28.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/krish_ws/build/vision_msgs -- -j6 -l6
+[30.660s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/krish_ws/src/my_launch_pkg'
+[30.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/krish_ws/src/mycobot_arm'
+[33.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.846s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/krish_ws/src/nav_handler'
+[35.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/krish_ws/build/vision_msgs -- -j6 -l6
+[36.882s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/krish_ws/src/object_detector'
+[37.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/krish_ws/build/vision_msgs
+[38.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs)
+[38.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/krish_ws/build/vision_msgs
+[39.219s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs' for CMake module files
+[39.220s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs' for CMake config files
+[39.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'cmake_prefix_path')
+[39.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.ps1'
+[39.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.dsv'
+[39.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.sh'
+[39.571s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/lib'
+[39.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'ld_library_path_lib')
+[39.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.ps1'
+[39.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.dsv'
+[39.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.sh'
+[39.894s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/bin'
+[39.894s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/lib/pkgconfig/vision_msgs.pc'
+[39.895s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages'
+[39.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'pythonpath')
+[40.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/pythonpath.ps1'
+[40.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/pythonpath.dsv'
+[40.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/pythonpath.sh'
+[40.317s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/bin'
+[40.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.ps1'
+[40.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.dsv'
+[40.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.sh'
+[40.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.bash'
+[40.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.zsh'
+[40.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/vision_msgs/share/colcon-core/packages/vision_msgs)
+[40.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/src/mycobot_arm': PYTHONPATH=/home/agilex/krish_ws/build/mycobot_arm/prefix_override:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mycobot_arm build --build-base /home/agilex/krish_ws/build/mycobot_arm/build install --record /home/agilex/krish_ws/build/mycobot_arm/install.log --install-scripts $base/lib/mycobot_arm --single-version-externally-managed
+[40.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/src/nav_handler': PYTHONPATH=/home/agilex/krish_ws/build/nav_handler/prefix_override:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_handler build --build-base /home/agilex/krish_ws/build/nav_handler/build install --record /home/agilex/krish_ws/build/nav_handler/install.log --install-scripts $base/lib/nav_handler --single-version-externally-managed
+[40.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/src/my_launch_pkg': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_launch_pkg build --build-base /home/agilex/krish_ws/build/my_launch_pkg/build install --record /home/agilex/krish_ws/build/my_launch_pkg/install.log --install-scripts $base/lib/my_launch_pkg --single-version-externally-managed
+[40.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/src/object_detector': PYTHONPATH=/home/agilex/krish_ws/build/object_detector/prefix_override:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detector build --build-base /home/agilex/krish_ws/build/object_detector/build install --record /home/agilex/krish_ws/build/object_detector/install.log --install-scripts $base/lib/object_detector --single-version-externally-managed
+[42.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs)
+[43.156s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs' for CMake module files
+[43.157s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs' for CMake config files
+[43.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'cmake_prefix_path')
+[43.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.ps1'
+[43.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.dsv'
+[43.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.sh'
+[43.458s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/lib'
+[43.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'ld_library_path_lib')
+[43.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.ps1'
+[43.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.dsv'
+[43.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.sh'
+[43.749s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/bin'
+[43.749s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/lib/pkgconfig/vision_msgs.pc'
+[43.750s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages'
+[43.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'pythonpath')
+[44.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/pythonpath.ps1'
+[44.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/pythonpath.dsv'
+[44.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/hook/pythonpath.sh'
+[44.046s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs/bin'
+[44.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.ps1'
+[44.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.dsv'
+[44.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.sh'
+[44.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.bash'
+[44.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.zsh'
+[44.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/vision_msgs/share/colcon-core/packages/vision_msgs)
+[44.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agilex/krish_ws/src/vision_msgs/vision_msgs_rviz_plugins' with build type 'ament_cmake'
+[44.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agilex/krish_ws/src/vision_msgs/vision_msgs_rviz_plugins'
+[44.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[45.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/src/nav_handler' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/nav_handler/prefix_override:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_handler build --build-base /home/agilex/krish_ws/build/nav_handler/build install --record /home/agilex/krish_ws/build/nav_handler/install.log --install-scripts $base/lib/nav_handler --single-version-externally-managed
+[46.042s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler' for CMake module files
+[46.043s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler' for CMake config files
+[46.044s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler/lib'
+[46.044s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler/bin'
+[46.045s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler/lib/pkgconfig/nav_handler.pc'
+[46.045s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages'
+[46.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_handler', 'pythonpath')
+[46.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/hook/pythonpath.ps1'
+[46.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/hook/pythonpath.dsv'
+[46.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/hook/pythonpath.sh'
+[46.323s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/nav_handler/bin'
+[46.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_handler)
+[46.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/package.ps1'
+[46.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/package.dsv'
+[46.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/package.sh'
+[46.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/package.bash'
+[46.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/nav_handler/share/nav_handler/package.zsh'
+[46.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/nav_handler/share/colcon-core/packages/nav_handler)
+[46.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/src/my_launch_pkg' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_launch_pkg build --build-base /home/agilex/krish_ws/build/my_launch_pkg/build install --record /home/agilex/krish_ws/build/my_launch_pkg/install.log --install-scripts $base/lib/my_launch_pkg --single-version-externally-managed
+[46.907s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg' for CMake module files
+[46.908s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg' for CMake config files
+[46.909s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg/lib'
+[46.909s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg/bin'
+[46.909s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg/lib/pkgconfig/my_launch_pkg.pc'
+[46.910s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages'
+[46.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_launch_pkg', 'pythonpath')
+[47.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/hook/pythonpath.ps1'
+[47.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/hook/pythonpath.dsv'
+[47.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/hook/pythonpath.sh'
+[47.203s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/my_launch_pkg/bin'
+[47.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_launch_pkg)
+[47.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/package.ps1'
+[47.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/package.dsv'
+[47.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/package.sh'
+[47.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/package.bash'
+[47.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/package.zsh'
+[47.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/my_launch_pkg/share/colcon-core/packages/my_launch_pkg)
+[47.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/src/mycobot_arm' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/mycobot_arm/prefix_override:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mycobot_arm build --build-base /home/agilex/krish_ws/build/mycobot_arm/build install --record /home/agilex/krish_ws/build/mycobot_arm/install.log --install-scripts $base/lib/mycobot_arm --single-version-externally-managed
+[47.773s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm' for CMake module files
+[47.774s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm' for CMake config files
+[47.775s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm/lib'
+[47.775s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm/bin'
+[47.776s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm/lib/pkgconfig/mycobot_arm.pc'
+[47.776s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages'
+[47.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_arm', 'pythonpath')
+[48.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/hook/pythonpath.ps1'
+[48.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/hook/pythonpath.dsv'
+[48.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/hook/pythonpath.sh'
+[48.057s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/mycobot_arm/bin'
+[48.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_arm)
+[48.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/package.ps1'
+[48.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/package.dsv'
+[48.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/package.sh'
+[48.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/package.bash'
+[48.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm/package.zsh'
+[48.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/mycobot_arm/share/colcon-core/packages/mycobot_arm)
+[48.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/src/object_detector' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/object_detector/prefix_override:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detector build --build-base /home/agilex/krish_ws/build/object_detector/build install --record /home/agilex/krish_ws/build/object_detector/install.log --install-scripts $base/lib/object_detector --single-version-externally-managed
+[48.621s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector' for CMake module files
+[48.622s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector' for CMake config files
+[48.623s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector/lib'
+[48.623s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector/bin'
+[48.623s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector/lib/pkgconfig/object_detector.pc'
+[48.624s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages'
+[48.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detector', 'pythonpath')
+[48.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/object_detector/share/object_detector/hook/pythonpath.ps1'
+[48.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/object_detector/share/object_detector/hook/pythonpath.dsv'
+[48.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/object_detector/share/object_detector/hook/pythonpath.sh'
+[48.904s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/object_detector/bin'
+[48.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detector)
+[49.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/object_detector/share/object_detector/package.ps1'
+[49.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/object_detector/share/object_detector/package.dsv'
+[49.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/object_detector/share/object_detector/package.sh'
+[49.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/object_detector/share/object_detector/package.bash'
+[49.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/object_detector/share/object_detector/package.zsh'
+[49.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/object_detector/share/colcon-core/packages/object_detector)
+[49.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/build/vision_msgs_rviz_plugins': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/krish_ws/install/vision_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/agilex/krish_ws/build/vision_msgs_rviz_plugins -- -j6 -l6
+[49.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/build/vision_msgs_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/krish_ws/install/vision_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/agilex/krish_ws/build/vision_msgs_rviz_plugins -- -j6 -l6
+[49.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/krish_ws/build/vision_msgs_rviz_plugins': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/krish_ws/install/vision_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/agilex/krish_ws/build/vision_msgs_rviz_plugins
+[50.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs_rviz_plugins)
+[50.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/krish_ws/build/vision_msgs_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/agilex/krish_ws/install/vision_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/krish_ws/install/vision_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/agilex/krish_ws/build/vision_msgs_rviz_plugins
+[50.378s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins' for CMake module files
+[50.380s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins' for CMake config files
+[50.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs_rviz_plugins', 'cmake_prefix_path')
+[50.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/cmake_prefix_path.ps1'
+[50.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/cmake_prefix_path.dsv'
+[50.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/cmake_prefix_path.sh'
+[50.755s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib'
+[50.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs_rviz_plugins', 'ld_library_path_lib')
+[51.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/ld_library_path_lib.ps1'
+[51.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/ld_library_path_lib.dsv'
+[51.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/ld_library_path_lib.sh'
+[51.052s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/bin'
+[51.052s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib/pkgconfig/vision_msgs_rviz_plugins.pc'
+[51.053s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib/python3.8/site-packages'
+[51.053s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/bin'
+[51.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.ps1'
+[51.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.dsv'
+[51.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.sh'
+[51.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.bash'
+[51.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.zsh'
+[51.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/colcon-core/packages/vision_msgs_rviz_plugins)
+[51.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs_rviz_plugins)
+[52.254s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins' for CMake module files
+[52.256s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins' for CMake config files
+[52.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs_rviz_plugins', 'cmake_prefix_path')
+[52.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/cmake_prefix_path.ps1'
+[52.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/cmake_prefix_path.dsv'
+[52.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/cmake_prefix_path.sh'
+[52.584s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib'
+[52.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs_rviz_plugins', 'ld_library_path_lib')
+[52.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/ld_library_path_lib.ps1'
+[52.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/ld_library_path_lib.dsv'
+[52.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/hook/ld_library_path_lib.sh'
+[52.906s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/bin'
+[52.906s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib/pkgconfig/vision_msgs_rviz_plugins.pc'
+[52.907s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib/python3.8/site-packages'
+[52.907s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/bin'
+[53.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.ps1'
+[53.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.dsv'
+[53.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.sh'
+[53.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.bash'
+[53.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.zsh'
+[53.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/share/colcon-core/packages/vision_msgs_rviz_plugins)
+[53.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[53.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[53.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[53.234s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[53.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[53.561s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[53.561s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[53.617s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[53.936s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.ps1'
+[53.939s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/install/_local_setup_util_ps1.py'
+[53.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.ps1'
+[54.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.sh'
+[54.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/krish_ws/install/_local_setup_util_sh.py'
+[54.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.sh'
+[54.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.bash'
+[54.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.bash'
+[54.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/krish_ws/install/local_setup.zsh'
+[54.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/krish_ws/install/setup.zsh'

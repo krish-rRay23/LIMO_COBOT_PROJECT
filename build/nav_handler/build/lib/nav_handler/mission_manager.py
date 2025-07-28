@@ -1,126 +1,110 @@
 import rclpy
 from rclpy.node import Node
-from rclpy.qos import QoSProfile, ReliabilityPolicy
 from geometry_msgs.msg import PoseStamped
 from nav2_msgs.action import NavigateToPose
 from rclpy.action import ActionClient
 from std_srvs.srv import Trigger
 import subprocess
-import time
-import math
-import threading
 
 class MissionManager(Node):
     def __init__(self):
         super().__init__('mission_manager')
 
-        self.declare_parameter("drop_x", 2.8)
-        self.declare_parameter("drop_y", -8.5)
-        self.declare_parameter("drop_yaw", 90.0)
+        self.goal_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
+        self.pose_sub = self.create_subscription(PoseStamped, '/detected_object_pose', self.pose_callback, 10)
 
-        self.drop_pose = self.build_pose(
-            self.get_parameter("drop_x").value,
-            self.get_parameter("drop_y").value,
-            self.get_parameter("drop_yaw").value
-        )
-
-        qos = QoSProfile(depth=10)
-        qos.reliability = ReliabilityPolicy.BEST_EFFORT
-        self.pose_sub = self.create_subscription(
-            PoseStamped,
-            '/detected_object_pose',
-            self.pose_callback,
-            qos
-        )
-        self.get_logger().info("📡 Subscribed to /detected_object_pose with QoS BEST_EFFORT")
-
-        self.nav_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
         self.resume_client = self.create_client(Trigger, 'resume_exploration')
 
-        self.object_detected = False
-        self.processing = False
-        self.lock = threading.Lock()
+        self.object_pose = None
+        self.state = 'idle'
 
-        self.get_logger().info("🧠 Mission Manager ready.")
+        self.get_logger().info('🧠 Mission Manager online.')
 
-    def pose_callback(self, pose_msg):
-        with self.lock:
-            if self.object_detected or self.processing:
-                return
-            self.object_detected = True
-            self.processing = True
+    def pose_callback(self, msg):
+        if self.state != 'idle':
+            return
 
-        self.get_logger().info(
-            f"🎯 Received object pose → Navigating to ({pose_msg.pose.position.x:.2f}, {pose_msg.pose.position.y:.2f})"
-        )
+        self.get_logger().info('📥 Received object pose. Navigating...')
+        self.object_pose = msg
+        self.state = 'navigating_to_object'
+        self.navigate_to_pose(self.object_pose, self.after_navigating_to_object)
 
-        self.navigate_to_pose(pose_msg, self.handle_pick)
+    def after_navigating_to_object(self):
+        self.get_logger().info('🤖 At object. Running pick_node...')
+        try:
+            subprocess.run(['ros2', 'run', 'mycobot_arm', 'pick_node'], check=True, timeout=20)
+            self.after_pick()
+        except subprocess.CalledProcessError as e:
+            self.get_logger().error(f'❌ pick_node failed: {e}')
+            self.state = 'idle'
+        except subprocess.TimeoutExpired:
+            self.get_logger().error('⏰ pick_node timed out.')
+            self.state = 'idle'
 
-    def handle_pick(self):
-        self.get_logger().info("🦾 Starting pick sequence...")
-        self.run_script("pick_node")
-        self.get_logger().info("📦 Pick complete. Navigating to drop zone...")
-        self.navigate_to_pose(self.drop_pose, self.handle_drop)
+    def after_pick(self):
+        self.get_logger().info('🏠 Pick complete. Returning to base...')
+        base_pose = PoseStamped()
+        base_pose.header.frame_id = 'map'
+        base_pose.header.stamp = self.get_clock().now().to_msg()
+        base_pose.pose.position.x = 1.95
+        base_pose.pose.position.y = -9.86
+        base_pose.pose.orientation.w = 1.0
 
-    def handle_drop(self):
-        self.get_logger().info("🪣 Starting drop sequence...")
-        self.run_script("drop_node")
-        self.get_logger().info("✅ Mission complete. Requesting exploration resume...")
+        self.state = 'returning_to_base'
+        self.navigate_to_pose(base_pose, self.after_returning_to_base)
 
-        while not self.resume_client.wait_for_service(timeout_sec=2.0):
-            self.get_logger().warn("⏳ Waiting for resume_exploration service...")
+    def after_returning_to_base(self):
+        self.get_logger().info('📦 At base. Running drop_node...')
+        try:
+            subprocess.run(['ros2', 'run', 'mycobot_arm', 'drop_node'], check=True, timeout=20)
+            self.after_drop()
+        except subprocess.CalledProcessError as e:
+            self.get_logger().error(f'❌ drop_node failed: {e}')
+            self.state = 'idle'
+        except subprocess.TimeoutExpired:
+            self.get_logger().error('⏰ drop_node timed out.')
+            self.state = 'idle'
+
+    def after_drop(self):
+        self.get_logger().info('🔁 Drop complete. Resuming exploration...')
+        if not self.resume_client.wait_for_service(timeout_sec=5.0):
+            self.get_logger().error('❌ resume_exploration service not available.')
+            self.state = 'idle'
+            return
 
         future = self.resume_client.call_async(Trigger.Request())
-        rclpy.spin_until_future_complete(self, future)
+        future.add_done_callback(self.after_resume)
 
-        if future.result().success:
-            self.get_logger().info("✅ Exploration resumed successfully.")
+    def after_resume(self, fut):
+        if fut.result().success:
+            self.get_logger().info('✅ Exploration resumed.')
         else:
-            self.get_logger().error("❌ Resume failed: " + future.result().message)
-
-        self.object_detected = False
-        self.processing = False
-
-    def build_pose(self, x, y, yaw_deg):
-        pose = PoseStamped()
-        pose.header.frame_id = 'map'
-        pose.header.stamp = self.get_clock().now().to_msg()
-        pose.pose.position.x = x
-        pose.pose.position.y = y
-        yaw_rad = math.radians(yaw_deg)
-        pose.pose.orientation.z = math.sin(yaw_rad / 2.0)
-        pose.pose.orientation.w = math.cos(yaw_rad / 2.0)
-        return pose
+            self.get_logger().error(f'❌ Failed to resume: {fut.result().message}')
+        self.state = 'idle'
 
     def navigate_to_pose(self, pose, on_done):
-        if not self.nav_client.wait_for_server(timeout_sec=5.0):
-            self.get_logger().error("❌ Nav2 action server not available.")
-            self.processing = False
+        if not self.goal_client.wait_for_server(timeout_sec=5.0):
+            self.get_logger().error('❌ Nav2 server unavailable.')
+            self.state = 'idle'
             return
 
         goal = NavigateToPose.Goal()
         goal.pose = pose
 
-        self.get_logger().info("🚀 Sending navigation goal...")
-        send_future = self.nav_client.send_goal_async(goal)
+        self.get_logger().info(f'🚀 Sending goal to ({pose.pose.position.x:.2f}, {pose.pose.position.y:.2f})...')
+        future = self.goal_client.send_goal_async(goal)
 
-        def goal_callback(fut):
-            goal_handle = fut.result()
-            if not goal_handle.accepted:
-                self.get_logger().error("❌ Navigation goal rejected.")
-                self.processing = False
+        def goal_cb(fut):
+            handle = fut.result()
+            if not handle.accepted:
+                self.get_logger().error('❌ Goal rejected.')
+                self.state = 'idle'
                 return
-            self.get_logger().info("📍 Goal accepted, waiting...")
-            result_future = goal_handle.get_result_async()
-            result_future.add_done_callback(lambda _: on_done())
 
-        send_future.add_done_callback(goal_callback)
+            result_future = handle.get_result_async()
+            result_future.add_done_callback(lambda r: on_done())
 
-    def run_script(self, node_name):
-        try:
-            subprocess.run(['ros2', 'run', 'nav_handler', node_name], check=True)
-        except subprocess.CalledProcessError as e:
-            self.get_logger().error(f"❌ Failed to run {node_name}: {e}")
+        future.add_done_callback(goal_cb)
 
 def main(args=None):
     rclpy.init(args=args)

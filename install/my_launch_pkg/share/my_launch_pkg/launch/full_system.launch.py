@@ -54,7 +54,6 @@ def generate_launch_description():
     subnet = get_subnet()
     detected_ip = scan_ip(subnet)
 
-    # LIMO base
     limo_start = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -65,7 +64,6 @@ def generate_launch_description():
         ])
     )
 
-    # Camera
     camera_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -76,16 +74,14 @@ def generate_launch_description():
         ])
     )
 
-    # Nav2 as direct subprocess (command-line override)
     nav2 = ExecuteProcess(
         cmd=[
             'ros2', 'launch', 'limo_bringup', 'limo_nav2.launch.py',
-            'map:=/home/agilex/krish_ws/maps/room_map.yaml'
+            'map:=/home/agilex/krish_ws/maps/map11.yaml'
         ],
         output='screen'
     )
 
-    # Pose Setter (required for localization)
     pose_setter = Node(
         package="nav_handler",
         executable="pose_setter",
@@ -93,15 +89,6 @@ def generate_launch_description():
         output="screen"
     )
 
-    # Exploration Handler
-    exploration_handler = Node(
-        package="nav_handler",
-        executable="exploration_handler",
-        name="exploration_handler",
-        output="screen"
-    )
-
-    # YOLO Detector (essential for interrupt)
     yolo_node = Node(
         package="object_detector",
         executable="yolo_detector",
@@ -109,12 +96,17 @@ def generate_launch_description():
         output="screen"
     )
 
-    # Mission Manager
-    mission_manager = Node(
+    nav_handler = Node(
         package="nav_handler",
-        executable="mission_manager",
-        name="mission_manager",
-        output="screen"
+        executable="nav_handler",
+        name="nav_handler",
+        output="screen",
+        additional_env={"M5_IP": detected_ip}  # ✅ Pass as env var
+    )
+
+    rqt_view = ExecuteProcess(
+        cmd=['ros2', 'run', 'rqt_image_view', 'rqt_image_view'],
+        output='screen'
     )
 
     return LaunchDescription([
@@ -124,16 +116,13 @@ def generate_launch_description():
         limo_start,
         camera_launch,
 
-        TimerAction(period=4.0, actions=[nav2]),
-
+        TimerAction(period=3.0, actions=[yolo_node]),        # Start YOLO early
+        TimerAction(period=5.0, actions=[nav2]),
         TimerAction(period=7.0, actions=[pose_setter]),
 
-        TimerAction(period=9.0, actions=[
-            yolo_node,
-            exploration_handler
-        ]),
-
-        TimerAction(period=11.0, actions=[
-            mission_manager
+        # Delay nav_handler & rqt until YOLO is fully initialized (~12s)
+        TimerAction(period=15.0, actions=[
+            nav_handler,
+            rqt_view
         ])
     ])

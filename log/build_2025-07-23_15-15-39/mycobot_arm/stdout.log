@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/mycobot_arm/mycobot_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/mycobot_arm/mycobot_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/mycobot_arm/mycobot_arm.egg-info/entry_points.txt
+writing requirements to ../../build/mycobot_arm/mycobot_arm.egg-info/requires.txt
+writing top-level names to ../../build/mycobot_arm/mycobot_arm.egg-info/top_level.txt
+reading manifest file '../../build/mycobot_arm/mycobot_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/mycobot_arm/mycobot_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mycobot_arm/drop_node.py -> /home/agilex/krish_ws/build/mycobot_arm/build/lib/mycobot_arm
+copying mycobot_arm/__init__.py -> /home/agilex/krish_ws/build/mycobot_arm/build/lib/mycobot_arm
+copying mycobot_arm/pick_node.py -> /home/agilex/krish_ws/build/mycobot_arm/build/lib/mycobot_arm
+running install
+running install_lib
+running install_data
+copying resource/mycobot_arm -> /home/agilex/krish_ws/install/mycobot_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm
+running install_egg_info
+removing '/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages/mycobot_arm-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/mycobot_arm/mycobot_arm.egg-info to /home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages/mycobot_arm-0.0.0-py3.8.egg-info
+running install_scripts
+Installing drop_node script to /home/agilex/krish_ws/install/mycobot_arm/lib/mycobot_arm
+Installing pick_node script to /home/agilex/krish_ws/install/mycobot_arm/lib/mycobot_arm
+writing list of installed files to '/home/agilex/krish_ws/build/mycobot_arm/install.log'

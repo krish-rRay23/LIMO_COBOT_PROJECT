@@ -1,2 +1,3 @@
 [console_scripts]
+test = object_detector.test:main
 yolo_detector = object_detector.object_detector:main

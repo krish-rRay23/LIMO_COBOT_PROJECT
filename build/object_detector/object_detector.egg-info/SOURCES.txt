@@ -10,6 +10,7 @@ setup.py
 ../../build/object_detector/object_detector.egg-info/zip-safe
 object_detector/__init__.py
 object_detector/object_detector.py
+object_detector/test.py
 resource/object_detector
 test/test_copyright.py
 test/test_flake8.py
