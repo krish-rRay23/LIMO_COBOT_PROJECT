@@ -82,12 +82,12 @@ def generate_launch_description():
         output='screen'
     )
 
-    pose_setter = Node(
-        package="nav_handler",
-        executable="pose_setter",
-        name="pose_setter",
-        output="screen"
-    )
+    # pose_setter = Node(
+    #     package="nav_handler",
+    #     executable="pose_setter",
+    #     name="pose_setter",
+    #     output="screen"
+    # )
 
     yolo_node = Node(
         package="object_detector",
@@ -96,13 +96,13 @@ def generate_launch_description():
         output="screen"
     )
 
-    nav_handler = Node(
-        package="nav_handler",
-        executable="nav_handler",
-        name="nav_handler",
-        output="screen",
-        additional_env={"M5_IP": detected_ip}  # ✅ Pass as env var
-    )
+    # nav_handler = Node(
+    #     package="nav_handler",
+    #     executable="nav_handler",
+    #     name="nav_handler",
+    #     output="screen",
+    #     additional_env={"M5_IP": detected_ip}  # ✅ Pass as env var
+    # )
 
     rqt_view = ExecuteProcess(
         cmd=['ros2', 'run', 'rqt_image_view', 'rqt_image_view'],
@@ -118,11 +118,11 @@ def generate_launch_description():
 
         TimerAction(period=3.0, actions=[yolo_node]),        # Start YOLO early
         TimerAction(period=5.0, actions=[nav2]),
-        TimerAction(period=7.0, actions=[pose_setter]),
+        # TimerAction(period=7.0, actions=[pose_setter]),
 
         # Delay nav_handler & rqt until YOLO is fully initialized (~12s)
         TimerAction(period=15.0, actions=[
-            nav_handler,
+            # nav_handler,
             rqt_view
         ])
     ])

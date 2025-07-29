@@ -34,13 +34,13 @@ class NavigationHandler(Node):
 
         self.current_wp = 0
         self.mode = "exploring"
-        self.target_pose = None
-        self.m5_ip = os.environ.get("M5_IP", "192.168.137.75")
+        self.latest_pose = None
         self.active_goal_handle = None
-        self.received_target_once = False
-        self.awaiting_since = None
+        self.m5_ip = os.environ.get("M5_IP", "192.168.137.75")
+
         self.timeout_timer = None
-        self.object_navigation_start = None
+        self.nav_attempted = False
+        self.mission_locked = False
 
         self.say("Navigation handler initialized.")
         self.get_logger().info(f"✅ NavHandler ready. Using M5 IP: {self.m5_ip}")
@@ -49,15 +49,12 @@ class NavigationHandler(Node):
 
     def say(self, text):
         try:
-            subprocess.call(
-                f"espeak -s 135 -a 200 {shlex.quote(text)} --stdout | aplay -D plughw:1,3",
-                shell=True
-            )
+            subprocess.call(f"espeak -s 135 -a 200 {shlex.quote(text)} --stdout | aplay -D plughw:1,3", shell=True)
         except Exception as e:
             self.get_logger().warn(f"Voice error: {e}")
 
     def main_loop(self):
-        if self.mode != "exploring":
+        if self.mode != "exploring" or self.mission_locked:
             return
 
         if self.current_wp >= len(WAYPOINTS):
@@ -79,57 +76,58 @@ class NavigationHandler(Node):
             self.mode = "exploring"
 
     def object_detected_callback(self, msg):
-        if self.mode in ["exploring", "navigating"]:
-            self.say("Object detected. Stopping.")
-            self.get_logger().warn("🛑 Object detected! Canceling current goal and awaiting target_pose...")
-            self.mode = "awaiting_target"
-            self.received_target_once = False
-            self.awaiting_since = self.get_clock().now().nanoseconds
-            self.cancel_current_goal()
-
-            if self.timeout_timer:
-                self.timeout_timer.cancel()
-            self.timeout_timer = self.create_timer(10.0, self.target_pose_timeout)
-
-    def target_pose_timeout(self):
-        if self.mode == "approaching_object":
-            elapsed = time.time() - self.object_navigation_start if self.object_navigation_start else 999
-            if elapsed >= 10:
-                self.get_logger().warn("⏳ Timeout while navigating to object. Skipping to pick sequence.")
-                self.on_reach_object()
-        elif self.mode == "awaiting_target" and not self.received_target_once:
-            self.get_logger().warn("⏳ Timeout: No target_pose received. Skipping to pick sequence.")
-            self.on_reach_object()
-
-    def target_pose_callback(self, pose):
-        now = self.get_clock().now().nanoseconds
-        if self.received_target_once:
-            self.get_logger().info("⚠️ Ignoring duplicate /target_pose.")
+        if self.mission_locked:
+            self.get_logger().warn("⚠️ Object already detected and mission locked. Ignoring duplicate detection.")
             return
 
-        if self.mode != "awaiting_target":
-            self.get_logger().info("⚠️ Ignoring /target_pose: not in awaiting_target mode.")
+        if self.mode not in ["exploring", "navigating"]:
             return
 
-        if self.awaiting_since and pose.header.stamp.sec * 1e9 + pose.header.stamp.nanosec < self.awaiting_since:
-            self.get_logger().info("⚠️ Ignoring stale /target_pose published before awaiting_target started.")
-            return
+        self.say("Object detected. Cancelling goal.")
+        self.get_logger().warn("🛑 Object detected! Cancelling current goal and entering 10s mission timeout...")
 
-        self.received_target_once = True
+        self.cancel_current_goal()
+        self.mode = "detection_timeout"
+        self.nav_attempted = False
+        self.mission_locked = True
+
         if self.timeout_timer:
             self.timeout_timer.cancel()
-        self.target_pose = pose
-        self.say("Navigating to detected object.")
-        self.get_logger().info(f"🎯 Target at ({pose.pose.position.x:.2f}, {pose.pose.position.y:.2f})")
+        self.timeout_timer = self.create_timer(10.0, self.force_next_stage)
+
+        if self.latest_pose:
+            self.start_object_approach(self.latest_pose)
+
+    def target_pose_callback(self, pose):
+        self.latest_pose = pose
+        if self.mode == "detection_timeout" and not self.nav_attempted:
+            self.start_object_approach(pose)
+
+    def start_object_approach(self, pose):
+        if self.mode != "detection_timeout":
+            return
+
+        self.say("Navigating to object.")
+        x, y = pose.pose.position.x, pose.pose.position.y
+        self.get_logger().info(f"🎯 Target at ({x:.2f}, {y:.2f})")
         self.mode = "approaching_object"
-        self.object_navigation_start = time.time()
-        self.navigate_to_pose(pose.pose.position.x, pose.pose.position.y, 0.0, self.on_reach_object)
+        self.nav_attempted = True
+        self.navigate_to_pose(x, y, 0.0, self.on_reach_object)
+
+    def force_next_stage(self):
+        self.get_logger().warn("⏳ 10s timeout reached. Proceeding regardless.")
+        self.on_reach_object()
 
     def on_reach_object(self):
-        if self.mode not in ["approaching_object", "awaiting_target"]:
+        if self.timeout_timer:
+            self.timeout_timer.cancel()
+
+        if self.mode in ["picking", "returning", "dropping", "done"]:
+            self.get_logger().info("⚠️ on_reach_object() called, but mission is already in progress or done. Ignoring.")
             return
+
         self.mode = "picking"
-        self.say("Reached object. Starting pick.")
+        self.say("At object. Starting pick.")
         self.get_logger().info("🤖 Executing pick_node...")
 
         try:
@@ -141,8 +139,8 @@ class NavigationHandler(Node):
             self.mode = "returning"
             self.navigate_to_pose(BASE_X, BASE_Y, BASE_YAW, self.on_return_to_base)
         except Exception as e:
-            self.get_logger().error(f"❌ Pick node failed: {e}")
-            self.say("Failed to pick object.")
+            self.get_logger().error(f"❌ Pick failed: {e}")
+            self.say("Pick failed.")
             self.mode = "done"
 
     def on_return_to_base(self):
@@ -157,11 +155,10 @@ class NavigationHandler(Node):
                 "ros2", "run", "mycobot_arm", "drop_node",
                 "--ros-args", "-p", f"m5_ip:={self.m5_ip}"
             ], check=True)
-            self.say("Drop complete. Mission over.")
-            self.get_logger().info("✅ Drop complete. Mission done.")
+            self.say("Drop complete. Mission done.")
         except Exception as e:
-            self.get_logger().error(f"❌ Drop node failed: {e}")
-            self.say("Failed to drop object.")
+            self.get_logger().error(f"❌ Drop failed: {e}")
+            self.say("Drop failed.")
 
         self.mode = "done"
         self.timer.cancel()
@@ -182,7 +179,7 @@ class NavigationHandler(Node):
 
         def wait_for_server():
             if self.nav_client.wait_for_server(timeout_sec=1.0):
-                self.get_logger().info("📤 Sending navigation goal...")
+                self.get_logger().info("📤 Sending goal...")
                 send_goal()
             else:
                 self.get_logger().warn("⏳ Waiting for Nav2 server...")
@@ -193,28 +190,25 @@ class NavigationHandler(Node):
     def handle_goal_response(self, future, on_done):
         goal_handle = future.result()
         if not goal_handle.accepted:
-            self.get_logger().warn("❌ Goal was rejected.")
+            self.get_logger().warn("❌ Goal rejected.")
             return
-        self.get_logger().info("✅ Goal accepted.")
         self.active_goal_handle = goal_handle
-
+        self.get_logger().info("✅ Goal accepted.")
         result_future = goal_handle.get_result_async()
         result_future.add_done_callback(lambda r: self.on_navigation_complete(r, on_done))
 
     def cancel_current_goal(self):
         if self.active_goal_handle:
             self.active_goal_handle.cancel_goal()
-            self.get_logger().info("🛑 Active goal canceled.")
+            self.get_logger().info("🛑 Goal canceled.")
             self.active_goal_handle = None
 
     def on_navigation_complete(self, future, on_done):
         self.say("Navigation complete.")
         result = future.result().result
-        self.get_logger().info(f"🏁 Navigation done. Result: {result}")
+        self.get_logger().info(f"🏁 Navigation result: {result}")
         if on_done:
-            self.get_logger().info("▶️ Calling post-navigation callback.")
             on_done()
-
 
 def main(args=None):
     rclpy.init(args=args)

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing mycobot_arm.egg-info/PKG-INFO
+writing dependency_links to mycobot_arm.egg-info/dependency_links.txt
+writing entry points to mycobot_arm.egg-info/entry_points.txt
+writing requirements to mycobot_arm.egg-info/requires.txt
+writing top-level names to mycobot_arm.egg-info/top_level.txt
+reading manifest file 'mycobot_arm.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages/mycobot-arm.egg-link (link to .)
+Installing drop_node script to /home/agilex/krish_ws/install/mycobot_arm/lib/mycobot_arm
+Installing pick_node script to /home/agilex/krish_ws/install/mycobot_arm/lib/mycobot_arm
+
+Installed /home/agilex/krish_ws/build/mycobot_arm
+running install_data
+copying resource/mycobot_arm -> /home/agilex/krish_ws/install/mycobot_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/agilex/krish_ws/install/mycobot_arm/share/mycobot_arm
