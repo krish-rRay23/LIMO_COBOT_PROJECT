@@ -1,0 +1,98 @@
+[5.515s] Invoking command in '/home/agilex/krish_ws/build/my_launch_pkg': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/agilex/krish_ws/build/my_launch_pkg/build
+[5.906s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.906s] !!
+[5.907s] 
+[5.907s]         ********************************************************************************
+[5.907s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.907s]         versions. Please use the underscore name 'script_dir' instead.
+[5.907s] 
+[5.907s]         This deprecation is overdue, please update your project and remove deprecated
+[5.907s]         calls to avoid build errors in the future.
+[5.907s] 
+[5.908s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.908s]         ********************************************************************************
+[5.908s] 
+[5.908s] !!
+[5.908s]   opt = self.warn_dash_deprecation(opt, section)
+[6.373s] running develop
+[6.374s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.374s] !!
+[6.374s] 
+[6.374s]         ********************************************************************************
+[6.375s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.375s]         Instead, use pypa/build, pypa/installer or other
+[6.375s]         standards-based tools.
+[6.375s] 
+[6.376s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.376s]         ********************************************************************************
+[6.376s] 
+[6.377s] !!
+[6.377s]   easy_install.initialize_options(self)
+[6.469s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.470s] !!
+[6.470s] 
+[6.470s]         ********************************************************************************
+[6.471s]         Please avoid running ``setup.py`` directly.
+[6.471s]         Instead, use pypa/build, pypa/installer or other
+[6.471s]         standards-based tools.
+[6.471s] 
+[6.472s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.472s]         ********************************************************************************
+[6.472s] 
+[6.472s] !!
+[6.473s]   self.initialize_options()
+[6.940s] Removing /home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages/my-launch-pkg.egg-link (link to .)
+[7.043s] Invoked command in '/home/agilex/krish_ws/build/my_launch_pkg' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/agilex/krish_ws/build/my_launch_pkg/build
+[7.052s] Invoking command in '/home/agilex/krish_ws/src/my_launch_pkg': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_launch_pkg build --build-base /home/agilex/krish_ws/build/my_launch_pkg/build install --record /home/agilex/krish_ws/build/my_launch_pkg/install.log --install-scripts $base/lib/my_launch_pkg --single-version-externally-managed
+[7.435s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[7.435s] !!
+[7.435s] 
+[7.435s]         ********************************************************************************
+[7.435s]         Usage of dash-separated 'script-dir' will not be supported in future
+[7.436s]         versions. Please use the underscore name 'script_dir' instead.
+[7.436s] 
+[7.436s]         This deprecation is overdue, please update your project and remove deprecated
+[7.436s]         calls to avoid build errors in the future.
+[7.436s] 
+[7.436s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[7.436s]         ********************************************************************************
+[7.436s] 
+[7.437s] !!
+[7.437s]   opt = self.warn_dash_deprecation(opt, section)
+[7.709s] running egg_info
+[7.753s] writing ../../build/my_launch_pkg/my_launch_pkg.egg-info/PKG-INFO
+[7.754s] writing dependency_links to ../../build/my_launch_pkg/my_launch_pkg.egg-info/dependency_links.txt
+[7.755s] writing requirements to ../../build/my_launch_pkg/my_launch_pkg.egg-info/requires.txt
+[7.755s] writing top-level names to ../../build/my_launch_pkg/my_launch_pkg.egg-info/top_level.txt
+[8.110s] reading manifest file '../../build/my_launch_pkg/my_launch_pkg.egg-info/SOURCES.txt'
+[8.112s] writing manifest file '../../build/my_launch_pkg/my_launch_pkg.egg-info/SOURCES.txt'
+[8.113s] running build
+[8.113s] running build_py
+[8.114s] copying my_launch_pkg/__init__.py -> /home/agilex/krish_ws/build/my_launch_pkg/build/lib/my_launch_pkg
+[8.115s] running install
+[8.116s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[8.116s] !!
+[8.116s] 
+[8.116s]         ********************************************************************************
+[8.117s]         Please avoid running ``setup.py`` directly.
+[8.117s]         Instead, use pypa/build, pypa/installer or other
+[8.117s]         standards-based tools.
+[8.117s] 
+[8.118s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[8.118s]         ********************************************************************************
+[8.118s] 
+[8.118s] !!
+[8.118s]   self.initialize_options()
+[8.128s] running install_lib
+[8.173s] creating /home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages/my_launch_pkg
+[8.173s] copying /home/agilex/krish_ws/build/my_launch_pkg/build/lib/my_launch_pkg/__init__.py -> /home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages/my_launch_pkg
+[8.175s] byte-compiling /home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages/my_launch_pkg/__init__.py to __init__.cpython-38.pyc
+[8.175s] running install_data
+[8.221s] copying resource/my_launch_pkg -> /home/agilex/krish_ws/install/my_launch_pkg/share/ament_index/resource_index/packages
+[8.221s] copying package.xml -> /home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg
+[8.222s] copying launch/full_system.launch.py -> /home/agilex/krish_ws/install/my_launch_pkg/share/my_launch_pkg/launch
+[8.222s] running install_egg_info
+[8.268s] Copying ../../build/my_launch_pkg/my_launch_pkg.egg-info to /home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages/my_launch_pkg-0.0.0-py3.8.egg-info
+[8.270s] running install_scripts
+[8.380s] writing list of installed files to '/home/agilex/krish_ws/build/my_launch_pkg/install.log'
+[8.469s] Invoked command in '/home/agilex/krish_ws/src/my_launch_pkg' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/my_launch_pkg/prefix_override:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_launch_pkg build --build-base /home/agilex/krish_ws/build/my_launch_pkg/build install --record /home/agilex/krish_ws/build/my_launch_pkg/install.log --install-scripts $base/lib/my_launch_pkg --single-version-externally-managed

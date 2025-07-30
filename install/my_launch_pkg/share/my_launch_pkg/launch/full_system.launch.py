@@ -82,12 +82,12 @@ def generate_launch_description():
         output='screen'
     )
 
-    # pose_setter = Node(
-    #     package="nav_handler",
-    #     executable="pose_setter",
-    #     name="pose_setter",
-    #     output="screen"
-    # )
+    pose_setter = Node(
+        package="nav_handler",
+        executable="pose_setter",
+        name="pose_setter",
+        output="screen"
+    )
 
     yolo_node = Node(
         package="object_detector",
@@ -95,14 +95,22 @@ def generate_launch_description():
         name="yolo_detector",
         output="screen"
     )
+    static_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="camera_static_tf",
+        arguments=["0.12", "0", "0.21", "0", "0", "0", "base_link", "camera_link"],
+        output="screen"
+    )
 
-    # nav_handler = Node(
-    #     package="nav_handler",
-    #     executable="nav_handler",
-    #     name="nav_handler",
-    #     output="screen",
-    #     additional_env={"M5_IP": detected_ip}  # ✅ Pass as env var
-    # )
+
+    mission_manager = Node(
+        package="nav_handler",
+        executable="mission_manager",
+        name="mission_manager",
+        output="screen",
+        additional_env={"M5_IP": detected_ip}  
+    )
 
     rqt_view = ExecuteProcess(
         cmd=['ros2', 'run', 'rqt_image_view', 'rqt_image_view'],
@@ -114,15 +122,11 @@ def generate_launch_description():
         DeclareLaunchArgument("m5_ip", default_value=detected_ip),
 
         limo_start,
+        static_tf,
         camera_launch,
-
-        TimerAction(period=3.0, actions=[yolo_node]),        # Start YOLO early
-        TimerAction(period=5.0, actions=[nav2]),
-        # TimerAction(period=7.0, actions=[pose_setter]),
-
-        # Delay nav_handler & rqt until YOLO is fully initialized (~12s)
-        TimerAction(period=15.0, actions=[
-            # nav_handler,
-            rqt_view
-        ])
+        yolo_node,      
+        TimerAction(period=3.0, actions=[nav2]),
+        TimerAction(period=5.0, actions=[pose_setter]),
+        TimerAction(period=10.0, actions=[mission_manager]),
+        TimerAction(period=15.0, actions=[rqt_view])
     ])

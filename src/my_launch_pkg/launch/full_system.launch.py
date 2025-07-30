@@ -104,10 +104,10 @@ def generate_launch_description():
     )
 
 
-    nav_handler = Node(
+    mission_manager = Node(
         package="nav_handler",
-        executable="nav_handler",
-        name="nav_handler",
+        executable="mission_manager",
+        name="mission_manager",
         output="screen",
         additional_env={"M5_IP": detected_ip}  
     )
@@ -124,10 +124,9 @@ def generate_launch_description():
         limo_start,
         static_tf,
         camera_launch,
-
-        TimerAction(period=3.0, actions=[yolo_node]),        
-        TimerAction(period=5.0, actions=[nav2]),
-        TimerAction(period=7.0, actions=[pose_setter]),
-        TimerAction(period=15.0, actions=[nav_handler]),
-        TimerAction(period=19.0, actions=[rqt_view])
+        yolo_node,      
+        TimerAction(period=3.0, actions=[nav2]),
+        TimerAction(period=5.0, actions=[pose_setter]),
+        TimerAction(period=10.0, actions=[mission_manager]),
+        TimerAction(period=15.0, actions=[rqt_view])
     ])

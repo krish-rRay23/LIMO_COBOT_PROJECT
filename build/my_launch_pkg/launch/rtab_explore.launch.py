@@ -1,1 +1,0 @@
-/home/agilex/krish_ws/src/my_launch_pkg/launch/rtab_explore.launch.py

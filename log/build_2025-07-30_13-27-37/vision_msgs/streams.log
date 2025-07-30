@@ -1,0 +1,337 @@
+[8.274s] Invoking command in '/home/agilex/krish_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake /home/agilex/krish_ws/src/vision_msgs/vision_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/vision_msgs
+[14.391s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[14.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[14.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.395s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[14.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.396s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[14.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.403s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[14.403s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[14.403s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[14.404s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[14.404s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[14.404s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[14.404s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[14.404s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[14.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.405s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.405s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.405s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.405s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.405s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[14.405s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[14.405s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[14.405s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.405s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.408s] -- Configured cppcheck include dirs: /home/agilex/krish_ws/src/vision_msgs/vision_msgs/include
+[14.409s] -- Configured cppcheck exclude dirs and/or files: 
+[14.409s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.412s] -- Configured cpplint exclude dirs and/or files: 
+[14.414s] -- Added test 'uncrustify' to check C / C++ code style
+[14.414s] -- Configured uncrustify additional arguments: 
+[14.414s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.414s] -- Added test 'lint_cmake' to check CMake code style
+[14.414s] -- Added test 'xmllint' to check XML markup files
+[14.414s] -- Configuring done
+[14.415s] -- Generating done
+[14.415s] -- Build files have been written to: /home/agilex/krish_ws/build/vision_msgs
+[14.415s] Invoked command in '/home/agilex/krish_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake /home/agilex/krish_ws/src/vision_msgs/vision_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/krish_ws/install/vision_msgs
+[14.417s] Invoking command in '/home/agilex/krish_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/krish_ws/build/vision_msgs -- -j6 -l6
+[16.545s] [  2%] Built target vision_msgs__cpp
+[16.546s] [  3%] Built target gtest
+[16.546s] [  3%] Built target gtest_main
+[16.546s] [ 14%] Built target vision_msgs__rosidl_generator_c
+[16.546s] [ 25%] Built target vision_msgs__rosidl_typesupport_introspection_cpp
+[16.546s] [ 36%] Built target vision_msgs__rosidl_typesupport_cpp
+[16.546s] [ 37%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.546s] [ 49%] Built target vision_msgs__rosidl_typesupport_introspection_c
+[16.547s] [ 59%] Built target vision_msgs__rosidl_typesupport_c
+[16.547s] [ 69%] Built target vision_msgs__rosidl_typesupport_fastrtps_cpp
+[16.547s] [ 70%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[16.547s] [ 80%] Built target vision_msgs__rosidl_typesupport_fastrtps_c
+[16.547s] [ 80%] Built target vision_msgs
+[16.547s] [ 81%] Built target vision_msgs__py
+[16.547s] [ 83%] Built target vision_msgs_test
+[16.548s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/libvision_msgs__python.so[0m
+[16.548s] [ 94%] Built target vision_msgs__python
+[16.548s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.548s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.549s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.549s] [ 98%] Built target vision_msgs__rosidl_typesupport_introspection_c__pyext
+[16.549s] [ 99%] Built target vision_msgs__rosidl_typesupport_c__pyext
+[16.549s] [100%] Built target vision_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.591s] Invoked command in '/home/agilex/krish_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/krish_ws/build/vision_msgs -- -j6 -l6
+[18.257s] Invoking command in '/home/agilex/krish_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/krish_ws/build/vision_msgs
+[18.294s] -- Install configuration: ""
+[18.295s] -- Execute custom install script
+[18.296s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/ament_index/resource_index/rosidl_interfaces/vision_msgs
+[18.332s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box2_d.h
+[18.378s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box2_d_array.h
+[18.411s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box3_d.h
+[18.444s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box3_d_array.h
+[18.490s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/classification2_d.h
+[18.526s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/classification3_d.h
+[18.559s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__functions.h
+[18.605s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__struct.h
+[18.643s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__type_support.h
+[18.677s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__functions.h
+[18.712s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__struct.h
+[18.747s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__type_support.h
+[18.779s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__functions.h
+[18.815s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__struct.h
+[18.846s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__type_support.h
+[18.887s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__functions.h
+[18.919s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__struct.h
+[18.955s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__type_support.h
+[19.010s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__functions.h
+[19.042s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__struct.h
+[19.077s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__type_support.h
+[19.117s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__functions.h
+[19.152s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__struct.h
+[19.187s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__type_support.h
+[19.220s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__functions.h
+[19.253s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__struct.h
+[19.285s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__type_support.h
+[19.319s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__functions.h
+[19.354s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__struct.h
+[19.389s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__type_support.h
+[19.423s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__functions.h
+[19.459s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__struct.h
+[19.499s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__type_support.h
+[19.533s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__functions.h
+[19.570s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__struct.h
+[19.606s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__type_support.h
+[19.638s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__functions.h
+[19.674s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__struct.h
+[19.707s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__type_support.h
+[19.743s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__functions.h
+[19.779s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.h
+[19.821s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.h
+[19.854s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__functions.h
+[19.885s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__struct.h
+[19.920s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__type_support.h
+[19.958s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection2_d.h
+[19.990s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection2_d_array.h
+[20.024s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection3_d.h
+[20.059s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection3_d_array.h
+[20.092s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/object_hypothesis.h
+[20.126s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/object_hypothesis_with_pose.h
+[20.164s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.201s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/vision_info.h
+[20.238s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/library_path.sh
+[20.287s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/library_path.dsv
+[20.321s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[20.359s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_fastrtps_c.h
+[20.419s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[20.474s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_fastrtps_c.h
+[20.510s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__rosidl_typesupport_fastrtps_c.h
+[20.548s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__rosidl_typesupport_fastrtps_c.h
+[20.587s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_fastrtps_c.h
+[20.651s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_c.h
+[20.688s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_fastrtps_c.h
+[20.722s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_fastrtps_c.h
+[20.750s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_fastrtps_c.h
+[20.785s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_fastrtps_c.h
+[20.812s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__rosidl_typesupport_fastrtps_c.h
+[20.844s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.877s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so
+[20.913s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[20.942s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[20.975s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[21.004s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[21.037s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[21.069s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[21.100s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[21.131s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[21.162s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[21.192s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[21.224s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_fastrtps_cpp.hpp
+[21.252s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[21.284s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__rosidl_typesupport_fastrtps_cpp.hpp
+[21.314s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.347s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.380s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[21.409s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_introspection_c.h
+[21.441s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[21.472s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_introspection_c.h
+[21.509s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__rosidl_typesupport_introspection_c.h
+[21.535s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__rosidl_typesupport_introspection_c.h
+[21.564s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_introspection_c.h
+[21.595s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_introspection_c.h
+[21.625s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_introspection_c.h
+[21.657s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_introspection_c.h
+[21.690s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_introspection_c.h
+[21.721s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_introspection_c.h
+[21.753s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__rosidl_typesupport_introspection_c.h
+[21.789s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.830s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box2_d.hpp
+[21.866s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box2_d_array.hpp
+[21.893s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box3_d.hpp
+[21.924s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/bounding_box3_d_array.hpp
+[21.960s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/classification2_d.hpp
+[21.993s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/classification3_d.hpp
+[22.025s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__builder.hpp
+[22.055s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__struct.hpp
+[22.087s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__traits.hpp
+[22.118s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[22.148s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__builder.hpp
+[22.183s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__struct.hpp
+[22.212s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__traits.hpp
+[22.243s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__type_support.hpp
+[22.273s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__builder.hpp
+[22.304s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__struct.hpp
+[22.335s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__traits.hpp
+[22.362s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[22.394s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__builder.hpp
+[22.424s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__struct.hpp
+[22.458s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__traits.hpp
+[22.489s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__type_support.hpp
+[22.516s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__builder.hpp
+[22.546s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__struct.hpp
+[22.577s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__traits.hpp
+[22.609s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__type_support.hpp
+[22.637s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__builder.hpp
+[22.668s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__struct.hpp
+[22.699s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__traits.hpp
+[22.730s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__type_support.hpp
+[22.760s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__builder.hpp
+[22.793s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__struct.hpp
+[22.822s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__traits.hpp
+[22.852s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__type_support.hpp
+[22.889s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__builder.hpp
+[22.923s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__struct.hpp
+[22.953s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__traits.hpp
+[22.985s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__type_support.hpp
+[23.020s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__builder.hpp
+[23.052s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__struct.hpp
+[23.084s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__traits.hpp
+[23.114s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__type_support.hpp
+[23.149s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__builder.hpp
+[23.183s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__struct.hpp
+[23.214s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__traits.hpp
+[23.243s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__type_support.hpp
+[23.275s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__builder.hpp
+[23.308s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__struct.hpp
+[23.339s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__traits.hpp
+[23.370s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__type_support.hpp
+[23.401s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__builder.hpp
+[23.433s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp
+[23.468s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp
+[23.495s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.hpp
+[23.532s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__builder.hpp
+[23.562s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__struct.hpp
+[23.593s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__traits.hpp
+[23.624s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__type_support.hpp
+[23.654s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection2_d.hpp
+[23.684s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection2_d_array.hpp
+[23.716s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection3_d.hpp
+[23.750s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detection3_d_array.hpp
+[23.783s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/object_hypothesis.hpp
+[23.820s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/object_hypothesis_with_pose.hpp
+[23.850s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.882s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/vision_info.hpp
+[23.913s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[23.946s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[23.979s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[24.007s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[24.039s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification2_d__rosidl_typesupport_introspection_cpp.hpp
+[24.072s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/classification3_d__rosidl_typesupport_introspection_cpp.hpp
+[24.106s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_introspection_cpp.hpp
+[24.139s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[24.172s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_introspection_cpp.hpp
+[24.206s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[24.233s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_introspection_cpp.hpp
+[24.267s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[24.294s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/msg/detail/vision_info__rosidl_typesupport_introspection_cpp.hpp
+[24.326s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.sh
+[24.363s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.dsv
+[24.389s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/__init__.py
+[24.421s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/__init__.py
+[24.453s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_bounding_box2_d.py
+[24.482s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_bounding_box2_d_array.py
+[24.511s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_bounding_box3_d.py
+[24.542s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_bounding_box3_d_array.py
+[24.577s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_classification2_d.py
+[24.604s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_classification3_d.py
+[24.637s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_detection2_d.py
+[24.671s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_detection2_d_array.py
+[24.703s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_detection3_d.py
+[24.733s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_detection3_d_array.py
+[24.764s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_object_hypothesis.py
+[24.794s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_object_hypothesis_with_pose.py
+[24.826s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/msg/_vision_info.py
+[24.857s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[24.890s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[24.922s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[24.951s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__python.so
+[24.986s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2D.idl
+[25.017s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2DArray.idl
+[25.048s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3D.idl
+[25.081s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3DArray.idl
+[25.111s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Classification2D.idl
+[25.142s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Classification3D.idl
+[25.172s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection2DArray.idl
+[25.204s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection2D.idl
+[25.235s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection3DArray.idl
+[25.275s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection3D.idl
+[25.301s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesis.idl
+[25.334s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesisWithPose.idl
+[25.364s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/VisionInfo.idl
+[25.397s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2D.msg
+[25.429s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2DArray.msg
+[25.459s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3D.msg
+[25.490s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3DArray.msg
+[25.520s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Classification2D.msg
+[25.551s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Classification3D.msg
+[25.582s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection2DArray.msg
+[25.613s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection2D.msg
+[25.645s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection3DArray.msg
+[25.676s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/Detection3D.msg
+[25.711s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesis.msg
+[25.742s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesisWithPose.msg
+[25.773s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/msg/VisionInfo.msg
+[25.804s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/include/vision_msgs/create_aabb.hpp
+[25.837s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/ament_index/resource_index/package_run_dependencies/vision_msgs
+[25.869s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/ament_index/resource_index/parent_prefix_path/vision_msgs
+[25.902s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.sh
+[25.934s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.dsv
+[25.967s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/path.sh
+[26.001s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/environment/path.dsv
+[26.033s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/local_setup.bash
+[26.063s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/local_setup.sh
+[26.096s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/local_setup.zsh
+[26.128s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/local_setup.dsv
+[26.161s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.dsv
+[26.194s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/ament_index/resource_index/packages/vision_msgs
+[26.228s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake-extras.cmake
+[26.259s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.292s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.324s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.356s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.386s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.418s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.449s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig.cmake
+[26.481s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig-version.cmake
+[26.512s] -- Symlinking: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/package.xml
+[26.545s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_c.so
+[26.546s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_c.so
+[26.547s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_c.so
+[26.549s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so
+[26.550s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_cpp.so
+[26.659s] Compiling '/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages/vision_msgs/__init__.py'...
+[26.670s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_generator_cExport.cmake
+[26.671s] -- Installing: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.672s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.672s] -- Installing: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.673s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport.cmake
+[26.674s] -- Installing: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.675s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_generator_cppExport.cmake
+[26.676s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.676s] -- Installing: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.677s] -- Up-to-date: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport.cmake
+[26.677s] -- Installing: /home/agilex/krish_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.689s] Invoked command in '/home/agilex/krish_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/krish_ws/build/vision_msgs

@@ -10,7 +10,9 @@ setup.py
 ../../build/nav_handler/nav_handler.egg-info/zip-safe
 nav_handler/__init__.py
 nav_handler/manual_object_nav_test.py
-nav_handler/nav_handler.py
+nav_handler/mission_manager.py
+nav_handler/nav_handler copy 2.py
+nav_handler/nav_handler copy.py
 nav_handler/pose_setter.py
 resource/nav_handler
 test/test_copyright.py
