@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000709] (-) JobUnselected: {'identifier': 'my_launch_pkg'}
+[0.000911] (-) JobUnselected: {'identifier': 'mycobot_arm'}
+[0.001315] (-) JobUnselected: {'identifier': 'object_detector'}
+[0.001643] (-) JobUnselected: {'identifier': 'vision_msgs'}
+[0.001904] (-) JobUnselected: {'identifier': 'vision_msgs_rviz_plugins'}
+[0.001999] (nav_handler) JobQueued: {'identifier': 'nav_handler', 'dependencies': OrderedDict()}
+[0.002074] (nav_handler) JobStarted: {'identifier': 'nav_handler'}
+[0.099468] (-) TimerEvent: {}
+[0.200054] (-) TimerEvent: {}
+[0.301217] (-) TimerEvent: {}
+[0.401918] (-) TimerEvent: {}
+[0.503024] (-) TimerEvent: {}
+[0.604007] (-) TimerEvent: {}
+[0.705075] (-) TimerEvent: {}
+[0.806008] (-) TimerEvent: {}
+[0.911199] (-) TimerEvent: {}
+[1.012052] (-) TimerEvent: {}
+[1.113055] (-) TimerEvent: {}
+[1.214080] (-) TimerEvent: {}
+[1.314768] (-) TimerEvent: {}
+[1.416316] (-) TimerEvent: {}
+[1.517465] (-) TimerEvent: {}
+[1.619450] (-) TimerEvent: {}
+[1.724555] (-) TimerEvent: {}
+[1.826073] (-) TimerEvent: {}
+[1.926951] (-) TimerEvent: {}
+[2.027561] (-) TimerEvent: {}
+[2.128165] (-) TimerEvent: {}
+[2.228756] (-) TimerEvent: {}
+[2.329384] (-) TimerEvent: {}
+[2.430803] (-) TimerEvent: {}
+[2.532230] (-) TimerEvent: {}
+[2.633062] (-) TimerEvent: {}
+[2.733711] (-) TimerEvent: {}
+[2.834881] (-) TimerEvent: {}
+[2.935857] (-) TimerEvent: {}
+[3.038973] (-) TimerEvent: {}
+[3.140641] (-) TimerEvent: {}
+[3.243471] (-) TimerEvent: {}
+[3.345040] (-) TimerEvent: {}
+[3.445968] (-) TimerEvent: {}
+[3.548097] (-) TimerEvent: {}
+[3.650706] (-) TimerEvent: {}
+[3.756483] (-) TimerEvent: {}
+[3.857911] (-) TimerEvent: {}
+[3.958699] (-) TimerEvent: {}
+[4.059619] (-) TimerEvent: {}
+[4.160233] (-) TimerEvent: {}
+[4.260818] (-) TimerEvent: {}
+[4.361780] (-) TimerEvent: {}
+[4.462565] (-) TimerEvent: {}
+[4.563330] (-) TimerEvent: {}
+[4.664177] (-) TimerEvent: {}
+[4.765156] (-) TimerEvent: {}
+[4.865773] (-) TimerEvent: {}
+[4.966439] (-) TimerEvent: {}
+[5.067138] (-) TimerEvent: {}
+[5.167747] (-) TimerEvent: {}
+[5.268373] (-) TimerEvent: {}
+[5.368971] (-) TimerEvent: {}
+[5.469583] (-) TimerEvent: {}
+[5.570387] (-) TimerEvent: {}
+[5.602233] (nav_handler) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nav_handler', 'build', '--build-base', '/home/agilex/krish_ws/build/nav_handler/build', 'install', '--record', '/home/agilex/krish_ws/build/nav_handler/install.log', '--install-scripts', '$base/lib/nav_handler', '--single-version-externally-managed'], 'cwd': '/home/agilex/krish_ws/src/nav_handler', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'agilex', 'SSH_AGENT_PID': '1933', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins/lib:/home/agilex/krish_ws/install/vision_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/agilex', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CYCLONEDDS_URI': 'file:///var/lib/theconstruct.rrl/cyclonedds.xml', 'OLDPWD': '/home/agilex/krish_ws/src', 'TERM_PROGRAM_VERSION': '1.81.0', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6004', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/agilex/krish_ws/install:/home/agilex/limo_ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'agilex', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423824356192', 'JOURNAL_STREAM': '8:51799', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.4/bin:/home/agilex/.local/bin:/usr/local/cuda-11.4/bin:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin:/home/agilex/limo_ros2_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/master:@/tmp/.ICE-unix/1970,unix/master:/tmp/.ICE-unix/1970', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/var/lib/theconstruct.rrl/fastdds_husarnet.xml', 'INVOCATION_ID': 'acf1c9179552494a9f1ac0de47ed88a4', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f1fbc60582.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins:/home/agilex/krish_ws/install/vision_msgs:/home/agilex/krish_ws/install/object_detector:/home/agilex/krish_ws/install/nav_handler:/home/agilex/krish_ws/install/mycobot_arm:/home/agilex/krish_ws/install/my_launch_pkg:/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://master:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/agilex/krish_ws/build/nav_handler', 'ROS_IPV6': 'on', 'CUDA_HOME': '/usr/local/cuda-11.4', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/agilex/krish_ws/build/nav_handler/prefix_override:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/vision_msgs/lib/python3.8/site-packages:/home/agilex/krish_ws/install/object_detector/lib/python3.8/site-packages:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:/home/agilex/krish_ws/install/mycobot_arm/lib/python3.8/site-packages:/home/agilex/krish_ws/install/my_launch_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': 'master', 'COLCON': '1', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/krish_ws/install/vision_msgs_rviz_plugins:/home/agilex/krish_ws/install/vision_msgs', 'JETSON_P_NUMBER': 'p3767-0003'}, 'shell': False}
+[5.670690] (-) TimerEvent: {}
+[5.771607] (-) TimerEvent: {}
+[5.872392] (-) TimerEvent: {}
+[5.973149] (-) TimerEvent: {}
+[6.005496] (nav_handler) StderrLine: {'line': b'/home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[6.006414] (nav_handler) StderrLine: {'line': b'!!\n'}
+[6.006644] (nav_handler) StderrLine: {'line': b'\n'}
+[6.006931] (nav_handler) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.007130] (nav_handler) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[6.007271] (nav_handler) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[6.007427] (nav_handler) StderrLine: {'line': b'\n'}
+[6.007559] (nav_handler) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[6.007686] (nav_handler) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[6.007832] (nav_handler) StderrLine: {'line': b'\n'}
+[6.007983] (nav_handler) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[6.008140] (nav_handler) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.008265] (nav_handler) StderrLine: {'line': b'\n'}
+[6.008385] (nav_handler) StderrLine: {'line': b'!!\n'}
+[6.008535] (nav_handler) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[6.073285] (-) TimerEvent: {}
+[6.173890] (-) TimerEvent: {}
+[6.274488] (-) TimerEvent: {}
+[6.283170] (nav_handler) StdoutLine: {'line': b'running egg_info\n'}
+[6.328904] (nav_handler) StdoutLine: {'line': b'writing ../../build/nav_handler/nav_handler.egg-info/PKG-INFO\n'}
+[6.330289] (nav_handler) StdoutLine: {'line': b'writing dependency_links to ../../build/nav_handler/nav_handler.egg-info/dependency_links.txt\n'}
+[6.330898] (nav_handler) StdoutLine: {'line': b'writing entry points to ../../build/nav_handler/nav_handler.egg-info/entry_points.txt\n'}
+[6.331335] (nav_handler) StdoutLine: {'line': b'writing requirements to ../../build/nav_handler/nav_handler.egg-info/requires.txt\n'}
+[6.331632] (nav_handler) StdoutLine: {'line': b'writing top-level names to ../../build/nav_handler/nav_handler.egg-info/top_level.txt\n'}
+[6.374670] (-) TimerEvent: {}
+[6.475444] (-) TimerEvent: {}
+[6.576270] (-) TimerEvent: {}
+[6.677058] (-) TimerEvent: {}
+[6.681849] (nav_handler) StdoutLine: {'line': b"reading manifest file '../../build/nav_handler/nav_handler.egg-info/SOURCES.txt'\n"}
+[6.683943] (nav_handler) StdoutLine: {'line': b"writing manifest file '../../build/nav_handler/nav_handler.egg-info/SOURCES.txt'\n"}
+[6.684588] (nav_handler) StdoutLine: {'line': b'running build\n'}
+[6.684856] (nav_handler) StdoutLine: {'line': b'running build_py\n'}
+[6.686383] (nav_handler) StdoutLine: {'line': b'copying nav_handler/__init__.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler\n'}
+[6.686860] (nav_handler) StdoutLine: {'line': b'copying nav_handler/nav_handler copy.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler\n'}
+[6.687452] (nav_handler) StdoutLine: {'line': b'copying nav_handler/mission_manager.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler\n'}
+[6.687847] (nav_handler) StdoutLine: {'line': b'copying nav_handler/mission_manager copy.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler\n'}
+[6.688397] (nav_handler) StdoutLine: {'line': b'copying nav_handler/pose_setter.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler\n'}
+[6.689339] (nav_handler) StdoutLine: {'line': b'running install\n'}
+[6.690221] (nav_handler) StderrLine: {'line': b'/home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[6.690634] (nav_handler) StderrLine: {'line': b'!!\n'}
+[6.690810] (nav_handler) StderrLine: {'line': b'\n'}
+[6.690967] (nav_handler) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.691113] (nav_handler) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[6.691243] (nav_handler) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[6.691367] (nav_handler) StderrLine: {'line': b'        standards-based tools.\n'}
+[6.691484] (nav_handler) StderrLine: {'line': b'\n'}
+[6.691602] (nav_handler) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[6.691720] (nav_handler) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.691913] (nav_handler) StderrLine: {'line': b'\n'}
+[6.692161] (nav_handler) StderrLine: {'line': b'!!\n'}
+[6.692382] (nav_handler) StderrLine: {'line': b'  self.initialize_options()\n'}
+[6.703102] (nav_handler) StdoutLine: {'line': b'running install_lib\n'}
+[6.748438] (nav_handler) StdoutLine: {'line': b'copying /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler/mission_manager.py -> /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler\n'}
+[6.750684] (nav_handler) StdoutLine: {'line': b'byte-compiling /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler/mission_manager.py to mission_manager.cpython-38.pyc\n'}
+[6.753701] (nav_handler) StdoutLine: {'line': b'running install_data\n'}
+[6.777197] (-) TimerEvent: {}
+[6.797724] (nav_handler) StdoutLine: {'line': b'copying resource/nav_handler -> /home/agilex/krish_ws/install/nav_handler/share/ament_index/resource_index/packages\n'}
+[6.798426] (nav_handler) StdoutLine: {'line': b'copying package.xml -> /home/agilex/krish_ws/install/nav_handler/share/nav_handler\n'}
+[6.798821] (nav_handler) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.845711] (nav_handler) StdoutLine: {'line': b"removing '/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.846536] (nav_handler) StdoutLine: {'line': b'Copying ../../build/nav_handler/nav_handler.egg-info to /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler-0.0.0-py3.8.egg-info\n'}
+[6.848848] (nav_handler) StdoutLine: {'line': b'running install_scripts\n'}
+[6.877365] (-) TimerEvent: {}
+[6.958167] (nav_handler) StdoutLine: {'line': b'Installing mission_manager script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler\n'}
+[6.958913] (nav_handler) StdoutLine: {'line': b'Installing pose_setter script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler\n'}
+[6.959284] (nav_handler) StdoutLine: {'line': b'Installing test script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler\n'}
+[6.959937] (nav_handler) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/krish_ws/build/nav_handler/install.log'\n"}
+[6.977975] (-) TimerEvent: {}
+[7.048363] (nav_handler) CommandEnded: {'returncode': 0}
+[7.078339] (-) TimerEvent: {}
+[7.179262] (-) TimerEvent: {}
+[7.279991] (-) TimerEvent: {}
+[7.382397] (-) TimerEvent: {}
+[7.483668] (-) TimerEvent: {}
+[7.585090] (-) TimerEvent: {}
+[7.686043] (-) TimerEvent: {}
+[7.786989] (-) TimerEvent: {}
+[7.889172] (-) TimerEvent: {}
+[7.926946] (nav_handler) JobEnded: {'identifier': 'nav_handler', 'rc': 0}
+[7.928736] (-) EventReactorShutdown: {}

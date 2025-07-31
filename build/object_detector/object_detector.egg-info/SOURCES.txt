@@ -9,6 +9,8 @@ setup.py
 ../../build/object_detector/object_detector.egg-info/top_level.txt
 ../../build/object_detector/object_detector.egg-info/zip-safe
 object_detector/__init__.py
+object_detector/nav_test.py
+object_detector/object_detector copy.py
 object_detector/object_detector.py
 object_detector/test.py
 resource/object_detector

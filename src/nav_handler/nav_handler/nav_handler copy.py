@@ -2,11 +2,13 @@ import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
 from nav2_msgs.action import NavigateToPose
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, PoseStamped
 import math
 import subprocess
 import shlex
 import os
+import threading
+import time
 
 WAYPOINTS = [
     (0.37247, -0.10103, -13.26),
@@ -16,14 +18,12 @@ WAYPOINTS = [
     (3.70974, -0.48306, -12.09),
     (3.96764, -0.49506, -44.46)
 ]
-
 BASE_POSE = (-0.07185, -0.08918, 7.95)
-
 PICK_NODE = ("mycobot_arm", "pick_node")
 DROP_NODE = ("mycobot_arm", "drop_node")
 M5_IP = os.environ.get("M5_IP", "192.168.137.75")
-PICK_TIMEOUT = 20
-DROP_TIMEOUT = 20
+PICK_TIMEOUT = 50
+DROP_TIMEOUT = 50
 
 SCAN_DEGREES = 270
 SCAN_SPEED = 0.5
@@ -35,6 +35,7 @@ class State:
     PICKING = 'picking'
     RETURNING = 'returning'
     DROPPING = 'dropping'
+    NAVIGATING_TO_OBJECT = 'navigating_to_object'
     DONE = 'done'
 
 class ExplorationNode(Node):
@@ -52,6 +53,12 @@ class ExplorationNode(Node):
         self.scan_duration = None
         self.scan_twist = Twist()
 
+        # Interrupt stuff
+        self.object_detected = False
+        self.object_pose = None
+        self.target_pose_sub = self.create_subscription(
+            PoseStamped, '/target_pose', self.object_detected_callback, 10)
+
         self.say("Exploration initialized.")
         self.get_logger().info("🟢 Exploration node ready.")
 
@@ -62,6 +69,12 @@ class ExplorationNode(Node):
             self.get_logger().warn(f"TTS failed: {e}")
 
     def main_loop(self):
+        if self.object_detected:
+            # Block all exploration if object found
+            if self.state not in [State.NAVIGATING_TO_OBJECT, State.PICKING, State.RETURNING, State.DROPPING, State.DONE]:
+                self.get_logger().info("🛑 Exploration paused due to object detection.")
+            return
+
         if self.state == State.IDLE:
             if self.current_wp < len(WAYPOINTS):
                 self.navigate_to(WAYPOINTS[self.current_wp])
@@ -91,6 +104,54 @@ class ExplorationNode(Node):
             self.say("Mission complete.")
             self.get_logger().info("🏁 Mission done.")
             self.timer.cancel()
+
+    # --- Interrupt/Detection logic ---
+    def object_detected_callback(self, msg):
+        if not self.object_detected:
+            self.get_logger().info("🛑 Object detected! Interrupting exploration.")
+            self.object_detected = True
+            self.object_pose = msg
+            self.cancel_current_nav_goal()
+            self.stop_scanning()
+            self.say("Object detected. Stopping exploration.")
+            threading.Thread(target=self.navigate_to_object_after_delay, daemon=True).start()
+
+    def navigate_to_object_after_delay(self):
+        time.sleep(3)
+        self.say("Navigating to object.")
+        self.get_logger().info("🚀 Navigating to detected object.")
+        self.navigate_to_pose_msg(self.object_pose)
+        self.state = State.NAVIGATING_TO_OBJECT
+
+    def cancel_current_nav_goal(self):
+        # Try to cancel current nav goal if possible
+        try:
+            goal_handle = getattr(self.nav_client, '_goal_handle', None)
+            if goal_handle:
+                self.get_logger().info("🛑 Cancelling current navigation goal...")
+                goal_handle.cancel_goal_async()
+        except Exception as e:
+            self.get_logger().warn(f"Could not cancel nav goal: {e}")
+
+    def stop_scanning(self):
+        if self.scan_timer:
+            self.scan_timer.cancel()
+            self.scan_timer = None
+            self.cmd_vel_pub.publish(Twist())  # stop rotation
+            self.get_logger().info("🛑 Scan interrupted and stopped.")
+
+    def navigate_to_pose_msg(self, pose_msg):
+        goal = NavigateToPose.Goal()
+        goal.pose = pose_msg
+        def send_goal():
+            future = self.nav_client.send_goal_async(goal)
+            future.add_done_callback(self.handle_goal_response)
+        if self.nav_client.wait_for_server(timeout_sec=2.0):
+            send_goal()
+        else:
+            self.get_logger().warn("❌ Nav2 server not ready for object!")
+
+    # --- End Interrupt/Detection logic ---
 
     def navigate_to(self, target):
         x, y, yaw = target
@@ -123,6 +184,7 @@ class ExplorationNode(Node):
             return
 
         self.get_logger().info("✅ Goal accepted.")
+        self.nav_client._goal_handle = goal_handle  # Store handle for cancel
         result_future = goal_handle.get_result_async()
         result_future.add_done_callback(self.on_goal_complete)
 
@@ -130,7 +192,11 @@ class ExplorationNode(Node):
         self.get_logger().info("🏁 Goal reached.")
         self.say("Waypoint reached")
 
-        if self.state == State.RETURNING:
+        if self.object_detected and self.state == State.NAVIGATING_TO_OBJECT:
+            self.say("Arrived at object. Starting pick operation.")
+            self.state = State.PICKING
+            self.run_arm_node(PICK_NODE, PICK_TIMEOUT, self.on_pick_complete)
+        elif self.state == State.RETURNING:
             self.say("Back to base. Starting drop.")
             self.get_logger().info("At base, running drop node.")
             self.state = State.DROPPING
@@ -184,7 +250,6 @@ class ExplorationNode(Node):
             except Exception as e:
                 self.get_logger().error(f"Failed to launch {exe}: {e}")
                 done_cb(False)
-        import threading
         threading.Thread(target=_run, daemon=True).start()
 
     def on_pick_complete(self, success):

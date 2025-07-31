@@ -1,0 +1,59 @@
+[6.182s] Invoking command in '/home/agilex/krish_ws/src/nav_handler': PYTHONPATH=/home/agilex/krish_ws/build/nav_handler/prefix_override:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_handler build --build-base /home/agilex/krish_ws/build/nav_handler/build install --record /home/agilex/krish_ws/build/nav_handler/install.log --install-scripts $base/lib/nav_handler --single-version-externally-managed
+[6.610s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[6.610s] !!
+[6.610s] 
+[6.610s]         ********************************************************************************
+[6.610s]         Usage of dash-separated 'script-dir' will not be supported in future
+[6.610s]         versions. Please use the underscore name 'script_dir' instead.
+[6.611s] 
+[6.611s]         This deprecation is overdue, please update your project and remove deprecated
+[6.611s]         calls to avoid build errors in the future.
+[6.611s] 
+[6.611s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[6.611s]         ********************************************************************************
+[6.611s] 
+[6.611s] !!
+[6.612s]   opt = self.warn_dash_deprecation(opt, section)
+[6.901s] running egg_info
+[6.947s] writing ../../build/nav_handler/nav_handler.egg-info/PKG-INFO
+[6.949s] writing dependency_links to ../../build/nav_handler/nav_handler.egg-info/dependency_links.txt
+[6.951s] writing entry points to ../../build/nav_handler/nav_handler.egg-info/entry_points.txt
+[6.951s] writing requirements to ../../build/nav_handler/nav_handler.egg-info/requires.txt
+[6.951s] writing top-level names to ../../build/nav_handler/nav_handler.egg-info/top_level.txt
+[7.364s] reading manifest file '../../build/nav_handler/nav_handler.egg-info/SOURCES.txt'
+[7.367s] writing manifest file '../../build/nav_handler/nav_handler.egg-info/SOURCES.txt'
+[7.369s] running build
+[7.370s] running build_py
+[7.370s] copying nav_handler/__init__.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+[7.370s] copying nav_handler/nav_handler copy.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+[7.370s] copying nav_handler/mission_manager.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+[7.371s] copying nav_handler/pose_setter.py -> /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler
+[7.372s] running install
+[7.373s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[7.373s] !!
+[7.373s] 
+[7.374s]         ********************************************************************************
+[7.374s]         Please avoid running ``setup.py`` directly.
+[7.374s]         Instead, use pypa/build, pypa/installer or other
+[7.374s]         standards-based tools.
+[7.374s] 
+[7.374s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[7.375s]         ********************************************************************************
+[7.375s] 
+[7.375s] !!
+[7.379s]   self.initialize_options()
+[7.386s] running install_lib
+[7.449s] copying /home/agilex/krish_ws/build/nav_handler/build/lib/nav_handler/mission_manager.py -> /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler
+[7.449s] byte-compiling /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler/mission_manager.py to mission_manager.cpython-38.pyc
+[7.450s] running install_data
+[7.499s] copying resource/nav_handler -> /home/agilex/krish_ws/install/nav_handler/share/ament_index/resource_index/packages
+[7.500s] copying package.xml -> /home/agilex/krish_ws/install/nav_handler/share/nav_handler
+[7.500s] running install_egg_info
+[7.563s] removing '/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler-0.0.0-py3.8.egg-info' (and everything under it)
+[7.563s] Copying ../../build/nav_handler/nav_handler.egg-info to /home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages/nav_handler-0.0.0-py3.8.egg-info
+[7.567s] running install_scripts
+[7.815s] Installing mission_manager script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler
+[7.815s] Installing pose_setter script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler
+[7.816s] Installing test script to /home/agilex/krish_ws/install/nav_handler/lib/nav_handler
+[7.817s] writing list of installed files to '/home/agilex/krish_ws/build/nav_handler/install.log'
+[8.028s] Invoked command in '/home/agilex/krish_ws/src/nav_handler' returned '0': PYTHONPATH=/home/agilex/krish_ws/build/nav_handler/prefix_override:/home/agilex/krish_ws/install/nav_handler/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_handler build --build-base /home/agilex/krish_ws/build/nav_handler/build install --record /home/agilex/krish_ws/build/nav_handler/install.log --install-scripts $base/lib/nav_handler --single-version-externally-managed

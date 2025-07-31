@@ -1,0 +1,379 @@
+🟢 Adaptive NavigateToObject node ready.
+🔎 Object pose: x=0.805, y=-0.100
+🚀 Received /target_pose: x=0.685, y=-0.102, yaw=not_shown
+[ATTEMPT] Approach offset: 0.25m, Goal: (0.557,-0.069)
+📤 Sending NavigateToPose goal 1.1: x=0.557, y=-0.069
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6637967228889465
+[🔄] Feedback: distance_remaining=0.6636167764663696
+[🔄] Feedback: distance_remaining=0.6636167764663696
+[🔄] Feedback: distance_remaining=0.6618158221244812
+[🔄] Feedback: distance_remaining=0.6618158221244812
+[🔄] Feedback: distance_remaining=0.6592845916748047
+[🔄] Feedback: distance_remaining=0.6592845916748047
+[🔄] Feedback: distance_remaining=0.6564332246780396
+[🔄] Feedback: distance_remaining=0.6564332246780396
+[🔄] Feedback: distance_remaining=0.6564332246780396
+[🔄] Feedback: distance_remaining=0.6532379984855652
+[🔄] Feedback: distance_remaining=0.6497651934623718
+[🔄] Feedback: distance_remaining=0.6497651934623718
+[🔄] Feedback: distance_remaining=0.6455579400062561
+[🔄] Feedback: distance_remaining=0.6455579400062561
+[🔄] Feedback: distance_remaining=0.6411362290382385
+[🔄] Feedback: distance_remaining=0.6411362290382385
+[🔄] Feedback: distance_remaining=0.636394202709198
+[🔄] Feedback: distance_remaining=0.636394202709198
+[🔄] Feedback: distance_remaining=0.6315085291862488
+[🔄] Feedback: distance_remaining=0.6315085291862488
+[🔄] Feedback: distance_remaining=0.6273256540298462
+[🔄] Feedback: distance_remaining=0.6273256540298462
+[🔄] Feedback: distance_remaining=0.6228008270263672
+[🔄] Feedback: distance_remaining=0.6228008270263672
+[🔄] Feedback: distance_remaining=0.618347704410553
+[🔄] Feedback: distance_remaining=0.618347704410553
+[🔄] Feedback: distance_remaining=0.61417156457901
+[🔄] Feedback: distance_remaining=0.61417156457901
+[🔄] Feedback: distance_remaining=0.6099210381507874
+[🔄] Feedback: distance_remaining=0.6099210381507874
+[🔄] Feedback: distance_remaining=0.6061357855796814
+[🔄] Feedback: distance_remaining=0.6061357855796814
+[🔄] Feedback: distance_remaining=0.6023153066635132
+[🔄] Feedback: distance_remaining=0.6023153066635132
+[🔄] Feedback: distance_remaining=0.5985211133956909
+[🔄] Feedback: distance_remaining=0.5985211133956909
+[🔄] Feedback: distance_remaining=0.5945380926132202
+[🔄] Feedback: distance_remaining=0.5945380926132202
+[🔄] Feedback: distance_remaining=0.590729296207428
+[🔄] Feedback: distance_remaining=0.590729296207428
+[🔄] Feedback: distance_remaining=0.5867181420326233
+[🔄] Feedback: distance_remaining=0.5867181420326233
+[🔄] Feedback: distance_remaining=0.5825641751289368
+[🔄] Feedback: distance_remaining=0.5825641751289368
+[🔄] Feedback: distance_remaining=0.578461229801178
+[🔄] Feedback: distance_remaining=0.578461229801178
+[🔄] Feedback: distance_remaining=0.5742254853248596
+[🔄] Feedback: distance_remaining=0.5742254853248596
+[🔄] Feedback: distance_remaining=0.5700498819351196
+[🔄] Feedback: distance_remaining=0.5700498819351196
+[🔄] Feedback: distance_remaining=0.5656347274780273
+[🔄] Feedback: distance_remaining=0.5656347274780273
+[🔄] Feedback: distance_remaining=0.5610923171043396
+[🔄] Feedback: distance_remaining=0.5610923171043396
+[🔄] Feedback: distance_remaining=0.5567443370819092
+[🔄] Feedback: distance_remaining=0.5567443370819092
+[🔄] Feedback: distance_remaining=0.5523453950881958
+[🔄] Feedback: distance_remaining=0.5523453950881958
+[🔄] Feedback: distance_remaining=0.5480720400810242
+[🔄] Feedback: distance_remaining=0.5480720400810242
+[🔄] Feedback: distance_remaining=0.5436071753501892
+[🔄] Feedback: distance_remaining=0.5436071753501892
+[🔄] Feedback: distance_remaining=0.5393010973930359
+[🔄] Feedback: distance_remaining=0.5393010973930359
+[🔄] Feedback: distance_remaining=0.5350024700164795
+[🔄] Feedback: distance_remaining=0.5350024700164795
+[🔄] Feedback: distance_remaining=0.5304149985313416
+[🔄] Feedback: distance_remaining=0.5304149985313416
+[🔄] Feedback: distance_remaining=0.5261663794517517
+[🔄] Feedback: distance_remaining=0.5261663794517517
+[🔄] Feedback: distance_remaining=0.5219602584838867
+[🔄] Feedback: distance_remaining=0.5219602584838867
+[🔄] Feedback: distance_remaining=0.5175992846488953
+[🔄] Feedback: distance_remaining=0.5175992846488953
+[🔄] Feedback: distance_remaining=0.5133591890335083
+[🔄] Feedback: distance_remaining=0.5133591890335083
+[🔄] Feedback: distance_remaining=0.5090411305427551
+[🔄] Feedback: distance_remaining=0.5090411305427551
+[🔄] Feedback: distance_remaining=0.5047106146812439
+[🔄] Feedback: distance_remaining=0.5047106146812439
+[🔄] Feedback: distance_remaining=0.5004042983055115
+[🔄] Feedback: distance_remaining=0.5004042983055115
+[🔄] Feedback: distance_remaining=0.49624010920524597
+[🔄] Feedback: distance_remaining=0.49624010920524597
+[🔄] Feedback: distance_remaining=0.4918214678764343
+[🔄] Feedback: distance_remaining=0.4918214678764343
+[🔄] Feedback: distance_remaining=0.4872216284275055
+[🔄] Feedback: distance_remaining=0.4872216284275055
+[🔄] Feedback: distance_remaining=0.4831247925758362
+[🔄] Feedback: distance_remaining=0.4831247925758362
+[🔄] Feedback: distance_remaining=0.4787597358226776
+[🔄] Feedback: distance_remaining=0.4787597358226776
+[🔄] Feedback: distance_remaining=0.4740839898586273
+[🔄] Feedback: distance_remaining=0.4740839898586273
+[🔄] Feedback: distance_remaining=0.469974547624588
+[🔄] Feedback: distance_remaining=0.469974547624588
+[🔄] Feedback: distance_remaining=0.46559399366378784
+[🔄] Feedback: distance_remaining=0.46559399366378784
+[🔄] Feedback: distance_remaining=0.4613421559333801
+[🔄] Feedback: distance_remaining=0.4613421559333801
+[🔄] Feedback: distance_remaining=0.4570672810077667
+[🔄] Feedback: distance_remaining=0.4570672810077667
+[🔄] Feedback: distance_remaining=0.4527536928653717
+[🔄] Feedback: distance_remaining=0.4527536928653717
+[🔄] Feedback: distance_remaining=0.4484453797340393
+[🔄] Feedback: distance_remaining=0.4484453797340393
+[🔄] Feedback: distance_remaining=0.4484453797340393
+[🔄] Feedback: distance_remaining=0.44421064853668213
+🔎 Object pose: x=0.771, y=-0.100
+🚀 Received /target_pose: x=0.651, y=-0.102, yaw=not_shown
+[ATTEMPT] Approach offset: 0.25m, Goal: (0.523,-0.068)
+📤 Sending NavigateToPose goal 2.1: x=0.523, y=-0.068
+[🔄] Feedback: distance_remaining=0.4400547444820404
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.4063962996006012
+[🏁] Result: Goal ended with unknown status 6
+[⚠️] No AMCL or goal pose for distance check.
+[🔄] Feedback: distance_remaining=0.40204888582229614
+[🔄] Feedback: distance_remaining=0.40204888582229614
+[🔄] Feedback: distance_remaining=0.39765891432762146
+[🔄] Feedback: distance_remaining=0.39765891432762146
+[🔄] Feedback: distance_remaining=0.39344915747642517
+[🔄] Feedback: distance_remaining=0.39344915747642517
+[🔄] Feedback: distance_remaining=0.39344915747642517
+[🔄] Feedback: distance_remaining=0.389079213142395
+[🔄] Feedback: distance_remaining=0.38495075702667236
+[🔄] Feedback: distance_remaining=0.38495075702667236
+[🔄] Feedback: distance_remaining=0.38088688254356384
+[🔄] Feedback: distance_remaining=0.38088688254356384
+[🔄] Feedback: distance_remaining=0.38088688254356384
+[🔄] Feedback: distance_remaining=0.3767310380935669
+[🔄] Feedback: distance_remaining=0.37274524569511414
+[🔄] Feedback: distance_remaining=0.37274524569511414
+[🔄] Feedback: distance_remaining=0.37274524569511414
+[🔄] Feedback: distance_remaining=0.36838048696517944
+[🔄] Feedback: distance_remaining=0.36433306336402893
+[🔄] Feedback: distance_remaining=0.36433306336402893
+[🔄] Feedback: distance_remaining=0.360204815864563
+[🔄] Feedback: distance_remaining=0.360204815864563
+[🔄] Feedback: distance_remaining=0.360204815864563
+[🔄] Feedback: distance_remaining=0.3562312722206116
+[🔄] Feedback: distance_remaining=0.3520718216896057
+[🔄] Feedback: distance_remaining=0.3520718216896057
+[🔄] Feedback: distance_remaining=0.34819063544273376
+[🔄] Feedback: distance_remaining=0.34819063544273376
+[🔄] Feedback: distance_remaining=0.3444436490535736
+[🔄] Feedback: distance_remaining=0.3444436490535736
+[🔄] Feedback: distance_remaining=0.34031933546066284
+[🔄] Feedback: distance_remaining=0.34031933546066284
+[🔄] Feedback: distance_remaining=0.34031933546066284
+[🔄] Feedback: distance_remaining=0.33611539006233215
+[🔄] Feedback: distance_remaining=0.33308637142181396
+[🔄] Feedback: distance_remaining=0.33308637142181396
+[🔄] Feedback: distance_remaining=0.32935070991516113
+[🔄] Feedback: distance_remaining=0.32935070991516113
+[🔄] Feedback: distance_remaining=0.32578709721565247
+[🔄] Feedback: distance_remaining=0.32578709721565247
+[🔄] Feedback: distance_remaining=0.32229235768318176
+[🔄] Feedback: distance_remaining=0.32229235768318176
+[🔄] Feedback: distance_remaining=0.3188284635543823
+[🔄] Feedback: distance_remaining=0.3188284635543823
+[🔄] Feedback: distance_remaining=0.3152042329311371
+[🔄] Feedback: distance_remaining=0.3152042329311371
+[🔄] Feedback: distance_remaining=0.3115387260913849
+[🔄] Feedback: distance_remaining=0.3115387260913849
+[🔄] Feedback: distance_remaining=0.3082641661167145
+[🔄] Feedback: distance_remaining=0.3082641661167145
+[🔄] Feedback: distance_remaining=0.3082641661167145
+[🔄] Feedback: distance_remaining=0.30483290553092957
+[🔄] Feedback: distance_remaining=0.30127614736557007
+[🔄] Feedback: distance_remaining=0.30127614736557007
+[🔄] Feedback: distance_remaining=0.29756438732147217
+[🔄] Feedback: distance_remaining=0.29756438732147217
+[🔄] Feedback: distance_remaining=0.2938171625137329
+[🔄] Feedback: distance_remaining=0.2938171625137329
+[🔄] Feedback: distance_remaining=0.2902555465698242
+[🔄] Feedback: distance_remaining=0.2902555465698242
+[🔄] Feedback: distance_remaining=0.28635329008102417
+[🔄] Feedback: distance_remaining=0.28635329008102417
+[🔄] Feedback: distance_remaining=0.2824307382106781
+[🔄] Feedback: distance_remaining=0.2824307382106781
+[🔄] Feedback: distance_remaining=0.27873995900154114
+[🔄] Feedback: distance_remaining=0.27873995900154114
+[🔄] Feedback: distance_remaining=0.27503514289855957
+[🔄] Feedback: distance_remaining=0.27503514289855957
+[🔄] Feedback: distance_remaining=0.27149900794029236
+[🔄] Feedback: distance_remaining=0.27149900794029236
+[🔄] Feedback: distance_remaining=0.27149900794029236
+[🔄] Feedback: distance_remaining=0.27149900794029236
+[🔄] Feedback: distance_remaining=0.27149900794029236
+[🔄] Feedback: distance_remaining=0.26411542296409607
+[🔄] Feedback: distance_remaining=0.2614108622074127
+[🔄] Feedback: distance_remaining=0.2614108622074127
+[🔄] Feedback: distance_remaining=0.2614108622074127
+[🔄] Feedback: distance_remaining=0.25791099667549133
+[🔄] Feedback: distance_remaining=0.2546001672744751
+[🔄] Feedback: distance_remaining=0.2546001672744751
+[🔄] Feedback: distance_remaining=0.2510881721973419
+[🔄] Feedback: distance_remaining=0.2510881721973419
+[🔄] Feedback: distance_remaining=0.2510881721973419
+[🔄] Feedback: distance_remaining=0.24769814312458038
+[🔄] Feedback: distance_remaining=0.24462080001831055
+[🔄] Feedback: distance_remaining=0.24462080001831055
+[🔄] Feedback: distance_remaining=0.2414720356464386
+[🔄] Feedback: distance_remaining=0.2414720356464386
+[🔄] Feedback: distance_remaining=0.23837535083293915
+[🔄] Feedback: distance_remaining=0.23837535083293915
+[🔄] Feedback: distance_remaining=0.2351650446653366
+[🔄] Feedback: distance_remaining=0.2351650446653366
+[🔄] Feedback: distance_remaining=0.23151755332946777
+[🔄] Feedback: distance_remaining=0.23151755332946777
+[🔄] Feedback: distance_remaining=0.22901254892349243
+[🔄] Feedback: distance_remaining=0.22901254892349243
+[🔄] Feedback: distance_remaining=0.22901254892349243
+[🔄] Feedback: distance_remaining=0.2261943817138672
+[🔄] Feedback: distance_remaining=0.223392516374588
+[🔄] Feedback: distance_remaining=0.223392516374588
+[🔄] Feedback: distance_remaining=0.2202463448047638
+🔎 Object pose: x=0.552, y=-0.024
+🚀 Received /target_pose: x=0.433, y=-0.040, yaw=not_shown
+[ATTEMPT] Approach offset: 0.25m, Goal: (0.308,-0.080)
+📤 Sending NavigateToPose goal 3.1: x=0.308, y=-0.080
+[🔄] Feedback: distance_remaining=0.2202463448047638
+[🔄] Feedback: distance_remaining=0.21741831302642822
+[🏁] Result: Goal ended with unknown status 6
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[ATTEMPT] Approach offset: 0.20m, Goal: (0.357,-0.069)
+📤 Sending NavigateToPose goal 3.2: x=0.357, y=-0.069
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.018274391070008278
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.01843341812491417
+[🏁] Result: Goal ended with unknown status 6
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[ATTEMPT] Approach offset: 0.15m, Goal: (0.406,-0.057)
+📤 Sending NavigateToPose goal 3.3: x=0.406, y=-0.057
+[🔄] Feedback: distance_remaining=0.05516523867845535
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.05295728147029877
+[🏁] Result: Goal ended with unknown status 6
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[ATTEMPT] Approach offset: 0.10m, Goal: (0.455,-0.046)
+📤 Sending NavigateToPose goal 3.4: x=0.455, y=-0.046
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.09900279343128204
+[🔄] Feedback: distance_remaining=0.09675317257642746
+[🏁] Result: Goal ended with unknown status 6
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[ATTEMPT] Approach offset: 0.07m, Goal: (0.484,-0.040)
+📤 Sending NavigateToPose goal 3.5: x=0.484, y=-0.040
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.1436281055212021
+[🏁] Result: Goal ended with unknown status 6
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[ATTEMPT] Approach offset: 0.05m, Goal: (0.503,-0.035)
+📤 Sending NavigateToPose goal 3.6: x=0.503, y=-0.035
+[✅] Goal accepted by Nav2.
+[🔄] Feedback: distance_remaining=0.1717016100883484
+[🔄] Feedback: distance_remaining=0.1717016100883484
+[🔄] Feedback: distance_remaining=0.18974779546260834
+[🏁] Result: Goal ended with unknown status 6
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[❌] All approach distances failed. Robot not able to reach target precisely.
+[🔄] Feedback: distance_remaining=0.1879734843969345
+[🔄] Feedback: distance_remaining=0.1879734843969345
+[🔄] Feedback: distance_remaining=0.1879734843969345
+[🔄] Feedback: distance_remaining=0.18628466129302979
+[🔄] Feedback: distance_remaining=0.18628466129302979
+[🔄] Feedback: distance_remaining=0.19579997658729553
+[🔄] Feedback: distance_remaining=0.19579997658729553
+[🔄] Feedback: distance_remaining=0.20637503266334534
+[🔄] Feedback: distance_remaining=0.20637503266334534
+[🔄] Feedback: distance_remaining=0.21619859337806702
+[🔄] Feedback: distance_remaining=0.21619859337806702
+[🔄] Feedback: distance_remaining=0.22566811740398407
+[🔄] Feedback: distance_remaining=0.22566811740398407
+[🔄] Feedback: distance_remaining=0.23531675338745117
+[🔄] Feedback: distance_remaining=0.23297154903411865
+[🔄] Feedback: distance_remaining=0.23297154903411865
+[🔄] Feedback: distance_remaining=0.23297154903411865
+[🔄] Feedback: distance_remaining=0.23059312999248505
+[🔄] Feedback: distance_remaining=0.23059312999248505
+[🏁] Result: Goal was aborted (FAILED)
+[RESULT] Final distance to goal: 0.311m
+[ℹ️] Not close enough (d=0.311m). Retrying with closer approach offset.
+[❌] All approach distances failed. Robot not able to reach target precisely.
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.132, y=-0.120
+[AMCL] Robot pose: x=0.281, y=-0.219
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
+[AMCL] Robot pose: x=0.264, y=-0.247
