@@ -22,7 +22,6 @@ setup(
         'console_scripts': [
             'mission_manager = nav_handler.mission_manager:main',
             'pose_setter = nav_handler.pose_setter:main',
-            'test = nav_handler.manual_object_nav_test:main',
         ],
     },
 )

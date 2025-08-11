@@ -120,12 +120,9 @@ def generate_launch_description():
     return LaunchDescription([
         SetLaunchConfiguration("m5_ip", detected_ip),
         DeclareLaunchArgument("m5_ip", default_value=detected_ip),
-        limo_start,
-        static_tf,
-        TimerAction(period=8.0, actions=[camera_launch]),       # 2s: Camera
-        TimerAction(period=4.0, actions=[yolo_node]),           # 4s: YOLO
-        TimerAction(period=6.0, actions=[nav2]),                # 6s: Nav2
-        TimerAction(period=8.0, actions=[pose_setter]),         # 8s: Initial pose
-        TimerAction(period=12.0, actions=[mission_manager]),    # 12s: Mission manager
-        TimerAction(period=30.0, actions=[rqt_view]),           # 18s: RQT image view
+        limo_start,camera_launch,yolo_node,
+        TimerAction(period=2.0, actions=[nav2]),                
+        TimerAction(period=3.0, actions=[pose_setter]),        
+        TimerAction(period=10.0, actions=[mission_manager]),   
+        TimerAction(period=20.0, actions=[rqt_view]),          
 ])
