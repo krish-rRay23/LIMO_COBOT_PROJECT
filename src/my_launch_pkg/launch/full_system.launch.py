@@ -120,7 +120,8 @@ def generate_launch_description():
     return LaunchDescription([
         SetLaunchConfiguration("m5_ip", detected_ip),
         DeclareLaunchArgument("m5_ip", default_value=detected_ip),
-        limo_start,camera_launch,yolo_node,
+        limo_start,camera_launch,
+        yolo_node,
         TimerAction(period=2.0, actions=[nav2]),                
         TimerAction(period=3.0, actions=[pose_setter]),        
         TimerAction(period=10.0, actions=[mission_manager]),   
